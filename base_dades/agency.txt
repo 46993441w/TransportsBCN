@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+EMT-Palma,EMT-Palma,http://www.emtpalma.es/,Europe/Madrid,es,971214444,http://www.emtpalma.es/EMTPalma/Front/tarifas.ct.svr

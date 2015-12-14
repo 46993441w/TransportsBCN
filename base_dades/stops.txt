@@ -1,0 +1,891 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
+1,1,1-Porta de Sant Antoni,PZ PORTA SANT ANTONI 1,39.571641,2.655563,,http://www.emtpalma.es/p/1,0, ,,0
+2,2,2-Plaça d'Espanya,PZ ESPANYA (ESTACIÓ-MARQUES FONSANTA),39.575639,2.654472,,http://www.emtpalma.es/p/2,0, ,,0
+3,3,3-Comte de Sallent  8,AV COMTE DE SALLENT 8,39.578079,2.650908,,http://www.emtpalma.es/p/3,0, ,,0
+4,4,4-Biniamar  10,CL BINIAMAR 10,39.582193,2.680918,,http://www.emtpalma.es/p/4,0, ,,0
+6,6,6-Porta de Sant Antoni,PZ PORTA SANT ANTONI 17,39.571327,2.656018,,http://www.emtpalma.es/p/6,0, ,,0
+7,7,7-Plaça de la Reina,PZ REINA 7,39.568973,2.646192,,http://www.emtpalma.es/p/7,0, ,,0
+8,8,8-Es Jonquet,AV GABRIEL ROCA,39.569254,2.637936,,http://www.emtpalma.es/p/8,0, ,,0
+9,9,9-Passeig Marítim  2,AV GABRIEL ROCA 2,39.568863,2.633992,,http://www.emtpalma.es/p/9,0, ,,0
+10,10,10-Auditòrium,AV GABRIEL ROCA 20,39.566405,2.628894,,http://www.emtpalma.es/p/10,0, ,,0
+11,11,11-Passeig Marítim  33,AV GABRIEL ROCA 33,39.562813,2.627109,,http://www.emtpalma.es/p/11,0, ,,0
+12,12,12-Can Barberà,AV GABRIEL ROCA 38,39.559379,2.626498,,http://www.emtpalma.es/p/12,0, ,,0
+13,13,13-Aragó  271,CL ARAGO 271,39.592594,2.682105,,http://www.emtpalma.es/p/13,0, ,,1
+14,14,14-Club de Mar,CL PORTOPÍ 8,39.554505,2.623941,,http://www.emtpalma.es/p/14,0, ,,0
+15,15,15-Port de Palma (Estació Marítima),AV GABRIEL ROCA 47,39.552782,2.623566,,http://www.emtpalma.es/p/15,0, ,,0
+16,16,16-Dic de l'Oest  2,LU DIC DE L'OEST,39.549649,2.618683,,http://www.emtpalma.es/p/16,0, ,,0
+17,17,17-Museu de Sant Carles,LU DIC DE L'OEST,39.545328,2.619986,,http://www.emtpalma.es/p/17,0, ,,0
+18,18,18-Escola de Nàutica,LU DIC DE L'OEST (FP),39.545367,2.623711,,http://www.emtpalma.es/p/18,0, ,,0
+19,19,19-Passeig Mallorca  38,PS MALLORCA 38,39.574996,2.644334,,http://www.emtpalma.es/p/19,0, ,,1
+20,20,20-Passeig Mallorca  18,PS MALLORCA 18,39.573007,2.642329,,http://www.emtpalma.es/p/20,0, ,,0
+23,23,23-Museu de Sant Carles,LU DIC DE L'OEST,39.545538,2.620753,,http://www.emtpalma.es/p/23,0, ,,0
+25,25,25-Dic de l'Oest  1,LU DIC DE L'OEST,39.549515,2.618928,,http://www.emtpalma.es/p/25,0, ,,0
+26,26,26-Port de Palma (Estació Marítima),LU MOLL PERAIRES,39.553475,2.626030,,http://www.emtpalma.es/p/26,0, ,,0
+27,27,27-Club de Mar,AV GABRIEL ROCA,39.554659,2.624312,,http://www.emtpalma.es/p/27,0, ,,0
+28,28,28-Can Barberà,AV GABRIEL ROCA,39.559118,2.626721,,http://www.emtpalma.es/p/28,0, ,,0
+29,29,29-Passeig Marítim  33,AV GABRIEL ROCA 33,39.562843,2.627737,,http://www.emtpalma.es/p/29,0, ,,0
+30,30,30-Auditòrium,AV GABRIEL ROCA 15,39.567356,2.630251,,http://www.emtpalma.es/p/30,0, ,,0
+31,31,31-Passeig Marítim  7,AV GABRIEL ROCA 7,39.568416,2.632213,,http://www.emtpalma.es/p/31,0, ,,0
+32,32,32-Indalecio Prieto  48,CL INDALECIO PRIETO 43,39.580480,2.677212,,http://www.emtpalma.es/p/32,0, ,,0
+34,34,34-Son Bonet,AV ANTONI MAURA 91,39.599923,2.696713,,http://www.emtpalma.es/p/34,0, ,,0
+35,35,35-Antoni Maura  67,AV ANTONI MAURA 67,39.598763,2.694330,,http://www.emtpalma.es/p/35,0, ,,0
+36,36,36-Antoni Maura  29,AV ANTONI MAURA 29,39.596917,2.691345,,http://www.emtpalma.es/p/36,0, ,,0
+37,37,37-Verge de Lluc,CL ARAGO,39.595348,2.687438,,http://www.emtpalma.es/p/37,0, ,,0
+38,38,38-Son Rutlan,CL ARAGO,39.593907,2.684405,,http://www.emtpalma.es/p/38,0, ,,0
+39,39,39-Aragó  257,CL ARAGO 257,39.590811,2.679120,,http://www.emtpalma.es/p/39,0, ,,1
+40,40,40-Aragó  224,CL ARAGO 224,39.589373,2.677089,,http://www.emtpalma.es/p/40,0, ,,1
+41,41,41-Aragó  209 (Son Fuster),CL ARAGO 209,39.587447,2.674664,,http://www.emtpalma.es/p/41,0, ,,1
+42,42,42-Aragó  185,CL ARAGO 185,39.585495,2.672577,,http://www.emtpalma.es/p/42,0, ,,0
+43,43,43-Can Capes,CL ARAGO 155,39.582663,2.668550,,http://www.emtpalma.es/p/43,0, ,,0
+44,44,44-Aragó  135,CL ARAGO 135,39.581297,2.666647,,http://www.emtpalma.es/p/44,0, ,,0
+45,45,45-Els Hostalets,CL ARAGO 85,39.579360,2.663815,,http://www.emtpalma.es/p/45,0, ,,0
+46,46,46-Aragó  47,CL ARAGO 39,39.577496,2.660913,,http://www.emtpalma.es/p/46,0, ,,1
+47,47,47-Aragó  25,CL ARAGO 25,39.574651,2.658482,,http://www.emtpalma.es/p/47,0, ,,1
+48,48,48-Grans magatzems,AV ALEXANDRE ROSSELLO 10,39.573059,2.656615,,http://www.emtpalma.es/p/48,0, ,,0
+49,49,49-Grans magatzems,CL ARAGÓ 9,39.573124,2.657150,,http://www.emtpalma.es/p/49,0, ,,0
+50,50,50-Via Roma (Clínica Rotger),CL VIA ROMA 1,39.575177,2.647709,,http://www.emtpalma.es/p/50,0, ,,0
+51,51,51-La Rambla,RB DUCS DE PALMA 17,39.573578,2.649266,,http://www.emtpalma.es/p/51,0, ,,0
+52,52,52-Plaça del Mercat (Audiència),PZ MERCAT 10,39.571551,2.649520,,http://www.emtpalma.es/p/52,0, ,,0
+53,53,53-Plaça del Rei Joan Carles I,PZ JOAN CARLES I 3,39.571562,2.646982,,http://www.emtpalma.es/p/53,0, ,,0
+54,54,54-Jaume III   22,CL JAUME III 22,39.572434,2.643567,,http://www.emtpalma.es/p/54,0, ,,0
+55,55,55-Catalunya  2,CL CATALUNYA 2,39.572886,2.641166,,http://www.emtpalma.es/p/55,0, ,,0
+56,56,56-Comte de Barcelona  24,CL COMTE DE BARCELONA 24,39.573609,2.638845,,http://www.emtpalma.es/p/56,0, ,,0
+57,57,57-Plaça del Progrés,PZ PROGRÉS,39.572114,2.636257,,http://www.emtpalma.es/p/57,0, ,,0
+58,58,58-Marquès de la Sènia  12,CL MARQUES DE LA SÈNIA 12,39.569695,2.632113,,http://www.emtpalma.es/p/58,0, ,,0
+59,59,59-Marquès de la Sènia  40,CL MARQUES DE LA SÈNIA 40,39.568200,2.629315,,http://www.emtpalma.es/p/59,0, ,,1
+60,60,60-Joan Miró  16,AV JOAN MIRO 16,39.566841,2.626982,,http://www.emtpalma.es/p/60,0, ,,0
+61,61,61-Joan Miró  24,AV JOAN MIRO 24,39.565307,2.626443,,http://www.emtpalma.es/p/61,0, ,,0
+62,62,62-Plaça Gomila,PZ GOMILA,39.562953,2.625571,,http://www.emtpalma.es/p/62,0, ,,0
+63,63,63-Joan Miró  110,AV JOAN MIRO 110,39.558975,2.624277,,http://www.emtpalma.es/p/63,0, ,,0
+64,64,64-Joan Miró  144,AV JOAN MIRO 144,39.557484,2.622854,,http://www.emtpalma.es/p/64,0, ,,0
+65,65,65-Portopí (centre comercial),AV JOAN MIRO 182,39.552017,2.621009,,http://www.emtpalma.es/p/65,0, ,,0
+66,66,66-Joan Miró  194,AV JOAN MIRO 194,39.551299,2.619011,,http://www.emtpalma.es/p/66,0, ,,0
+67,67,67-Joan Miró  248 (Palau de Marivent),AV JOAN MIRO 248,39.551580,2.611258,,http://www.emtpalma.es/p/67,0, ,,0
+69,69,69-Joan Miró  270 (Hotel Nixe),AV JOAN MIRO 270,39.552731,2.608097,,http://www.emtpalma.es/p/69,0, ,,0
+71,71,71-Cala Major,AV JOAN MIRO 294,39.553270,2.604812,,http://www.emtpalma.es/p/71,0, ,,0
+73,73,73-Cala Nova,AV JOAN MIRO 342,39.550347,2.598566,,http://www.emtpalma.es/p/73,0, ,,0
+74,74,74-Picasso  30,AV PICASSO 30,39.573907,2.624756,,http://www.emtpalma.es/p/74,0, ,,0
+75,75,75-Cra. Andratx (Hotel Maricel),CR ANDRATX,39.547354,2.595593,,http://www.emtpalma.es/p/75,0, ,,0
+76,76,76-Passeig d'Illetes  4,PS ILLETES 4,39.543993,2.595519,,http://www.emtpalma.es/p/76,0, ,,0
+77,77,77-Passeig d'Illetes  16,PS ILLETES 16,39.542375,2.594050,,http://www.emtpalma.es/p/77,0, ,,0
+78,78,78-Passeig d'Illetes (Hotel Bonanza),PS ILLETES 26,39.541066,2.593430,,http://www.emtpalma.es/p/78,0, ,,0
+79,79,79-Passeig d'Illetes  36,PS ILLETES 36,39.540229,2.591060,,http://www.emtpalma.es/p/79,0, ,,0
+80,80,80-Sindicat  67,CL SINDICAT 67,39.572373,2.656025,,http://www.emtpalma.es/p/80,0, ,,0
+81,81,81-Joan Miró  145,AV JOAN MIRÓ 145,39.554935,2.623345,,http://www.emtpalma.es/p/81,0, ,,0
+82,82,82-Joan Miró  166,AV JOAN MIRÓ 166,39.554303,2.622976,,http://www.emtpalma.es/p/82,0, ,,0
+83,83,83-Joan Maragall  33,CL JOAN MARAGALL 33,39.562684,2.664536,,http://www.emtpalma.es/p/83,0, ,,0
+84,84,84-Joan Maragall  36,CL JOAN MARAGALL 36,39.562188,2.664305,,http://www.emtpalma.es/p/84,0, ,,0
+85,85,85-Passeig d'Illetes  43,PS PASSEIG ILLETES 43,39.538634,2.590942,,http://www.emtpalma.es/p/85,0, ,,0
+86,86,86-Cra. Andratx (Hotel Maricel),CR ANDRATX,39.547555,2.596266,,http://www.emtpalma.es/p/86,0, ,,0
+87,87,87-Cala Nova,AV JOAN MIRO,39.550239,2.598602,,http://www.emtpalma.es/p/87,0, ,,0
+89,89,89-Cala Major,AV JOAN MIRO 281,39.553432,2.604939,,http://www.emtpalma.es/p/89,0, ,,0
+90,90,90-Joan Miró  273,AV JOAN MIRO 273,39.553077,2.606535,,http://www.emtpalma.es/p/90,0, ,,0
+91,91,91-Joan Miró  243 (Palau de Marivent),AV JOAN MIRO 243,39.551136,2.610643,,http://www.emtpalma.es/p/91,0, ,,0
+92,92,92-Joan Miró  227,AV JOAN MIRO 227,39.552110,2.613594,,http://www.emtpalma.es/p/92,0, ,,0
+93,93,93-Passeig d'Illetes  57 (platja),PS PASSEIG ILLETES 57,39.536186,2.589269,,http://www.emtpalma.es/p/93,0, ,,0
+94,94,94-Portopí (centre comercial),AV JOAN MIRO 190,39.552371,2.621694,,http://www.emtpalma.es/p/94,0, ,,0
+95,95,95-Joan Miró  121,AV JOAN MIRO 121,39.557331,2.623052,,http://www.emtpalma.es/p/95,0, ,,0
+96,96,96-Joan Miró  83,AV JOAN MIRO 81,39.558975,2.624382,,http://www.emtpalma.es/p/96,0, ,,1
+97,97,97-Plaça Gomila,PZ GOMILA 5,39.562953,2.625699,,http://www.emtpalma.es/p/97,0, ,,0
+98,98,98-L'Aigua Dolça,CL FEDERICO GARCIA LORCA 21,39.565202,2.627270,,http://www.emtpalma.es/p/98,0, ,,0
+99,99,99-General Ricardo Ortega  40,CL GENERAL RICARDO ORTEGA 40,39.569382,2.662547,,http://www.emtpalma.es/p/99,0, ,,0
+100,100,100-Marquès de la Sènia  37,CL MARQUES DE LA SÈNIA 37,39.568309,2.629710,,http://www.emtpalma.es/p/100,0, ,,0
+101,101,101-Marquès de la Sènia  11,CL MARQUES DE LA SÈNIA 17,39.569660,2.632323,,http://www.emtpalma.es/p/101,0, ,,0
+102,102,102-Plaça del Progrés,PZ PROGRÉS,39.572088,2.636524,,http://www.emtpalma.es/p/102,0, ,,0
+103,103,103-Caro  7,CL CARO 7,39.572728,2.639537,,http://www.emtpalma.es/p/103,0, ,,0
+104,104,104-Jaume III  21,AV JAUME III 21,39.572344,2.643404,,http://www.emtpalma.es/p/104,0, ,,0
+105,105,105-Plaça del Rei Joan Carles I,PZ JOAN CARLES I 5,39.571409,2.647297,,http://www.emtpalma.es/p/105,0, ,,0
+106,106,106-Plaça del Mercat (Audiència),PZ EL MERCAT 11,39.571462,2.649859,,http://www.emtpalma.es/p/106,0, ,,0
+107,107,107-La Rambla,RB DUCS DE PALMA 12,39.573283,2.650001,,http://www.emtpalma.es/p/107,0, ,,0
+108,108,108-Baró de Pinopar  14,CL BARO DE PINOPAR 14,39.576348,2.647750,,http://www.emtpalma.es/p/108,0, ,,0
+109,109,109-Passeig d'Illetes  77,PS ILLETES (davant) 77,39.537143,2.589822,,http://www.emtpalma.es/p/109,0, ,,0
+110,110,110-Joan March  7,AV JOAN MARCH 7,39.576806,2.652940,,http://www.emtpalma.es/p/110,0, ,,0
+111,111,111-Alexandre Rosselló  27,AV ALEXANDRE ROSSELLO 27,39.574506,2.655397,,http://www.emtpalma.es/p/111,0, ,,0
+112,112,112-Passeig d'Illetes  62,PS ILLETES 62,39.538566,2.592083,,http://www.emtpalma.es/p/112,0, ,,0
+113,113,113-Aragó  20,CL ARAGÓ 20,39.574507,2.658552,,http://www.emtpalma.es/p/113,0, ,,1
+114,114,114-Aragó  44,CL ARAGÓ 44,39.576827,2.660206,,http://www.emtpalma.es/p/114,0, ,,1
+115,115,115-Els Hostalets,CL ARAGÓ 76,39.578855,2.663340,,http://www.emtpalma.es/p/115,0, ,,0
+116,116,116-Aragó  134,CL ARAGÓ 134,39.581171,2.666729,,http://www.emtpalma.es/p/116,0, ,,0
+117,117,117-Can Capes,CL ARAGO 164,39.582691,2.668864,,http://www.emtpalma.es/p/117,0, ,,0
+118,118,118-Aragó  184,CL ARAGO 184,39.585477,2.672903,,http://www.emtpalma.es/p/118,0, ,,0
+119,119,119-Aragó  216,CL ARAGO 216,39.587529,2.675118,,http://www.emtpalma.es/p/119,0, ,,1
+120,120,120-Son Fuster,CL ARAGO 234,39.589329,2.677462,,http://www.emtpalma.es/p/120,0, ,,0
+121,121,121-Aragó  256,CL ARAGO 256,39.591274,2.680271,,http://www.emtpalma.es/p/121,0, ,,0
+122,122,122-Aragó  286,CL ARAGO 286,39.592586,2.682571,,http://www.emtpalma.es/p/122,0, ,,0
+123,123,123-Son Rutlan,CL ARAGO 332,39.593754,2.684616,,http://www.emtpalma.es/p/123,0, ,,0
+124,124,124-Verge de Lluc,CL ARAGO 378,39.595494,2.688102,,http://www.emtpalma.es/p/124,0, ,,0
+125,125,125-Antoni Maura  8,CL ANTONI MAURA 8,39.596899,2.691508,,http://www.emtpalma.es/p/125,0, ,,0
+126,126,126-Antoni Maura  42,CL ANTONI MAURA 52,39.598872,2.694772,,http://www.emtpalma.es/p/126,0, ,,0
+127,127,127-Alemanya  6,AV D'ALEMANYA 6,39.578071,2.648160,,http://www.emtpalma.es/p/127,0, ,,0
+128,128,128-Passeig d'Illetes  64,PS ILLETES 64,39.539972,2.592191,,http://www.emtpalma.es/p/128,0, ,,0
+129,129,129-La Feixina,AV ARGENTINA,39.570215,2.639631,,http://www.emtpalma.es/p/129,0, ,,0
+130,130,130-Camí Vell de Sineu,CM VELL DE SINEU 124,39.578817,2.716681,,http://www.emtpalma.es/p/130,0, ,,0
+131,131,131-Plaça del Progrés,PZ PROGRES,39.571933,2.635955,,http://www.emtpalma.es/p/131,0, ,,0
+132,132,132-Andrea Doria  6,CL ANDREA DORIA 6,39.570481,2.632633,,http://www.emtpalma.es/p/132,0, ,,1
+133,133,133-Andrea Doria  22,CL ANDREA DORIA 22,39.570614,2.629011,,http://www.emtpalma.es/p/133,0, ,,0
+134,134,134-Andrea Doria  42,CL ANDREA DORIA 42,39.570904,2.626786,,http://www.emtpalma.es/p/134,0, ,,0
+135,135,135-Andrea Doria  62,CL ANDREA DORIA 62,39.572007,2.622286,,http://www.emtpalma.es/p/135,0, ,,0
+136,136,136-Camí de Gènova  100,CM GÈNOVA 100,39.573726,2.613602,,http://www.emtpalma.es/p/136,0, ,,0
+137,137,137-Base Militar,CM DELS REIS,39.574011,2.609898,,http://www.emtpalma.es/p/137,0, ,,0
+138,138,138-Passeig d'Illetes (Hotel Bonanza),PS ILLETES (davant) 26,39.540958,2.593465,,http://www.emtpalma.es/p/138,0, ,,0
+139,139,139-Camí dels Reis  83,CM DELS REIS 83,39.565973,2.601608,,http://www.emtpalma.es/p/139,0, ,,0
+140,140,140-Camí dels Reis  47,CM DELS REIS 31,39.563455,2.600505,,http://www.emtpalma.es/p/140,0, ,,0
+141,141,141-Camí dels Reis  19,CM DELS REIS 19,39.561470,2.599666,,http://www.emtpalma.es/p/141,0, ,,0
+142,142,142-Cementeri,CM DELS REIS,39.557277,2.596257,,http://www.emtpalma.es/p/142,0, ,,0
+143,143,143-Paradís (Hotel Belvedere),CL PARADÍS 30,39.553823,2.597964,,http://www.emtpalma.es/p/143,0, ,,0
+144,144,144-Camí de la Real  56,CM LA REAL 56,39.630016,2.639414,,http://www.emtpalma.es/p/144,0, ,,0
+145,145,145-Passeig d'Illetes  9,PS ILLETES 9,39.543100,2.595175,,http://www.emtpalma.es/p/145,0, ,,0
+146,146,146-Cementeri,CM DELS REIS,39.558200,2.597380,,http://www.emtpalma.es/p/146,0, ,,0
+147,147,147-Camí dels Reis  12,CM DELS REIS 12,39.560992,2.599553,,http://www.emtpalma.es/p/147,0, ,,0
+148,148,148-Camí dels Reis  38,CM DELS REIS 38,39.564105,2.600909,,http://www.emtpalma.es/p/148,0, ,,0
+149,149,149-Camí dels Reis  60,CM DELS REIS 60,39.565928,2.601678,,http://www.emtpalma.es/p/149,0, ,,0
+151,151,151-Base Militar,CM DELS REIS,39.573868,2.610318,,http://www.emtpalma.es/p/151,0, ,,0
+153,153,153-Son Dureta,CL ANDREA DORIA 51,39.571756,2.622683,,http://www.emtpalma.es/p/153,0, ,,0
+154,154,154-Andrea Doria  41,CL ANDREA DORIA 41,39.571010,2.626180,,http://www.emtpalma.es/p/154,0, ,,0
+155,155,155-Andrea Doria  25,CL ANDREA DORIA 25,39.570523,2.628709,,http://www.emtpalma.es/p/155,0, ,,0
+156,156,156-Andrea Doria  7,CL ANDREA DORIA 7,39.570452,2.631958,,http://www.emtpalma.es/p/156,0, ,,0
+157,157,157-Francesc Vidal i Sureda  2,CL FRANCESC VIDAL I SUREDA 2,39.557759,2.621735,,http://www.emtpalma.es/p/157,0, ,,0
+158,158,158-Francesc Vidal i Sureda  6,CL FRANCESC VIDAL I SUREDA 6,39.556764,2.620518,,http://www.emtpalma.es/p/158,0, ,,0
+159,159,159-F. Vidal i Sureda (Hotel Valparaíso),CL FRANCESC VIDAL I SUREDA,39.555701,2.620419,,http://www.emtpalma.es/p/159,0, ,,0
+160,160,160-Francesc Vidal i Sureda  34,CL FRANCESC VIDAL I SUREDA 34,39.556369,2.618041,,http://www.emtpalma.es/p/160,0, ,,0
+161,161,161-Francesc Vidal i Sureda  38,CL FRANCESC VIDAL I SUREDA 38,39.557697,2.616357,,http://www.emtpalma.es/p/161,0, ,,0
+162,162,162-Francesc Vidal i Sureda  56,CL FRANCESC VIDAL I SUREDA 56,39.558029,2.613340,,http://www.emtpalma.es/p/162,0, ,,0
+163,163,163-F. Vidal i Sureda  74 (Residència Bonanova),CL FRANCESC VIDAL I SUREDA 74,39.559793,2.610036,,http://www.emtpalma.es/p/163,0, ,,0
+164,164,164-Francesc Vidal i Sureda  115,CL FRANCESC VIDAL I SUREDA 76,39.560675,2.607191,,http://www.emtpalma.es/p/164,0, ,,0
+165,165,165-Camí de Gènova  60,CM GENOVA 60,39.573355,2.615968,,http://www.emtpalma.es/p/165,0, ,,0
+166,166,166-Francesc Vidal i Sureda,CL FRANCESC VIDAL I SUREDA,39.557996,2.619603,,http://www.emtpalma.es/p/166,0, ,,0
+167,167,167-Saridakis  53,CL SARIDAKIS 53,39.558694,2.607295,,http://www.emtpalma.es/p/167,0, ,,0
+168,168,168-Saridakis  54,CL SADIRAKIS 54,39.559072,2.607247,,http://www.emtpalma.es/p/168,0, ,,0
+169,169,169-Les Meravelles,CM LAS MARAVILLAS,39.521940,2.751210,,http://www.emtpalma.es/p/169,0, ,,0
+170,170,170-Francesc Vidal i Sureda  115,CL FRANCESC VIDAL I SUREDA 115,39.560505,2.607343,,http://www.emtpalma.es/p/170,0, ,,0
+171,171,171-La Bonanova,CL FRANCESC VIDAL I SUREDA 105,39.559604,2.610200,,http://www.emtpalma.es/p/171,0, ,,0
+172,172,172-Francesc Vidal i Sureda  75,CL FRANCESC VIDAL I SUREDA 73,39.557967,2.613608,,http://www.emtpalma.es/p/172,0, ,,0
+173,173,173-Francesc Vidal i Sureda  51,CL FRANCESC VIDAL I SUREDA 61,39.557696,2.616252,,http://www.emtpalma.es/p/173,0, ,,0
+174,174,174-Francesc Vidal i Sureda  41,CL FRANCESC VIDAL I SUREDA 41,39.556593,2.617655,,http://www.emtpalma.es/p/174,0, ,,0
+175,175,175-F. Vidal i Sureda  21 (Hotel Valparaíso),CL FRANCESC VIDAL I SUREDA 21,39.555612,2.620757,,http://www.emtpalma.es/p/175,0, ,,0
+176,176,176-Francesc Vidal i Sureda  11,CL FRANCESC VIDAL I SUREDA 11,39.556783,2.620622,,http://www.emtpalma.es/p/176,0, ,,0
+177,177,177-Francesc Vidal i Sureda  3,CL FRANCESC VIDAL I SUREDA 3,39.557643,2.622119,,http://www.emtpalma.es/p/177,0, ,,0
+182,182,182-Mestre Chapí  25,CL MESTRE CHAPI 25,39.589532,2.682736,,http://www.emtpalma.es/p/182,0, ,,0
+183,183,183-Heura  41,CL HEURA 41,39.588081,2.679215,,http://www.emtpalma.es/p/183,0, ,,1
+184,184,184-Heura  19,CL HEURA 19,39.586146,2.676918,,http://www.emtpalma.es/p/184,0, ,,1
+185,185,185-Heura  8,CL HEURA 8,39.584917,2.675386,,http://www.emtpalma.es/p/185,0, ,,1
+186,186,186-Pare Joan Crespí  7,CL PARE JOAN CRESPI 7,39.583235,2.673310,,http://www.emtpalma.es/p/186,0, ,,0
+187,187,187-Mare de Déu de Montserrat  32,CL MARE DE DEU DE MONTSERRAT 34,39.582453,2.673931,,http://www.emtpalma.es/p/187,0, ,,0
+188,188,188-Indalecio Prieto  35,CL INDALECIO PRIETO 35,39.579917,2.675840,,http://www.emtpalma.es/p/188,0, ,,0
+189,189,189-Indalecio Prieto  27,CL INDALECIO PRIETO 27,39.577995,2.671576,,http://www.emtpalma.es/p/189,0, ,,0
+190,190,190-Plaça de Miquel Dolç,PZ MIQUEL DOLÇ,39.576996,2.668810,,http://www.emtpalma.es/p/190,0, ,,0
+191,191,191-Arquebisbe Aspàreg  61,CL ARQUEBISBE ASPAREG 61,39.576408,2.667963,,http://www.emtpalma.es/p/191,0, ,,1
+192,192,192-Arquebisbe Aspàreg  5,CL ARQUEBISBE ASPAREG 5,39.575111,2.665035,,http://www.emtpalma.es/p/192,0, ,,1
+193,193,193-Francesc Manuel de los Herreros  33,CL FRANCESC MANUEL DE LOS HERREROS 33,39.574512,2.663675,,http://www.emtpalma.es/p/193,0, ,,0
+194,194,194-Francesc Manuel de los Herreros  3,CL FRANCESC MANUEL DE LOS HERREROS 3,39.573524,2.661433,,http://www.emtpalma.es/p/194,0, ,,0
+195,195,195-Grans magatzems,AV ALEXANDRE ROSSELLO 16,39.573302,2.656323,,http://www.emtpalma.es/p/195,0, ,,0
+196,196,196-Cra. Militar,CR MILITAR,39.527401,2.764164,,http://www.emtpalma.es/p/196,0, ,,0
+197,197,197-Instituts,AV PORTUGAL 2,39.576423,2.645607,,http://www.emtpalma.es/p/197,0, ,,0
+198,198,198-Plaça del Fortí,PZ FORTI 5,39.576318,2.643721,,http://www.emtpalma.es/p/198,0, ,,0
+199,199,199-Mestre Chapí  13,CL MESTRE CHAPI 13,39.588924,2.681039,,http://www.emtpalma.es/p/199,0, ,,0
+200,200,200-Camí 140,CM 140,39.628238,2.668659,,http://www.emtpalma.es/p/200,0, ,,0
+201,201,201-Camí dels Reis  648,CM DELS REIS 648,39.616134,2.674064,,http://www.emtpalma.es/p/201,0, ,,0
+202,202,202-La Porciúncula,CL FRA JOAN LLABRES 8,39.518233,2.749257,,http://www.emtpalma.es/p/202,0, ,,0
+203,203,203-Passeig Mallorca  7,PS MALLORCA,39.573493,2.642152,,http://www.emtpalma.es/p/203,0, ,,0
+205,205,205-Instituts,AV PORTUGAL 7,39.576124,2.645108,,http://www.emtpalma.es/p/205,0, ,,0
+207,207,207-Nuredduna  18,CL NUREDDUNA 18,39.573024,2.659980,,http://www.emtpalma.es/p/207,0, ,,1
+208,208,208-Francesc Manuel de los Herreros  2,CL FRANCESC MANUEL DE LOS HERREROS 2,39.573434,2.661550,,http://www.emtpalma.es/p/208,0, ,,0
+209,209,209-Francesc Manuel de los Herreros  30,CL FRANCESC MANUEL DE LOS HERREROS 30,39.574423,2.663780,,http://www.emtpalma.es/p/209,0, ,,0
+210,210,210-Arquebisbe Aspàreg  8,CL ARQUEBISBE ASPAREG 8,39.575048,2.665198,,http://www.emtpalma.es/p/210,0, ,,0
+211,211,211-Arquebisbe Aspàreg  64,CL ARQUEBISBE ASPAREG 64,39.576391,2.668207,,http://www.emtpalma.es/p/211,0, ,,1
+212,212,212-Indalecio Prieto  14,CL INDALECIO PRIETO 12,39.577116,2.669787,,http://www.emtpalma.es/p/212,0, ,,0
+213,213,213-Indalecio Prieto  44,CL INDALECIO PRIETO 44,39.578540,2.672983,,http://www.emtpalma.es/p/213,0, ,,0
+214,214,214-Mare de Déu de Montserrat  61,CL MARE DE DEU DE MONTSERRAT 61,39.580495,2.676280,,http://www.emtpalma.es/p/214,0, ,,0
+215,215,215-Jeroni Boscana  24,CL JERONI BOSCANA 24,39.582771,2.674954,,http://www.emtpalma.es/p/215,0, ,,0
+216,216,216-Baladre  2,CL BALADRE 2,39.583371,2.676814,,http://www.emtpalma.es/p/216,0, ,,0
+217,217,217-Avinguda d'Amèrica (Hotel Taurus Park),CL AMERICA,39.513552,2.751636,,http://www.emtpalma.es/p/217,0, ,,0
+219,219,219-Plaça d'Espanya,PZ ESPANYA (SORTIDA APARCAMENTS),39.575818,2.654261,,http://www.emtpalma.es/p/219,0, ,,0
+220,220,220-Indústria  8,CL INDUSTRIA 8,39.573648,2.639951,,http://www.emtpalma.es/p/220,0, ,,1
+221,221,221-Indústria  44,CL INDUSTRIA 44,39.575614,2.637333,,http://www.emtpalma.es/p/221,0, ,,0
+222,222,222-Llibertat  22,CL LLIBERTAT 22,39.577244,2.634204,,http://www.emtpalma.es/p/222,0, ,,0
+223,223,223-Llibertat  36,CL LLIBERTAT 36,39.578011,2.631696,,http://www.emtpalma.es/p/223,0, ,,1
+224,224,224-Dragonera  14,CL DRAGONERA 14,39.578909,2.628035,,http://www.emtpalma.es/p/224,0, ,,0
+225,225,225-Camí de Son Rapinya  4,CM SON RAPINYA 2,39.579659,2.626005,,http://www.emtpalma.es/p/225,0, ,,0
+226,226,226-Camí de Son Rapinya  26,CM SON RAPINYA 26,39.583049,2.621003,,http://www.emtpalma.es/p/226,0, ,,0
+227,227,227-Camí de Son Rapinya  38,CM SON RAPINYA 38,39.585695,2.617321,,http://www.emtpalma.es/p/227,0, ,,0
+228,228,228-Camí de Son Rapinya  46,CM SON RAPINYA 46,39.587229,2.615146,,http://www.emtpalma.es/p/228,0, ,,0
+229,229,229-Camí de Son Rapinya  48,CM SON RAPINYA 48,39.588357,2.613032,,http://www.emtpalma.es/p/229,0, ,,0
+230,230,230-Camí de Son Rapinya  74,CM SON RAPINYA 74,39.589404,2.610709,,http://www.emtpalma.es/p/230,0, ,,0
+231,231,231-Camí de Son Rapinya (Son Quint),CM SON VIDA,39.590328,2.607000,,http://www.emtpalma.es/p/231,0, ,,0
+232,232,232-Camí de Raixa,CM RAIXA,39.590397,2.598091,,http://www.emtpalma.es/p/232,0, ,,0
+233,233,233-Camí de Raixa  11,CM RAIXA,39.591331,2.594662,,http://www.emtpalma.es/p/233,0, ,,0
+234,234,234-Hotel Son Vida,CM RAIXA,39.592944,2.594722,,http://www.emtpalma.es/p/234,0, ,,0
+236,236,236-Capocorb  1,CL CAPOCORB 1,39.590172,2.598232,,http://www.emtpalma.es/p/236,0, ,,0
+237,237,237-Camí de Son Vida  109,CM SON VIDA 109,39.590202,2.606943,,http://www.emtpalma.es/p/237,0, ,,0
+238,238,238-Camí de Son Rapinya  105,CM SON RAPINYA 105,39.588849,2.612005,,http://www.emtpalma.es/p/238,0, ,,0
+239,239,239-Camí de Son Rapinya  57,CM SON RAPINYA 57,39.587031,2.615392,,http://www.emtpalma.es/p/239,0, ,,0
+240,240,240-Camí de Son Rapinya  35,CM SON RAPINYA 35,39.586144,2.616724,,http://www.emtpalma.es/p/240,0, ,,0
+241,241,241-Camí de Son Rapinya  29,CM SON RAPINYA 29,39.582653,2.621168,,http://www.emtpalma.es/p/241,0, ,,0
+242,242,242-Camí de Son Rapinya  5,CM SON RAPINYA 5,39.579702,2.625388,,http://www.emtpalma.es/p/242,0, ,,0
+243,243,243-Dragonera  19,CL DRAGONERA 19,39.578675,2.628223,,http://www.emtpalma.es/p/243,0, ,,1
+244,244,244-Barrera  35,CL BARRERA 35,39.577209,2.631631,,http://www.emtpalma.es/p/244,0, ,,0
+245,245,245-Barrera  15,CL BARRERA 15,39.575420,2.633084,,http://www.emtpalma.es/p/245,0, ,,0
+246,246,246-Caro  53,CL CARO 53,39.573947,2.634442,,http://www.emtpalma.es/p/246,0, ,,0
+247,247,247-Caro  23,CL CARO 23,39.573315,2.637100,,http://www.emtpalma.es/p/247,0, ,,0
+248,248,248-Carretera Militar  203,CR MILITAR 203,39.510706,2.756450,,http://www.emtpalma.es/p/248,0, ,,0
+249,249,249-Arxiduc Lluís Salvador  46,CL ARXIDUC LLUIS SALVADOR 46,39.580578,2.654994,,http://www.emtpalma.es/p/249,0, ,,0
+250,250,250-Arxiduc Lluís Salvador  52,CL ARXIDUC LLUIS SALVADOR 52,39.581842,2.655803,,http://www.emtpalma.es/p/250,0, ,,0
+251,251,251-Arxiduc Lluís Salvador  102,CL ARXIDUC LLUIS SALVADOR 102,39.585010,2.657709,,http://www.emtpalma.es/p/251,0, ,,0
+254,254,254-Arxiduc Lluís Salvador  148,CL ARXIDUC LLUIS SALVADOR 148,39.588061,2.659580,,http://www.emtpalma.es/p/254,0, ,,0
+256,256,256-Camí Vell de Bunyola  8,CM VELL DE BUNYOLA 8,39.591175,2.667717,,http://www.emtpalma.es/p/256,0, ,,0
+257,257,257-Gremi de Sabaters  2,CL GREMI DE SABATERS 2,39.596781,2.671418,,http://www.emtpalma.es/p/257,0, ,,0
+258,258,258-Gremi de Sabaters  8,CL GREMI DE SABATERS 8,39.598849,2.669626,,http://www.emtpalma.es/p/258,0, ,,0
+259,259,259-Avinguda d'Amèrica (Hotel Géminis),CL AMERICA,39.510190,2.754939,,http://www.emtpalma.es/p/259,0, ,,0
+260,260,260-Emília Sureda  35,CL EMILIA SUREDA 35,39.589353,2.657536,,http://www.emtpalma.es/p/260,0, ,,0
+261,261,261-Cra. Militar  161,CR MILITAR 161,39.513305,2.758116,,http://www.emtpalma.es/p/261,0, ,,0
+262,262,262-Poliesportiu Prínceps d'Espanya,CL GREMI DE FORNERS 4,39.608853,2.664266,,http://www.emtpalma.es/p/262,0, ,,0
+263,263,263-Gran Via Asima  25,AV ASIMA 25,39.608410,2.666796,,http://www.emtpalma.es/p/263,0, ,,0
+266,266,266-Santiago Álvarez  6,CL SANTIAGO ALVAREZ 6,39.606435,2.675717,,http://www.emtpalma.es/p/266,0, ,,0
+267,267,267-Santiago Álvarez  1,CL SANTIAGO ALVAREZ 1,39.605221,2.676713,,http://www.emtpalma.es/p/267,0, ,,1
+268,268,268-Camí Vell de Bunyola  104,CM VELL DE BUNYOLA 104,39.606055,2.678607,,http://www.emtpalma.es/p/268,0, ,,0
+269,269,269-Camí de na Cerdana  22,CM NA CERDANA 22,39.608255,2.678923,,http://www.emtpalma.es/p/269,0, ,,0
+270,270,270-Camí dels Reis  678,CM DELS REIS 678,39.611420,2.676684,,http://www.emtpalma.es/p/270,0, ,,0
+271,271,271-Camí de na Cerdana  17,CM NA CERDANA 17,39.609180,2.678127,,http://www.emtpalma.es/p/271,0, ,,0
+272,272,272-Camí Vell de Bunyola  64,CM VELL DE BUNYOLA 63,39.605522,2.678121,,http://www.emtpalma.es/p/272,0, ,,0
+273,273,273-Santiago Álvarez  8,CL SANTIAGO ALVAREZ 6,39.605320,2.676829,,http://www.emtpalma.es/p/273,0, ,,1
+274,274,274-José Salazar  4,CL JOSE SALAZAR BELMAR 4,39.606739,2.675051,,http://www.emtpalma.es/p/274,0, ,,0
+275,275,275-Gremi de Tintorers  10,CL GREMI DE TINTORERS 10,39.607654,2.673440,,http://www.emtpalma.es/p/275,0, ,,0
+276,276,276-Gremi de Boters  37,CL GREMI DE BOTERS 37,39.609260,2.671265,,http://www.emtpalma.es/p/276,0, ,,0
+279,279,279-Gremi de Sabaters  66,CL GREMI DE SABATERS 66,39.607486,2.662106,,http://www.emtpalma.es/p/279,0, ,,0
+280,280,280-Camí de les Meravelles (Es Pil·larí),CM LAS MARAVILLAS,39.526150,2.756175,,http://www.emtpalma.es/p/280,0, ,,0
+281,281,281-Camí de les Meravelles (Es Pil·larí),CM LAS MARAVILLAS,39.528370,2.757715,,http://www.emtpalma.es/p/281,0, ,,0
+282,282,282-Cra. Llucmajor  252,CR LLUCMAJOR 252,39.541483,2.772798,,http://www.emtpalma.es/p/282,0, ,,0
+283,283,283-S'Aranjassa,CL ELS AIRES DE LA MAR 8,39.540948,2.775686,,http://www.emtpalma.es/p/283,0, ,,0
+285,285,285-Camí Vell de Bunyola  7,CM VELL DE BUNYOLA 7,39.591211,2.667566,,http://www.emtpalma.es/p/285,0, ,,0
+286,286,286-Camí de Can Peixet,CM LLUCMAJOR 235,39.541529,2.773077,,http://www.emtpalma.es/p/286,0, ,,0
+287,287,287-Arxiduc Lluís Salvador  139,CL ARXIDUC LLUIS SALVADOR 139,39.588097,2.659429,,http://www.emtpalma.es/p/287,0, ,,0
+289,289,289-Arxiduc Lluís Salvador  89,CL ARXIDUC LLUIS SALVADOR 89,39.584838,2.657430,,http://www.emtpalma.es/p/289,0, ,,0
+290,290,290-Arxiduc Lluís Salvador  43,CL ARXIDUC LLUIS SALVADOR 43,39.581489,2.655432,,http://www.emtpalma.es/p/290,0, ,,0
+291,291,291-Rosselló i Cazador  18,CL ROSELLÓ I CAZADOR 18,39.581541,2.654757,,http://www.emtpalma.es/p/291,0, ,,0
+295,295,295-Plaça d'Espanya,PZ ESPANYA (ESTACIÓ-PREMSA) 6,39.575935,2.654132,,http://www.emtpalma.es/p/295,0, ,,0
+296,296,296-Eusebi Estada  40,CL EUSEBI ESTADA 40,39.579832,2.658491,,http://www.emtpalma.es/p/296,0, ,,0
+297,297,297-Eusebi Estada  68,CL EUSEBI ESTADA 68,39.582569,2.661005,,http://www.emtpalma.es/p/297,0, ,,1
+298,298,298-Eusebi Estada  82,CL EUSEBI ESTADA 82,39.584772,2.662648,,http://www.emtpalma.es/p/298,0, ,,0
+299,299,299-Son Oliva,CL EUSEBI ESTADA 90,39.586595,2.663489,,http://www.emtpalma.es/p/299,0, ,,1
+300,300,300-Cra. Militar  22,CR MILITAR 3,39.541064,2.770460,,http://www.emtpalma.es/p/300,0, ,,0
+302,302,302-Camí de les Meravelles,CM MARAVILLAS,39.528180,2.757564,,http://www.emtpalma.es/p/302,0, ,,0
+304,304,304-Gran Via Asima,AV ASIMA,39.601498,2.672746,,http://www.emtpalma.es/p/304,0, ,,0
+307,307,307-Camí Nou  39,CM NOU (SON CLADERA) 39,39.605507,2.679262,,http://www.emtpalma.es/p/307,0, ,,0
+308,308,308-Picasso  50,AV PICASSO 50,39.576072,2.625745,,http://www.emtpalma.es/p/308,0, ,,0
+309,309,309-Centre de Salut,CL CALA LLOMBARDS 15,39.600473,2.680171,,http://www.emtpalma.es/p/309,0, ,,0
+310,310,310-IES Juníper Serra,CL CALA LLOMBARDS,39.599438,2.677275,,http://www.emtpalma.es/p/310,0, ,,0
+311,311,311-Bartomeu Calatayud  30,CL BARTOMEU CALATAYUD 30,39.598104,2.677223,,http://www.emtpalma.es/p/311,0, ,,1
+312,312,312-Canonge Antoni Sancho  37,CL CANONGE ANTONI SANCHO 37,39.597307,2.678881,,http://www.emtpalma.es/p/312,0, ,,0
+313,313,313-Avinguda d'Amèrica (Hotel Géminis),CL AMERICA,39.510423,2.754683,,http://www.emtpalma.es/p/313,0, ,,0
+314,314,314-Canonge Antoni Sancho  1,CL CANONGE ANTONI SANCHO 1,39.598150,2.680624,,http://www.emtpalma.es/p/314,0, ,,0
+315,315,315-Camí Nou s/n,CM NOU (SON CLADERA),39.601348,2.680609,,http://www.emtpalma.es/p/315,0, ,,0
+316,316,316-Camí Nou  45,CM NOU (SON CLADERA) 45,39.605922,2.679202,,http://www.emtpalma.es/p/316,0, ,,0
+322,322,322-Son Oliva,CL EUSEBI ESTADA 125,39.586648,2.663267,,http://www.emtpalma.es/p/322,0, ,,1
+323,323,323-Eusebi Estada  109,CL EUSEBI ESTADA 109,39.584718,2.662450,,http://www.emtpalma.es/p/323,0, ,,1
+324,324,324-Eusebi Estada  93,CL EUSEBI ESTADA 93,39.582876,2.661073,,http://www.emtpalma.es/p/324,0, ,,1
+325,325,325-Eusebi Estada  45,CL EUSEBI ESTADA 45,39.579189,2.657528,,http://www.emtpalma.es/p/325,0, ,,0
+328,328,328-Miquel dels Sants Oliver,CL MIQUEL DELS SANTS OLIVER 4,39.578237,2.643525,,http://www.emtpalma.es/p/328,0, ,,0
+329,329,329-Plaça de Barcelona,CL FRANCESC MARTI I MORA 18,39.579747,2.639489,,http://www.emtpalma.es/p/329,0, ,,0
+330,330,330-Francesc Martí i Mora  34,CL FRANCESC MARTI I MORA 36,39.581671,2.638256,,http://www.emtpalma.es/p/330,0, ,,0
+331,331,331-Francesc Martí i Mora  74,CL FRANCESC MARTI I MORA 74,39.584053,2.636241,,http://www.emtpalma.es/p/331,0, ,,0
+332,332,332-Salvador Dalí  5,AV SALVADOR DALI 5,39.584506,2.634131,,http://www.emtpalma.es/p/332,0, ,,0
+333,333,333-Policlínica Miramar,CM LA VILETA 30,39.583701,2.630327,,http://www.emtpalma.es/p/333,0, ,,0
+334,334,334-Son Moix,CM LA VILETA,39.587024,2.627025,,http://www.emtpalma.es/p/334,0, ,,0
+335,335,335-Camí de sa Vileta  56,CM LA VILETA 56,39.589736,2.624263,,http://www.emtpalma.es/p/335,0, ,,0
+336,336,336-Camí de sa Vileta  84,CM LA VILETA 84,39.591722,2.622517,,http://www.emtpalma.es/p/336,0, ,,0
+337,337,337-Camí de sa Vileta  130,CM LA VILETA 130,39.593532,2.619432,,http://www.emtpalma.es/p/337,0, ,,0
+338,338,338-Plaça de sa Vileta,PZ LA VILETA,39.594741,2.617003,,http://www.emtpalma.es/p/338,0, ,,0
+339,339,339-Maria Antònia Salvà  24,CL MARIA ANTONIA SALVA 24,39.597326,2.616733,,http://www.emtpalma.es/p/339,0, ,,0
+340,340,340-Maria Antònia Salvà  54,CL MARIA ANTONIA SALVA 54,39.600502,2.615341,,http://www.emtpalma.es/p/340,0, ,,0
+341,341,341-Cap Enderrocat  10,CL CAP ENDERROCAT 10,39.601100,2.616432,,http://www.emtpalma.es/p/341,0, ,,1
+342,342,342-Cap de Formentor  10,CL CAP FORMENTOR 10,39.603464,2.617316,,http://www.emtpalma.es/p/342,0, ,,0
+343,343,343-Gabriel Bestard  7,CL GABRIEL BESTARD 7,39.603645,2.614950,,http://www.emtpalma.es/p/343,0, ,,0
+344,344,344-Son Roca,CL MARIA ANTONIA SALVA 1,39.601978,2.614971,,http://www.emtpalma.es/p/344,0, ,,0
+345,345,345-Maria Antònia Salvà  54,CL MARIA ANTONIA SALVA,39.600528,2.615247,,http://www.emtpalma.es/p/345,0, ,,0
+346,346,346-Maria Antònia Salvà  31,CL MARIA ANTONIA SALVA 31,39.597208,2.616558,,http://www.emtpalma.es/p/346,0, ,,0
+347,347,347-Plaça de sa Vileta,PZ DE LA VILETA 175,39.594605,2.616969,,http://www.emtpalma.es/p/347,0, ,,0
+348,348,348-Camí de sa Vileta  137,CM LA VILETA 137,39.593362,2.619678,,http://www.emtpalma.es/p/348,0, ,,0
+349,349,349-Camí de sa Vileta  115,CM LA VILETA 115,39.592386,2.621500,,http://www.emtpalma.es/p/349,0, ,,0
+350,350,350-Camí de sa Vileta  47,CM LA VILETA 47,39.589386,2.624439,,http://www.emtpalma.es/p/350,0, ,,0
+351,351,351-Son Moix,CM LA VILETA,39.586925,2.626851,,http://www.emtpalma.es/p/351,0, ,,0
+352,352,352-Policlínica Miramar,CM LA VILETA 7,39.583566,2.630258,,http://www.emtpalma.es/p/352,0, ,,0
+353,353,353-Pasqual Ribot  81,CL PASQUAL RIBOT 81,39.582113,2.632408,,http://www.emtpalma.es/p/353,0, ,,0
+354,354,354-Pasqual Ribot  41,CL PASQUAL RIBOT 41,39.579996,2.635552,,http://www.emtpalma.es/p/354,0, ,,1
+355,355,355-Avinguda d'Amèrica (Hotel Taurus Park),CL AMERICA,39.513499,2.751903,,http://www.emtpalma.es/p/355,0, ,,0
+356,356,356-Pasqual Ribot  25,CL PASQUAL RIBOT 25,39.579009,2.636966,,http://www.emtpalma.es/p/356,0, ,,1
+357,357,357-Pasqual Ribot  1,CL PASQUAL RIBOT 3,39.578151,2.639229,,http://www.emtpalma.es/p/357,0, ,,0
+358,358,358-Plaça del Fortí,PZ FORTI 2,39.576038,2.643339,,http://www.emtpalma.es/p/358,0, ,,0
+359,359,359-Illes Balears  3,CL ILLES BALEARS 3,39.570874,2.617647,,http://www.emtpalma.es/p/359,0, ,,0
+360,360,360-Sindicat  65,CL SINDICAT 65,39.572255,2.655699,,http://www.emtpalma.es/p/360,0, ,,0
+361,361,361-31 de Desembre  16,CL 31 DE DESEMBRE 16,39.578651,2.652442,,http://www.emtpalma.es/p/361,0, ,,1
+362,362,362-31 de Desembre  34,CL 31 DE DESEMBRE 34,39.580751,2.652525,,http://www.emtpalma.es/p/362,0, ,,1
+363,363,363-Alfons el Magnànim  12,CL ALFONS EL MAGNÀNIM 12,39.583339,2.653327,,http://www.emtpalma.es/p/363,0, ,,1
+364,364,364-Alfons el Magnànim  30,CL ALFONS EL MAGNÀNIM 30,39.586078,2.653139,,http://www.emtpalma.es/p/364,0, ,,1
+365,365,365-San Francisco de Sales  12,CL SAN FRANCISCO DE SALES 12,39.588196,2.653349,,http://www.emtpalma.es/p/365,0, ,,0
+366,366,366-Ses Fontanelles (Aquàrium Palma),CL MANUELA DE LOS HERREROS,39.531720,2.728438,,http://www.emtpalma.es/p/366,0, ,,0
+367,367,367-La Porciúncula,CL FRA JOAN LLABRES,39.518170,2.749432,,http://www.emtpalma.es/p/367,0, ,,0
+368,368,368-Cra. de Sóller (Son Pacs),CR SOLLER KM 4,39.605060,2.655141,,http://www.emtpalma.es/p/368,0, ,,0
+369,369,369-Camí de Passatemps,CM PASSATEMPS,39.608339,2.655031,,http://www.emtpalma.es/p/369,0, ,,0
+370,370,370-Camí de Passatemps  10,CM PASSATEMPS 10,39.610734,2.654227,,http://www.emtpalma.es/p/370,0, ,,0
+371,371,371-Camí de Passatemps  28,CM PASSATEMPS 28,39.615222,2.654520,,http://www.emtpalma.es/p/371,0, ,,0
+372,372,372-Camí de Passatemps  60,CM PASSATEMPS 60,39.618269,2.655180,,http://www.emtpalma.es/p/372,0, ,,0
+373,373,373-Camí de Passatemps  90,CM PASSATEMPS 90,39.620180,2.655334,,http://www.emtpalma.es/p/373,0, ,,0
+374,374,374-Camí de Passatemps  108,CM PASSATEMPS 108,39.621602,2.654965,,http://www.emtpalma.es/p/374,0, ,,0
+376,376,376-Camí de Passatemps  113 (Son Sardina),CM PASSATEMPS 113,39.621710,2.654860,,http://www.emtpalma.es/p/376,0, ,,0
+377,377,377-Camí de Passatemps  87 (Son Sardina),CM PASSATEMPS 87,39.620124,2.654728,,http://www.emtpalma.es/p/377,0, ,,0
+378,378,378-Pere Sans Garau  6,CM PERE SANS GARAU 6,39.617511,2.654718,,http://www.emtpalma.es/p/378,0, ,,0
+379,379,379-Camí de Passatemps,CM PASSATEMPS,39.614843,2.654358,,http://www.emtpalma.es/p/379,0, ,,0
+380,380,380-Camí de Passatemps,CM PASSATEMPS,39.609482,2.654455,,http://www.emtpalma.es/p/380,0, ,,0
+381,381,381-Camí de Passatemps  1,CM PASSATEMPS 1,39.607880,2.655034,,http://www.emtpalma.es/p/381,0, ,,0
+382,382,382-Cra. de Sóller (Son Pacs),CR SÓLLER 13,39.604789,2.654851,,http://www.emtpalma.es/p/382,0, ,,0
+383,383,383-Alfons el Magnànim  83,CR SÓLLER,39.595137,2.654340,,http://www.emtpalma.es/p/383,0, ,,0
+384,384,384-Ses Fontanelles (Aquàrium Palma),CL MANUELA DE LOS HERREROS,39.531226,2.729104,,http://www.emtpalma.es/p/384,0, ,,0
+385,385,385-Miquel Arcas,CL MIQUEL ARCAS,39.588192,2.652115,,http://www.emtpalma.es/p/385,0, ,,1
+386,386,386-Cra. Valldemossa  15,CR VALLDEMOSSA 15,39.586494,2.650645,,http://www.emtpalma.es/p/386,0, ,,0
+387,387,387-Francesc Suau  9,CL FRANCESC SUAU 9,39.583434,2.651790,,http://www.emtpalma.es/p/387,0, ,,1
+388,388,388-31 de Desembre  33,CL 31 DE DESEMBRE 33,39.580768,2.652327,,http://www.emtpalma.es/p/388,0, ,,0
+389,389,389-31 de Desembre  13,CL 31 DE DESEMBRE 13,39.578768,2.652232,,http://www.emtpalma.es/p/389,0, ,,0
+390,390,390-Joan March  5,AV JOAN MARCH 9,39.576581,2.653081,,http://www.emtpalma.es/p/390,0, ,,0
+391,391,391-Les Meravelles,CM LAS MARAVILLAS 140,39.521877,2.751280,,http://www.emtpalma.es/p/391,0, ,,0
+392,392,392-Tomàs Rul·lan  60 (Son Gotleu),CL TOMAS RUL.LAN 60,39.576839,2.673817,,http://www.emtpalma.es/p/392,0, ,,0
+393,393,393-Reis Catòlics  89,CL REIS CATOLICS 89,39.575789,2.669025,,http://www.emtpalma.es/p/393,0, ,,1
+394,394,394-Reis Catòlics  11,CL REIS CATOLICS 11,39.572064,2.670673,,http://www.emtpalma.es/p/394,0, ,,1
+395,395,395-Manacor  107,CL MANACOR 107,39.571402,2.669418,,http://www.emtpalma.es/p/395,0, ,,0
+396,396,396-Cra. Militar  55,CR MILITAR 55,39.531235,2.766443,,http://www.emtpalma.es/p/396,0, ,,0
+397,397,397-Camí de les Meravelles,CM LAS MARAVILLAS,39.526104,2.755919,,http://www.emtpalma.es/p/397,0, ,,0
+398,398,398-Son Tugores,CR VALLDEMOSSA,39.610791,2.646504,,http://www.emtpalma.es/p/398,0, ,,0
+399,399,399-Cra. Militar  19,CR MILITAR 20,39.541335,2.770739,,http://www.emtpalma.es/p/399,0, ,,0
+400,400,400-General Ricardo Ortega  20,CL GENERAL RICARDO ORTEGA 20,39.569690,2.659926,,http://www.emtpalma.es/p/400,0, ,,0
+401,401,401-Manacor  71,CL MANACOR 71,39.571524,2.664691,,http://www.emtpalma.es/p/401,0, ,,0
+402,402,402-Cra. Militar 58,CR MILITAR 58,39.531189,2.766304,,http://www.emtpalma.es/p/402,0, ,,0
+403,403,403-Manacor  27,CL MANACOR 27,39.571527,2.659568,,http://www.emtpalma.es/p/403,0, ,,1
+404,404,404-Plaça d'Espanya,AV ALEXANDRE ROSSELLO 38,39.575208,2.655207,,http://www.emtpalma.es/p/404,0, ,,0
+406,406,406-Manacor  2,CL MANACOR 2,39.571317,2.658638,,http://www.emtpalma.es/p/406,0, ,,1
+407,407,407-Manacor  28,CL MANACOR 28,39.571399,2.661874,,http://www.emtpalma.es/p/407,0, ,,1
+408,408,408-Manacor  70,CL MANACOR 70,39.571258,2.666346,,http://www.emtpalma.es/p/408,0, ,,0
+409,409,409-Cra. Militar,CR MILITAR,39.527148,2.763955,,http://www.emtpalma.es/p/409,0, ,,0
+410,410,410-Puerto Rico,CL PUERTO RICO,39.567571,2.668727,,http://www.emtpalma.es/p/410,0, ,,0
+412,412,412-Pérez Galdós  17,CL PEREZ GALDOS 17,39.566555,2.660186,,http://www.emtpalma.es/p/412,0, ,,0
+413,413,413-Cra. Militar 36,CR MILITAR 36,39.536735,2.768450,,http://www.emtpalma.es/p/413,0, ,,0
+414,414,414-Manacor  90,CL MANACOR 90,39.571223,2.669571,,http://www.emtpalma.es/p/414,0, ,,1
+415,415,415-Manacor  138,CL MANACOR 138,39.571198,2.673564,,http://www.emtpalma.es/p/415,0, ,,0
+416,416,416-Tomàs Rul·lan  2,CL TOMAS RUL·LAN 2,39.571437,2.675193,,http://www.emtpalma.es/p/416,0, ,,0
+417,417,417-Tomàs Rul·lan  30,CL TOMAS RUL·LAN 30,39.573554,2.675253,,http://www.emtpalma.es/p/417,0, ,,0
+418,418,418-Tomàs Rul·lan  42,CL TOMAS RUL·LAN 42,39.575345,2.674534,,http://www.emtpalma.es/p/418,0, ,,0
+422,422,422-Grans magatzems,AV ALEXANDRE ROSSELLO 16,39.573499,2.656077,,http://www.emtpalma.es/p/422,0, ,,0
+423,423,423-Llaüt (Golf Fantasia),CL LLAÜT 45,39.513114,2.748810,,http://www.emtpalma.es/p/423,0, ,,0
+424,424,424-Llaüt (Hotel Neptuno),CL LLAÜT 37,39.515012,2.747303,,http://www.emtpalma.es/p/424,0, ,,0
+425,425,425-Llaüt  21 (Riu Palace),CL LLAÜT 21,39.518321,2.744266,,http://www.emtpalma.es/p/425,0, ,,0
+426,426,426-Mar Tirrena (Hotel Garonda),CL MAR TIRRENA,39.520164,2.742305,,http://www.emtpalma.es/p/426,0, ,,0
+427,427,427-Marbella (Hotel Acapulco),CL MARBELLA,39.522079,2.740262,,http://www.emtpalma.es/p/427,0, ,,0
+428,428,428-Marbella  51 (Hotel Cupido),CL MARBELLA 51,39.525377,2.736666,,http://www.emtpalma.es/p/428,0, ,,0
+429,429,429-Marbella (Hotel Caballero),CL MARBELLA,39.526976,2.734542,,http://www.emtpalma.es/p/429,0, ,,0
+430,430,430-Marbella (Apartaments Les Veles),CL MARBELLA,39.529690,2.731285,,http://www.emtpalma.es/p/430,0, ,,0
+431,431,431-Cra. Militar  36,CR MILITAR,39.536672,2.768322,,http://www.emtpalma.es/p/431,0, ,,0
+432,432,432-Manuela de los Herreros (Hotel Java),CL MANUELA DE LOS HERREROS,39.533526,2.726372,,http://www.emtpalma.es/p/432,0, ,,0
+433,433,433-Manuela de los Herreros (Hotel el Cid),CL MANUELA DE LOS HERREROS,39.535250,2.723607,,http://www.emtpalma.es/p/433,0, ,,0
+434,434,434-Tramuntana  9,CL TRAMUNTANA 9,39.536475,2.720006,,http://www.emtpalma.es/p/434,0, ,,0
+435,435,435-Octavi August   60 (Hotel Linda),CL OCTAVI AUGUST 60,39.537928,2.717219,,http://www.emtpalma.es/p/435,0, ,,0
+437,437,437-Camí de Can Pastilla  55,CM CAN PASTILLA 55,39.538580,2.714517,,http://www.emtpalma.es/p/437,0, ,,0
+438,438,438-Camí de Can Pastilla,CM CAN PASTILLA,39.541381,2.710642,,http://www.emtpalma.es/p/438,0, ,,0
+439,439,439-Camí de Can Pastilla  37 (Edifici Endesa),CM CAN PASTILLA 37,39.549323,2.701228,,http://www.emtpalma.es/p/439,0, ,,0
+440,440,440-Cardenal Rossell  65 (Coll d'en Rabassa),CL CARDENAL ROSSELL 65,39.551527,2.696435,,http://www.emtpalma.es/p/440,0, ,,0
+441,441,441-Cardenal Rossell  23,CL CARDENAL ROSSELL 23,39.552918,2.694473,,http://www.emtpalma.es/p/441,0, ,,0
+442,442,442-Cardenal Rossell  1,CL CARDENAL ROSSELL 1,39.555498,2.692017,,http://www.emtpalma.es/p/442,0, ,,0
+443,443,443-La Gruta,CL CARRER DE LLUCMAJOR,39.557211,2.685712,,http://www.emtpalma.es/p/443,0, ,,0
+444,444,444-Llucmajor  105,CL CARRER DE LLUCMAJOR 107,39.558434,2.681644,,http://www.emtpalma.es/p/444,0, ,,0
+445,445,445-Llucmajor  77,CL CARRER DE LLUCMAJOR 77,39.559422,2.677100,,http://www.emtpalma.es/p/445,0, ,,0
+446,446,446-Llucmajor  36,CL CARRER DE LLUCMAJOR 36,39.560969,2.672984,,http://www.emtpalma.es/p/446,0, ,,0
+447,447,447-Es Portitxol,CL CARRER DE LLUCMAJOR 1,39.561909,2.670686,,http://www.emtpalma.es/p/447,0, ,,0
+448,448,448-Llaüt (Hotel San Francisco),CL LLAÜT 29,39.517018,2.745655,,http://www.emtpalma.es/p/448,0, ,,0
+449,449,449-Joan Maragall  25,CL JOAN MARAGALL 25,39.564224,2.661222,,http://www.emtpalma.es/p/449,0, ,,0
+450,450,450-Gabriel Alomar  39,AV GABRIEL ALOMAR 39,39.566374,2.656892,,http://www.emtpalma.es/p/450,0, ,,0
+451,451,451-Gabriel Alomar  29,AV GABRIEL ALOMAR 29,39.568016,2.657408,,http://www.emtpalma.es/p/451,0, ,,0
+452,452,452-Gabriel Alomar  1,AV GABRIEL ALOMAR 1,39.570997,2.657044,,http://www.emtpalma.es/p/452,0, ,,0
+453,453,453-Plaça de la Reina (Catedral),PZ REINA,39.568965,2.646565,,http://www.emtpalma.es/p/453,0, ,,0
+454,454,454-La Rambla,RB DUCS DE PALMA 12,39.573444,2.649849,,http://www.emtpalma.es/p/454,0, ,,0
+455,455,455-Plaça d'Espanya,PZ ESPANYA (MONUMENT),39.575583,2.653878,,http://www.emtpalma.es/p/455,0, ,,0
+456,456,456-Alexandre Rosselló  5,AV ALEXANDRE ROSSELLO 5,39.571888,2.656574,,http://www.emtpalma.es/p/456,0, ,,0
+457,457,457-Escola Graduada,AV GABRIEL ALOMAR,39.569519,2.656912,,http://www.emtpalma.es/p/457,0, ,,0
+458,458,458-Porta del Camp,AV GABRIEL ALOMAR,39.566346,2.656543,,http://www.emtpalma.es/p/458,0, ,,0
+459,459,459-Joan Maragall  18,CL JOAN MARAGALL 18,39.564232,2.660768,,http://www.emtpalma.es/p/459,0, ,,0
+460,460,460-Mussol  30 (Son Xigala),CL MUSSOL 30,39.592481,2.609492,,http://www.emtpalma.es/p/460,0, ,,0
+461,461,461-Son Tugores,CR VALLDEMOSSA,39.609893,2.647405,,http://www.emtpalma.es/p/461,0, ,,0
+462,462,462-Es Portitxol,CL CARRER DE LLUCMAJOR 2,39.561783,2.670640,,http://www.emtpalma.es/p/462,0, ,,0
+463,463,463-Llucmajor  56,CL CARRER DE LLUCMAJOR 56,39.560100,2.674745,,http://www.emtpalma.es/p/463,0, ,,0
+464,464,464-Llucmajor  100,CL CARRER DE LLUCMAJOR 100,39.559182,2.678242,,http://www.emtpalma.es/p/464,0, ,,0
+465,465,465-Llucmajor  144,CL CARRER DE LLUCMAJOR 144,39.558335,2.681668,,http://www.emtpalma.es/p/465,0, ,,0
+466,466,466-La Gruta,CL CARRER DE LLUCMAJOR 166,39.557174,2.685247,,http://www.emtpalma.es/p/466,0, ,,0
+467,467,467-Cardenal Rossell  1,CL CARDENAL ROSSELL,39.555677,2.691551,,http://www.emtpalma.es/p/467,0, ,,0
+468,468,468-Cardenal Rossell  36,CL CARDENAL ROSSELL 36,39.553367,2.693843,,http://www.emtpalma.es/p/468,0, ,,0
+469,469,469-Cardenal Rossell  90 (Coll d'en Rabassa),CL CARDENAL ROSSELL 90,39.551250,2.697309,,http://www.emtpalma.es/p/469,0, ,,0
+470,470,470-Camí de Can Pastilla  46 (Edifici Endesa),CM CAN PASTILLA 46,39.548477,2.701860,,http://www.emtpalma.es/p/470,0, ,,0
+471,471,471-Camí de Can Pastilla  82,CM CAN PASTILLA 82,39.539666,2.712953,,http://www.emtpalma.es/p/471,0, ,,0
+473,473,473-Camí de Can Pastilla  110 (Hotel Linda),CL CAN PASTILLA 110,39.537429,2.715639,,http://www.emtpalma.es/p/473,0, ,,0
+474,474,474-Bartomeu Riutort  16 (Can Pastilla),AV BARTOMEU RIUTORT 16,39.536297,2.717214,,http://www.emtpalma.es/p/474,0, ,,0
+475,475,475-Xabec  2 (Hotel Miraflores),CL XABEC 2,39.535852,2.719183,,http://www.emtpalma.es/p/475,0, ,,0
+476,476,476-Manuela de los Herreros (Hotel el Cid),CL MANUELA DE LOS HERREROS,39.535428,2.722850,,http://www.emtpalma.es/p/476,0, ,,0
+477,477,477-Manuela de los Herreros (Hotel Java),CL MANUELA DE LOS HERREROS,39.533364,2.726349,,http://www.emtpalma.es/p/477,0, ,,0
+479,479,479-Marbella  10 (Apartaments Les Veles),CL MARBELLA 10,39.529016,2.732021,,http://www.emtpalma.es/p/479,0, ,,0
+480,480,480-Marbella  22 (Apartaments Pil·larí),CL MARBELLA 22,39.526662,2.734776,,http://www.emtpalma.es/p/480,0, ,,0
+481,481,481-Marbella  32 (Hotel Cupido),CL MARBELLA 32,39.525143,2.736736,,http://www.emtpalma.es/p/481,0, ,,0
+482,482,482-Marbella  42 (Hotel Acapulco),CL MARBELLA 42,39.521925,2.740274,,http://www.emtpalma.es/p/482,0, ,,0
+483,483,483-Mar Tirrena (Hotel Garonda),CL MAR TIRRENA,39.519651,2.742714,,http://www.emtpalma.es/p/483,0, ,,0
+484,484,484-Llaüt (Riu Palace),CL LLAÜT,39.518267,2.744185,,http://www.emtpalma.es/p/484,0, ,,0
+485,485,485-Llaüt  26 (Hotel Playa Golf),CL LLAÜT 26,39.516514,2.745971,,http://www.emtpalma.es/p/485,0, ,,0
+486,486,486-Llaüt  38 (Mega Park),CL LLAÜT 38,39.514103,2.747864,,http://www.emtpalma.es/p/486,0, ,,0
+487,487,487-Trasimè  2 (Hotel Hispania),CL TRASIME 2,39.510567,2.750401,,http://www.emtpalma.es/p/487,0, ,,0
+488,488,488-Trasimè  24 (Hotel Playa  Arenal),CL TRASIME 24,39.508263,2.751643,,http://www.emtpalma.es/p/488,0, ,,0
+489,489,489-Florència  14 (Son Xigala),CL FLORENCIA,39.594328,2.612125,,http://www.emtpalma.es/p/489,0, ,,0
+490,490,490-Cartago (Platja),AV CARTAGO,39.504506,2.751703,,http://www.emtpalma.es/p/490,0, ,,0
+492,492,492-Comte de Sallent  14,AV COMTE DE SALLENT 14,39.578168,2.650628,,http://www.emtpalma.es/p/492,0, ,,0
+493,493,493-General Riera  17,CL GENERAL RIERA 17,39.581032,2.647132,,http://www.emtpalma.es/p/493,0, ,,1
+494,494,494-General Riera  30,CL GENERAL RIERA 30,39.581078,2.647411,,http://www.emtpalma.es/p/494,0, ,,0
+495,495,495-General Riera  54,CL GENERAL RIERA 54,39.583860,2.646559,,http://www.emtpalma.es/p/495,0, ,,0
+496,496,496-General Riera  78,CL GENERAL RIERA 78,39.585760,2.646235,,http://www.emtpalma.es/p/496,0, ,,1
+497,497,497-General Riera  104,CL GENERAL RIERA 104,39.587489,2.645923,,http://www.emtpalma.es/p/497,0, ,,0
+498,498,498-General Riera  120,CL GENERAL RIERA,39.589489,2.645808,,http://www.emtpalma.es/p/498,0, ,,1
+499,499,499-General Riera  142,CL GENERAL RIERA 142,39.592242,2.644408,,http://www.emtpalma.es/p/499,0, ,,1
+500,500,500-Joan Mascaró i Fornés  16 (Centre hospitalari),CL JOAN MASCARÓ I FORNÉS 16,39.597465,2.640492,,http://www.emtpalma.es/p/500,0, ,,0
+502,502,502-Joan Mascaró i Fornés,CL JOAN MASCARÓ I FORNÉS,39.599126,2.638689,,http://www.emtpalma.es/p/502,0, ,,0
+503,503,503-Joan Mascaró i Fornés  56,CL JOAN MASCARÓ I FORNÉS 56,39.603532,2.635685,,http://www.emtpalma.es/p/503,0, ,,0
+504,504,504-Joan Mascaró i Fornés  84,CL JOAN MASCARÓ I FORNÉS 84,39.605816,2.634426,,http://www.emtpalma.es/p/504,0, ,,0
+505,505,505-Joan Mascaró i Fornés  110,CL JOAN MASCARÓ I FORNÉS 110,39.607705,2.633368,,http://www.emtpalma.es/p/505,0, ,,0
+506,506,506-Joan Mascaró i Fornés  95,CL JOAN MASCARÓ I FORNÉS 95,39.610152,2.632015,,http://www.emtpalma.es/p/506,0, ,,0
+507,507,507-Joan Mascaró i Fornés  146,CL JOAN MASCARÓ I FORNÉS 146,39.612880,2.631255,,http://www.emtpalma.es/p/507,0, ,,0
+508,508,508-Joan Mascaró i Fornés  182,CL JOAN MASCARÓ I FORNÉS 182,39.614940,2.630312,,http://www.emtpalma.es/p/508,0, ,,0
+509,509,509-Cra. Esporles  26,CR ESPORLES 26,39.617421,2.628575,,http://www.emtpalma.es/p/509,0, ,,0
+510,510,510-Cra. Esporles  52,CR ESPORLES 52,39.619597,2.627084,,http://www.emtpalma.es/p/510,0, ,,0
+511,511,511-Cra. Esporles  76,CR ESPORLES 76,39.621010,2.626459,,http://www.emtpalma.es/p/511,0, ,,0
+512,512,512-Cra. Esporles s/n,CR ESPORLES,39.622845,2.625493,,http://www.emtpalma.es/p/512,0, ,,0
+513,513,513-Cra.Esporles s/n,CR ESPORLES,39.624372,2.624110,,http://www.emtpalma.es/p/513,0, ,,0
+514,514,514-Establiments,CR ESPORLES 140,39.626994,2.621300,,http://www.emtpalma.es/p/514,0, ,,0
+515,515,515-Cra. Esporles  178,CR ESPORLES 178,39.630212,2.618940,,http://www.emtpalma.es/p/515,0, ,,0
+516,516,516-Cra. Esporles  186,CR ESPORLES 186,39.631928,2.617579,,http://www.emtpalma.es/p/516,0, ,,0
+517,517,517-Cra. Esporles  206,CR ESPORLES 206,39.635555,2.616137,,http://www.emtpalma.es/p/517,0, ,,0
+518,518,518-Es Muntant,CR ESPORLES 233,39.636978,2.616083,,http://www.emtpalma.es/p/518,0, ,,0
+519,519,519-Cra. Esporles  221,CR ESPORLES 221,39.635104,2.616186,,http://www.emtpalma.es/p/519,0, ,,0
+520,520,520-Cra. Esporles  203,CR ESPORLES 203,39.631658,2.617662,,http://www.emtpalma.es/p/520,0, ,,0
+521,521,521-Cra. Esporles s/n,CR ESPORLES,39.629241,2.619668,,http://www.emtpalma.es/p/521,0, ,,0
+522,522,522-Establiments,CR ESPORLES 161,39.626930,2.621218,,http://www.emtpalma.es/p/522,0, ,,0
+523,523,523-Cra. Esporles s/n,CR ESPORLES,39.624138,2.624205,,http://www.emtpalma.es/p/523,0, ,,0
+524,524,524-Cra. Esporles  105,CR ESPORLES 105,39.622835,2.625389,,http://www.emtpalma.es/p/524,0, ,,0
+525,525,525-Cra. Esporles  65,CR ESPORLES 65,39.620883,2.626424,,http://www.emtpalma.es/p/525,0, ,,0
+526,526,526-Cra. Esporles  43,CR ESPORLES 43,39.619435,2.627050,,http://www.emtpalma.es/p/526,0, ,,0
+527,527,527-Cra. Esporles  25,CR ESPORLES 25,39.617753,2.628142,,http://www.emtpalma.es/p/527,0, ,,0
+528,528,528-Joan Mascaró i Fornés  139,CL JOAN MASCARÓ I FORNÉS 139,39.614544,2.630408,,http://www.emtpalma.es/p/528,0, ,,0
+529,529,529-Joan Mascaró i Fornés  115,CL JOAN MASCARÓ I FORNÉS 115,39.612870,2.631162,,http://www.emtpalma.es/p/529,0, ,,0
+530,530,530-Joan Mascaró i Fornés  95,CL JOAN MASCARÓ I FORNÉS 95,39.610035,2.631993,,http://www.emtpalma.es/p/530,0, ,,0
+531,531,531-Joan Mascaró i Fornés  73,CL JOAN MASCARÓ I FORNÉS 73,39.607759,2.633251,,http://www.emtpalma.es/p/531,0, ,,0
+532,532,532-Joan Mascaró i Fornés  57,CL JOAN MASCARÓ I FORNÉS 57,39.605861,2.634298,,http://www.emtpalma.es/p/532,0, ,,0
+533,533,533-Joan Mascaró i Fornés  43,CL JOAN MASCARÓ I FORNÉS 43,39.603360,2.635674,,http://www.emtpalma.es/p/533,0, ,,0
+534,534,534-Joan Mascaró i Fornés  27,CL JOAN MASCARÓ I FORNÉS 17,39.598515,2.639193,,http://www.emtpalma.es/p/534,0, ,,0
+535,535,535-Joan Mascaró i Fornés  16 (Centre hospitalari),CL JOAN MASCARÓ I FORNÉS,39.597401,2.640434,,http://www.emtpalma.es/p/535,0, ,,0
+536,536,536-Capità Vila  34,CL CAPITÀ VILA 34,39.572246,2.665176,,http://www.emtpalma.es/p/536,0, ,,0
+537,537,537-Centre comercial,CL GENERAL RIERA 127,39.593752,2.643318,,http://www.emtpalma.es/p/537,0, ,,0
+538,538,538-General Riera  113,CL GENERAL RIERA 113,39.592061,2.644223,,http://www.emtpalma.es/p/538,0, ,,0
+539,539,539-General Riera  105,CL GENERAL RIERA 105,39.590199,2.645420,,http://www.emtpalma.es/p/539,0, ,,0
+540,540,540-General Riera  77,CL GENERAL RIERA 77,39.588038,2.645653,,http://www.emtpalma.es/p/540,0, ,,0
+541,541,541-General Riera  63,CL GENERAL RIERA 63,39.585759,2.646002,,http://www.emtpalma.es/p/541,0, ,,1
+542,542,542-General Riera  35,CL GENERAL RIERA 35,39.582985,2.646528,,http://www.emtpalma.es/p/542,0, ,,0
+543,543,543-General Riera  9,CL GENERAL RIERA 9,39.579269,2.648154,,http://www.emtpalma.es/p/543,0, ,,0
+544,544,544-Pisa  24 (Son Xigala),CL PISA 24,39.594852,2.612507,,http://www.emtpalma.es/p/544,0, ,,0
+545,545,545-Son Xigala (Ambulatori),CL ANCONA,39.593018,2.616547,,http://www.emtpalma.es/p/545,0, ,,0
+546,546,546-Aeroport - Sortides,ED AEROPORT SORTIDES,39.547898,2.730214,,http://www.emtpalma.es/p/546,0, ,,0
+547,547,547-Aeroport - Arribades,ED AEROPORT ARRIBADES,39.547148,2.729263,,http://www.emtpalma.es/p/547,0, ,,0
+548,548,548-Centre comercial-Mercapalma,CL CARDENAL ROSSELL,39.555373,2.706510,,http://www.emtpalma.es/p/548,0, ,,0
+549,549,549-Mussol  7 (Son Xigala),CL MUSSOL,39.592907,2.610165,,http://www.emtpalma.es/p/549,0, ,,0
+551,551,551-Sant Vicenç de Paül  20,CL SANT VICENÇ DE PAÜL 20,39.592871,2.646746,,http://www.emtpalma.es/p/551,0, ,,0
+554,554,554-Manuel Azaña,CL MANUEL AZAÑA,39.565320,2.663056,,http://www.emtpalma.es/p/554,0, ,,0
+555,555,555-Manuel Azaña,CL MANUEL AZAÑA,39.568811,2.664553,,http://www.emtpalma.es/p/555,0, ,,0
+556,556,556-Cra. Valldemossa  66,CR VALLDEMOSSA 66,39.593919,2.647684,,http://www.emtpalma.es/p/556,0, ,,0
+557,557,557-Cra. Valldemossa,CR VALLDEMOSSA,39.593612,2.647534,,http://www.emtpalma.es/p/557,0, ,,0
+558,558,558-Sant Vicenç de Paül  9,CL SANT VICENÇ DE PAÜL 9,39.592859,2.645861,,http://www.emtpalma.es/p/558,0, ,,0
+559,559,559-Eusebi Estada  1 (Estació tren de Sóller),CL EUSEBI ESTADA 1,39.576854,2.654198,,http://www.emtpalma.es/p/559,0, ,,0
+560,560,560-Miguel Fleta  2,CL MIGUEL FLETA 2,39.583607,2.664866,,http://www.emtpalma.es/p/560,0, ,,1
+561,561,561-Tomás Luis de Victoria  11,CL TOMÀS LUÍS DE VICTORIA 11,39.585303,2.665393,,http://www.emtpalma.es/p/561,0, ,,1
+562,562,562-Cra. Manacor,CR MANACOR,39.571335,2.738297,,http://www.emtpalma.es/p/562,0, ,,0
+563,563,563-Cra. Manacor,CR MANACOR,39.571271,2.738285,,http://www.emtpalma.es/p/563,0, ,,0
+566,566,566-Aeroport (Benzinera),LU GASOLINERA AEROPORT,39.546811,2.724097,,http://www.emtpalma.es/p/566,0, ,,0
+567,567,567-Rotonda de Can Moreno,CR VALLDEMOSSA (rotonda),39.616846,2.646205,,http://www.emtpalma.es/p/567,0, ,,0
+568,568,568-Argentina  61,AV ARGENTINA 61,39.573704,2.640556,,http://www.emtpalma.es/p/568,0, ,,0
+569,569,569-Argentina  25,AV ARGENTINA 25,39.570917,2.639604,,http://www.emtpalma.es/p/569,0, ,,0
+571,571,571-Edifici Beatriu de Pinós,CL CAMINAL MALLORCA,39.637675,2.645306,,http://www.emtpalma.es/p/571,0, ,,0
+572,572,572-Parc Bit,PQ PARC BIT,39.637413,2.633607,,http://www.emtpalma.es/p/572,0, ,,0
+583,583,583-Tomás Luis de Victoria  6,CL TOMÀS LUÍS DE VICTORIA 6,39.585194,2.665056,,http://www.emtpalma.es/p/583,0, ,,1
+585,585,585-Manuel Azaña  16,CL MANUEL AZAÑA 16,39.568910,2.664436,,http://www.emtpalma.es/p/585,0, ,,0
+586,586,586-Pi i Margall  12,CL PI I MARGALL 12,39.572267,2.666271,,http://www.emtpalma.es/p/586,0, ,,0
+598,598,598-Plaça d'Espanya,PZ ESPANYA (MONUMENT),39.575745,2.653679,,http://www.emtpalma.es/p/598,0, ,,0
+604,604,604-Cra. Militar  165,CR MILITAR 165,39.513341,2.758023,,http://www.emtpalma.es/p/604,0, ,,0
+605,605,605-Ambulatori,CR MILITAR,39.508630,2.754573,,http://www.emtpalma.es/p/605,0, ,,0
+607,607,607-Camí dels Reis  613 (Sa Indioteria),CM DELS REIS 613,39.614254,2.675226,,http://www.emtpalma.es/p/607,0, ,,0
+608,608,608-Camí 140,CM 140,39.628310,2.668705,,http://www.emtpalma.es/p/608,0, ,,0
+609,609,609-Avinguda de Mèxic,AV MÈXIC,39.566009,2.667675,,http://www.emtpalma.es/p/609,0, ,,0
+610,610,610-Sant Vicenç de Paül  37,CL SANT VICENÇ DE PAÜL,39.593467,2.650365,,http://www.emtpalma.es/p/610,0, ,,0
+611,611,611-Sant Vicenç de Paül  56,CL SANT VICENÇ DE PAÜL 56,39.593908,2.653100,,http://www.emtpalma.es/p/611,0, ,,0
+612,612,612-Carles Riba  12,CL CARLES RIBA 12,39.592987,2.655620,,http://www.emtpalma.es/p/612,0, ,,0
+613,613,613-Passeig Arbreda (Hospital Clínic Balear),CL PASSEIG ARBREDA,39.490803,2.740250,,http://www.emtpalma.es/p/613,0, ,,0
+615,615,615-Sant Vicenç de Paül  71,CL SANT VICENÇ DE PAÜL 71,39.594008,2.653588,,http://www.emtpalma.es/p/615,0, ,,0
+616,616,616-Sant Vicenç de Paül  39,CL SANT VICENÇ DE PAÜL 39,39.593621,2.650586,,http://www.emtpalma.es/p/616,0, ,,0
+617,617,617-Caracas,CL CARACAS,39.568891,2.667183,,http://www.emtpalma.es/p/617,0, ,,0
+618,618,618-Son Riera,BO SON RIERA,39.555974,2.716075,,http://www.emtpalma.es/p/618,0, ,,0
+619,619,619-Camí 140,CM 140,39.619724,2.672288,,http://www.emtpalma.es/p/619,0, ,,0
+621,621,621-Centre comercial,CL GENERAL RIERA,39.593780,2.643504,,http://www.emtpalma.es/p/621,0, ,,0
+623,623,623-Arxiduc Lluís Salvador  28,CL ARXIDUC LLUIS SALVADOR 28,39.579034,2.654036,,http://www.emtpalma.es/p/623,0, ,,0
+624,624,624-Miramar (Hotel San Diego),CL MIRAMAR,39.502154,2.751385,,http://www.emtpalma.es/p/624,0, ,,0
+625,625,625-Sant Bartomeu (Hotel Reina Isabel),AV EUROPA,39.499069,2.754374,,http://www.emtpalma.es/p/625,0, ,,0
+626,626,626-Ondategui,CL ONDATEGUI,39.486296,2.739511,,http://www.emtpalma.es/p/626,0, ,,0
+627,627,627-Platja Cala Blava,CL ONDATEGUI 36,39.486120,2.737349,,http://www.emtpalma.es/p/627,0, ,,0
+628,628,628-Ondategui  73,CL ONDATEGUI 73,39.484163,2.736705,,http://www.emtpalma.es/p/628,0, ,,0
+629,629,629-Ondategui  110,CL ONDATEGUI 110,39.482606,2.737339,,http://www.emtpalma.es/p/629,0, ,,0
+630,630,630-Mare de Déu de Begonya  126,CL MARE DE DEU DE BEGONYA 126,39.482114,2.739201,,http://www.emtpalma.es/p/630,0, ,,0
+631,631,631-Cap Enderrocat  4,CL CAP ENDERROCAT 4,39.479282,2.737886,,http://www.emtpalma.es/p/631,0, ,,0
+632,632,632-Passeig de les Dames  4,PS DE LES DAMES 4,39.477890,2.732066,,http://www.emtpalma.es/p/632,0, ,,0
+633,633,633-Passeig de les Dames  20,PS DE LES DAMES 20,39.478595,2.729099,,http://www.emtpalma.es/p/633,0, ,,0
+634,634,634-Passeig de les Dames  36,PS DE LES DAMES 36,39.480690,2.730811,,http://www.emtpalma.es/p/634,0, ,,0
+635,635,635-Via Augusta  11(Bellavista),CL VIA AUGUSTA 11,39.481235,2.732960,,http://www.emtpalma.es/p/635,0, ,,0
+636,636,636-Via Augusta  37,CL VIA AUGUSTA 37,39.478967,2.734178,,http://www.emtpalma.es/p/636,0, ,,0
+637,637,637-Cap Enderrocat  4,CL CAP ENDERROCAT 4,39.479237,2.737944,,http://www.emtpalma.es/p/637,0, ,,0
+638,638,638-Mare de Déu de Begonya  120,CL MARE DE DEU DE BEGONYA 120,39.482151,2.739445,,http://www.emtpalma.es/p/638,0, ,,0
+639,639,639-Ondategui  115,CL ONDATEGUI 115,39.482669,2.737397,,http://www.emtpalma.es/p/639,0, ,,0
+640,640,640-Ondategui  69,CL ONDATEGUI 69,39.484245,2.736809,,http://www.emtpalma.es/p/640,0, ,,0
+641,641,641-Ondategui  52,CL ONDATEGUI 52,39.486013,2.737803,,http://www.emtpalma.es/p/641,0, ,,0
+642,642,642-Ondategui  37,CL ONDATEGUI 37,39.486098,2.739709,,http://www.emtpalma.es/p/642,0, ,,0
+643,643,643-Camí 140  33,CM 140,39.619607,2.672265,,http://www.emtpalma.es/p/643,0, ,,0
+644,644,644-Camí 140,CM 140,39.622730,2.670922,,http://www.emtpalma.es/p/644,0, ,,0
+645,645,645-Camí 140,CM 140,39.622730,2.670841,,http://www.emtpalma.es/p/645,0, ,,0
+646,646,646-Costa i Llobera  2,CL COSTA I LLOBERA 2,39.499162,2.751396,,http://www.emtpalma.es/p/646,0, ,,0
+647,647,647-Costa i Llobera  20,CL COSTA I LLOBERA 20,39.497341,2.750902,,http://www.emtpalma.es/p/647,0, ,,0
+648,648,648-Avinguda de Son Verí  3,AV SON VERI 3,39.496694,2.747567,,http://www.emtpalma.es/p/648,0, ,,0
+649,649,649-Àlber,CL ALBER,39.495051,2.746026,,http://www.emtpalma.es/p/649,0, ,,0
+650,650,650-Cedre,CL CEDRE,39.491081,2.743598,,http://www.emtpalma.es/p/650,0, ,,0
+651,651,651-Cedre,CL CEDRE,39.488057,2.741074,,http://www.emtpalma.es/p/651,0, ,,0
+652,652,652-Cedre,CL CEDRE,39.488003,2.741121,,http://www.emtpalma.es/p/652,0, ,,0
+653,653,653-Cedre,CL CEDRE,39.491072,2.743715,,http://www.emtpalma.es/p/653,0, ,,0
+654,654,654-Àlber,CL ALBER,39.495033,2.746096,,http://www.emtpalma.es/p/654,0, ,,0
+655,655,655-Avinguda de Son Verí,AV SON VERI 2,39.496586,2.747567,,http://www.emtpalma.es/p/655,0, ,,0
+656,656,656-Costa i Llobera,CL COSTA I LLOBERA,39.497251,2.750938,,http://www.emtpalma.es/p/656,0, ,,0
+657,657,657-Costa i Llobera,CL COSTA I LLOBERA,39.498937,2.751594,,http://www.emtpalma.es/p/657,0, ,,0
+660,660,660-Cra. Militar,CR MILITAR,39.510787,2.756380,,http://www.emtpalma.es/p/660,0, ,,0
+661,661,661-Les Palmeres (Hospital Clínic Balear),CL DE LES PALMERES,39.491020,2.740807,,http://www.emtpalma.es/p/661,0, ,,0
+662,662,662-Plaça de Cort,CL PALAU REIAL,39.569427,2.650195,,http://www.emtpalma.es/p/662,0, ,,0
+663,663,663-Plaça d'en Coll,PZ D'EN COLL,39.570631,2.652052,,http://www.emtpalma.es/p/663,0, ,,0
+664,664,664-Plaça de la Quartera,CL LA QUARTERA 6,39.570427,2.653368,,http://www.emtpalma.es/p/664,0, ,,0
+665,665,665-Camí 140  50,CM 140 50,39.626276,2.669414,,http://www.emtpalma.es/p/665,0, ,,0
+666,666,666-Camí 140,CM 140,39.616368,2.674028,,http://www.emtpalma.es/p/666,0, ,,0
+668,668,668-Camí 140,CM 140,39.631117,2.667375,,http://www.emtpalma.es/p/668,0, ,,0
+669,669,669-Camí de Son Ametler  10,CL AMETLER 14,39.586745,2.731554,,http://www.emtpalma.es/p/669,0, ,,0
+670,670,670-Camí 140,CM 140 33,39.616269,2.673993,,http://www.emtpalma.es/p/670,0, ,,0
+671,671,671-Camí 140,CM 140,39.626230,2.669344,,http://www.emtpalma.es/p/671,0, ,,0
+673,673,673-Cardenal Rossell  138,CL CARDENAL ROSSELL 138,39.552322,2.700610,,http://www.emtpalma.es/p/673,0, ,,0
+674,674,674-Cardenal Rossell  16,CL CARDENAL ROSSELL 16,39.552376,2.700551,,http://www.emtpalma.es/p/674,0, ,,0
+691,691,691-Balneari  1,CL CARTAGO 42,39.506083,2.751639,,http://www.emtpalma.es/p/691,0, ,,0
+692,692,692-Balneari  2,AV CARTAGO,39.508009,2.750632,,http://www.emtpalma.es/p/692,0, ,,0
+693,693,693-Balneari  4,AV CARTAGO,39.511861,2.748408,,http://www.emtpalma.es/p/693,0, ,,0
+701,701,701-Camí dels Reis (Polígon de Can Valero),CM DELS REIS,39.595190,2.636322,,http://www.emtpalma.es/p/701,0, ,,0
+708,708,708-Camí dels Reis (Polígon de Can Valero),CM DELS REIS,39.595316,2.636287,,http://www.emtpalma.es/p/708,0, ,,0
+713,713,713-Illes Balears  115,CL ILLES BALEARS 115,39.571974,2.612495,,http://www.emtpalma.es/p/713,0, ,,0
+714,714,714-Saridakis,CL SARIDAKIS,39.554471,2.610951,,http://www.emtpalma.es/p/714,0, ,,0
+715,715,715-Saridakis  42,CL SARIDAKIS 42,39.556868,2.608318,,http://www.emtpalma.es/p/715,0, ,,0
+716,716,716-Saridakis  47,CL SARIDAKIS 47,39.557020,2.608061,,http://www.emtpalma.es/p/716,0, ,,0
+717,717,717-Saridakis (Fundació Miró),CL SARIDAKIS,39.554345,2.610986,,http://www.emtpalma.es/p/717,0, ,,0
+718,718,718-Camí dels Reis,CM DELS REIS,39.598718,2.640695,,http://www.emtpalma.es/p/718,0, ,,0
+719,719,719-Camí dels Reis,CM DELS REIS 12,39.598637,2.640940,,http://www.emtpalma.es/p/719,0, ,,0
+722,722,722-Miquel Fleta  1,CR MIGUEL FLETA 1,39.583643,2.664761,,http://www.emtpalma.es/p/722,0, ,,1
+723,723,723-Jacint Verdaguer  7,CR JACINT VERDAGUER 7,39.579626,2.659179,,http://www.emtpalma.es/p/723,0, ,,0
+725,725,725-Gremi de Sabaters  20,CL GREMI DE SABATERS 20,39.600215,2.668443,,http://www.emtpalma.es/p/725,0, ,,0
+728,728,728-San Francisco de Sales  72,CL FRANCESC DE SALES 72,39.590726,2.655829,,http://www.emtpalma.es/p/728,0, ,,0
+729,729,729-San Francisco de Sales  97,CL FRANCESC DE SALES 96,39.592263,2.657359,,http://www.emtpalma.es/p/729,0, ,,0
+730,730,730-Salvador Espriu  9,TR SALVADOR ESPRIU 9,39.593989,2.655988,,http://www.emtpalma.es/p/730,0, ,,0
+731,731,731-Gremi de Sucrers,CL GREMI SUCRERS,39.607977,2.657538,,http://www.emtpalma.es/p/731,0, ,,0
+732,732,732-Setze de Juliol  85,AV 16 DE JULIOL 85,39.607656,2.661523,,http://www.emtpalma.es/p/732,0, ,,0
+735,735,735-Camí dels Reis,CM DELS REIS,39.607858,2.656781,,http://www.emtpalma.es/p/735,0, ,,0
+736,736,736-Carles Riba  38,CL CARLES RIBA 38,39.591661,2.658026,,http://www.emtpalma.es/p/736,0, ,,0
+737,737,737-Joan Bonet  1,CL JOAN BONET 1,39.589344,2.657711,,http://www.emtpalma.es/p/737,0, ,,0
+738,738,738-Cra. Valldemossa  34,CR VALLDEMOSSA 34,39.589581,2.649593,,http://www.emtpalma.es/p/738,0, ,,0
+739,739,739-Cra. Valldemossa,CR VALLDEMOSSA,39.592613,2.648052,,http://www.emtpalma.es/p/739,0, ,,0
+740,740,740-Cra. Valldemossa  55,CR VALLDEMOSSA 55,39.592586,2.647889,,http://www.emtpalma.es/p/740,0, ,,0
+741,741,741-Cra. Valldemossa,CR VALLDEMOSSA,39.589895,2.649149,,http://www.emtpalma.es/p/741,0, ,,0
+742,742,742-Camí de Passatemps,CM PASSATEMPS,39.628831,2.655804,,http://www.emtpalma.es/p/742,0, ,,0
+743,743,743-Camí de la Real (Ca ses Monges),CM LA REAL,39.627800,2.639519,,http://www.emtpalma.es/p/743,0, ,,0
+744,744,744-Camí de la Real,CM LA REAL,39.631934,2.641875,,http://www.emtpalma.es/p/744,0, ,,0
+745,745,745-Son Espanyol,CM LA REAL,39.631190,2.646260,,http://www.emtpalma.es/p/745,0, ,,0
+746,746,746-Son Espases  19,CM SON ESPASES 19,39.610768,2.644745,,http://www.emtpalma.es/p/746,0, ,,0
+747,747,747-Camí de la Real,CM LA REAL,39.620670,2.638729,,http://www.emtpalma.es/p/747,0, ,,0
+748,748,748-Cra. Valldemossa  (Rotonda Can Moreno),CR VALLDEMOSSA 135,39.616492,2.645554,,http://www.emtpalma.es/p/748,0, ,,0
+749,749,749-Camí de la Real (Secar),CM LA REAL,39.608316,2.641496,,http://www.emtpalma.es/p/749,0, ,,0
+750,750,750-Monestir de la Real,CM LA REAL,39.602496,2.641491,,http://www.emtpalma.es/p/750,0, ,,0
+751,751,751-Can Valero  12,CL CAN VALERO 12,39.596529,2.635069,,http://www.emtpalma.es/p/751,0, ,,0
+752,752,752-Can Valero (Aula Balear),CL CAN VALERO,39.598917,2.632331,,http://www.emtpalma.es/p/752,0, ,,0
+753,753,753-Carrer Poima  17,CL POIMA 17,39.595617,2.631778,,http://www.emtpalma.es/p/753,0, ,,0
+754,754,754-Carrer Poima  7,CL POIMA 7,39.594262,2.633450,,http://www.emtpalma.es/p/754,0, ,,0
+755,755,755-Cementeri,CM JESUS,39.586118,2.639525,,http://www.emtpalma.es/p/755,0, ,,0
+756,756,756-Camí de Jesús (Psiquiàtric),CM JESUS,39.582632,2.642932,,http://www.emtpalma.es/p/756,0, ,,0
+757,757,757-Camí de Jesús,CM JESUS,39.578337,2.646936,,http://www.emtpalma.es/p/757,0, ,,0
+758,758,758-Camí de Jesús (Psiquiàtric),CM JESUS,39.582939,2.642989,,http://www.emtpalma.es/p/758,0, ,,0
+759,759,759-Cementeri,CM JESUS,39.586460,2.639570,,http://www.emtpalma.es/p/759,0, ,,0
+760,760,760-Quatre de novembre  2,CL QUATRE DE NOVEMBRE 2,39.594670,2.631422,,http://www.emtpalma.es/p/760,0, ,,0
+761,761,761-Poima  26,CL POIMA 26,39.597074,2.630885,,http://www.emtpalma.es/p/761,0, ,,0
+762,762,762-Aula Balear,CL CAN VALERO 19,39.598763,2.632157,,http://www.emtpalma.es/p/762,0, ,,0
+763,763,763-Can Valero  5,CL CAN VALERO 5,39.596276,2.635059,,http://www.emtpalma.es/p/763,0, ,,0
+764,764,764-Monestir de la Real,CM LA REAL,39.602532,2.641560,,http://www.emtpalma.es/p/764,0, ,,0
+765,765,765-Camí de la Real,CM LA REAL,39.608461,2.641611,,http://www.emtpalma.es/p/765,0, ,,0
+766,766,766-Camí de la Real  22,CM LA REAL 22,39.610832,2.642042,,http://www.emtpalma.es/p/766,0, ,,0
+767,767,767-Son Porro,CM LA REAL,39.614263,2.641453,,http://www.emtpalma.es/p/767,0, ,,0
+768,768,768-Camí de la Real  55,CM LA REAL,39.616423,2.640708,,http://www.emtpalma.es/p/768,0, ,,0
+769,769,769-Camí de la Real  30,CM LA REAL 30,39.618123,2.639674,,http://www.emtpalma.es/p/769,0, ,,0
+770,770,770-Camí de la Real  (Can Rave),CM LA REAL 75,39.624498,2.638161,,http://www.emtpalma.es/p/770,0, ,,0
+771,771,771-Balneari  3,AV CARTAGO,39.509854,2.749601,,http://www.emtpalma.es/p/771,0, ,,0
+775,775,775-Camí de Passatemps,CM PASSATEMPS,39.634724,2.655868,,http://www.emtpalma.es/p/775,0, ,,0
+776,776,776-Camí de Passatemps,CM PASSATEMPS,39.634787,2.655762,,http://www.emtpalma.es/p/776,0, ,,0
+780,780,780-Mussol  21,CL MUSSOL 210,39.592483,2.607419,,http://www.emtpalma.es/p/780,0, ,,0
+781,781,781-Mussol,CL MUSSOL,39.592430,2.607687,,http://www.emtpalma.es/p/781,0, ,,0
+784,784,784-Joan Miró  299,CM JOAN MIRÓ 299,39.552471,2.602954,,http://www.emtpalma.es/p/784,0, ,,0
+785,785,785-Can Tàpera,CM GENOVA A SANT AGUSTI,39.552626,2.598344,,http://www.emtpalma.es/p/785,0, ,,0
+786,786,786-Can Tàpera,CM GENOVA A SANT AGUSTI,39.552887,2.598296,,http://www.emtpalma.es/p/786,0, ,,0
+787,787,787-Joan Miró  320,CM JOAN MIRÓ 320,39.552451,2.602430,,http://www.emtpalma.es/p/787,0, ,,0
+788,788,788-Camí de Passatemps  123 (C. Esports),CM PASSATEMPS 123,39.623043,2.654632,,http://www.emtpalma.es/p/788,0, ,,0
+790,790,790-Sa Garriga,CM DES DESTRE 1,39.635751,2.655874,,http://www.emtpalma.es/p/790,0, ,,0
+791,791,791-Passatemps  116,CM PASSATEMPS 116,39.622503,2.654856,,http://www.emtpalma.es/p/791,0, ,,0
+792,792,792-Camí de Passatemps,CM PASSATEMPS,39.628840,2.655908,,http://www.emtpalma.es/p/792,0, ,,0
+793,793,793-Manacor  303,CR MANACOR 330,39.571274,2.719971,,http://www.emtpalma.es/p/793,0, ,,0
+794,794,794-Manacor  385,CR MANACOR 385,39.571391,2.719866,,http://www.emtpalma.es/p/794,0, ,,0
+795,795,795-Camí dels Reis (Sa Indioteria),CM DELS REIS 19,39.611456,2.676788,,http://www.emtpalma.es/p/795,0, ,,0
+796,796,796-Caracas,CL CARACAS,39.569166,2.665704,,http://www.emtpalma.es/p/796,0, ,,0
+797,797,797-Alfons el Magnànim  94,CL ALFONS EL MAGNÀNIM 94,39.594858,2.654586,,http://www.emtpalma.es/p/797,0, ,,0
+799,799,799-Av. Alexandre Rosselló  9,AV ALEXANDRE ROSSELLÓ 9,39.572158,2.656608,,http://www.emtpalma.es/p/799,0, ,,0
+802,802,802-Centre comercial,CL CARDENAL ROSSELL,39.555145,2.705544,,http://www.emtpalma.es/p/802,0, ,,0
+804,804,804-Cra. Manacor,CR MANACOR (ROT. SON LLATZER > MANACOR,39.570834,2.702602,,http://www.emtpalma.es/p/804,0, ,,0
+805,805,805-Cra. Manacor,CR MANACOR (ROT. SON LLATZER > PALMA),39.570646,2.702813,,http://www.emtpalma.es/p/805,0, ,,0
+808,808,808-Amadip,AV EL CID,39.588098,2.713254,,http://www.emtpalma.es/p/808,0, ,,0
+810,810,810-Sindicat,CL SINDICAT,39.572527,2.656408,,http://www.emtpalma.es/p/810,0, ,,0
+811,811,811-Sant Jordi,CL MONTEROS,39.554693,2.777399,,http://www.emtpalma.es/p/811,0, ,,0
+812,812,812-Esperanto  6,CL ESPERANTO,39.571810,2.710818,,http://www.emtpalma.es/p/812,0, ,,0
+813,813,813-Manacor,CL MANACOR,39.571296,2.657602,,http://www.emtpalma.es/p/813,0, ,,0
+814,814,814-Son Malferit,CL MANACOR,39.570253,2.680508,,http://www.emtpalma.es/p/814,0, ,,0
+815,815,815-Esperanto  30,CL ESPERANTO 30,39.572477,2.714459,,http://www.emtpalma.es/p/815,0, ,,0
+816,816,816-Ambulatori de Son Ferriol,CL MARGALIDA MONLAU 30,39.574278,2.714021,,http://www.emtpalma.es/p/816,0, ,,0
+817,817,817-Margalida Monlau  56,CL MARGALIDA MONLAU 56,39.577249,2.713136,,http://www.emtpalma.es/p/817,0, ,,0
+818,818,818-Ordi  62,CL ORDI 62,39.578154,2.714774,,http://www.emtpalma.es/p/818,0, ,,0
+819,819,819-Avinguda del Cid  63,AV EL CID 63,39.577698,2.716254,,http://www.emtpalma.es/p/819,0, ,,0
+820,820,820-Avinguda del Cid  37,AV EL CID,39.575357,2.716963,,http://www.emtpalma.es/p/820,0, ,,0
+821,821,821-Avinguda del Cid  17,AV EL CID 17,39.572881,2.717729,,http://www.emtpalma.es/p/821,0, ,,0
+824,824,824-Son Malferit,CR MANACOR 207,39.570469,2.680262,,http://www.emtpalma.es/p/824,0, ,,0
+825,825,825-Manacor  137,CL MANACOR 137,39.571270,2.673506,,http://www.emtpalma.es/p/825,0, ,,0
+827,827,827-Camí de Sant Jordi,CL SANT JORDI,39.561553,2.765597,,http://www.emtpalma.es/p/827,0, ,,0
+828,828,828-Ctra. Manacor Km 7,CR MANACOR (KM. 7),39.571149,2.736015,,http://www.emtpalma.es/p/828,0, ,,0
+829,829,829-Vial de Servei,CR MANACOR (KM 9),39.567598,2.764901,,http://www.emtpalma.es/p/829,0, ,,0
+830,830,830-Cra. Manacor Km 7 8,CR MANACOR (KM 7-8),39.568036,2.754480,,http://www.emtpalma.es/p/830,0, ,,0
+831,831,831-Sa Casa Blanca,CR MANACOR,39.567581,2.756484,,http://www.emtpalma.es/p/831,0, ,,0
+832,832,832-Camí de Sant Jordi,CL SANT JORDI,39.558670,2.770274,,http://www.emtpalma.es/p/832,0, ,,0
+833,833,833-Carrer de Sant Jordi,CL SANT JORDI,39.556301,2.775217,,http://www.emtpalma.es/p/833,0, ,,0
+834,834,834-Sant Jordi,PZ MONTEROS,39.554575,2.777388,,http://www.emtpalma.es/p/834,0, ,,0
+835,835,835-Camí de Sant Jordi  101,CL SANT JORDI 101,39.556463,2.775135,,http://www.emtpalma.es/p/835,0, ,,0
+836,836,836-Camí de Sant Jordi,CL SANT JORDI,39.558896,2.770320,,http://www.emtpalma.es/p/836,0, ,,0
+837,837,837-Sa Casa Blanca,CR MANACOR (CASA BLANCA),39.567662,2.756414,,http://www.emtpalma.es/p/837,0, ,,0
+838,838,838-Cra. Manacor km 8,CR MANACOR (KILÓMETRO 8),39.568198,2.754386,,http://www.emtpalma.es/p/838,0, ,,0
+840,840,840-Cra. Manacor km 7,CR MANACOR ( KILÓMETRO 7),39.571221,2.735910,,http://www.emtpalma.es/p/840,0, ,,0
+841,841,841-Camí de sa Síquia,CM SA SÍQUIA,39.565600,2.774931,,http://www.emtpalma.es/p/841,0, ,,0
+843,843,843-Avinguda del Cid  26,AV EL CID 26,39.573368,2.717681,,http://www.emtpalma.es/p/843,0, ,,0
+844,844,844-Avinguda del Cid  52,AV EL CID 52,39.575186,2.717126,,http://www.emtpalma.es/p/844,0, ,,0
+845,845,845-Avinguda del Cid  70,AV EL CID 70,39.576780,2.716642,,http://www.emtpalma.es/p/845,0, ,,0
+846,846,846-Plató,CL PLATÓ,39.576376,2.713698,,http://www.emtpalma.es/p/846,0, ,,1
+847,847,847-Andorra  31,CL ANDORRA 31,39.574679,2.712355,,http://www.emtpalma.es/p/847,0, ,,0
+848,848,848-Andorra,CL ANDORRA,39.571600,2.713473,,http://www.emtpalma.es/p/848,0, ,,0
+849,849,849-Hospital Son Llàtzer,CR MANACOR (HOSPITAL SON LLÀTZER),39.573285,2.702510,,http://www.emtpalma.es/p/849,0, ,,0
+856,856,856-S'Hostalot,CL PUIG GROS 8,39.589382,2.730275,,http://www.emtpalma.es/p/856,0, ,,0
+857,857,857-Puig de la Mola  21,CL PUIG LA MOLA 21,39.586680,2.730483,,http://www.emtpalma.es/p/857,0, ,,0
+860,860,860-Biniamar,CL BINIAMAR,39.582149,2.681443,,http://www.emtpalma.es/p/860,0, ,,0
+861,861,861-Son Gibert,BO SON GIBERT,39.582641,2.683432,,http://www.emtpalma.es/p/861,0, ,,0
+862,862,862-Mimosa,CL MIMOSA,39.583575,2.685384,,http://www.emtpalma.es/p/862,0, ,,1
+863,863,863-Baltasar Valentí,CL BALTASAR VALENTI 63,39.586824,2.684146,,http://www.emtpalma.es/p/863,0, ,,1
+865,865,865-Camí de Gènova  43,CM GÈNOVA 43,39.573175,2.615969,,http://www.emtpalma.es/p/865,0, ,,0
+870,870,870-Turixant  29,CL TURIXANT,39.595445,2.588593,,http://www.emtpalma.es/p/870,0, ,,0
+871,871,871-Turixant  9,CL TURIXANT 9,39.591560,2.590701,,http://www.emtpalma.es/p/871,0, ,,0
+872,872,872-Almadrà,CL ALMADRÀ,39.588527,2.596751,,http://www.emtpalma.es/p/872,0, ,,0
+873,873,873-Marola  14,CL MAROLA,39.595276,2.591599,,http://www.emtpalma.es/p/873,0, ,,0
+874,874,874-Turixant  1,CL TURIXANT,39.589318,2.593718,,http://www.emtpalma.es/p/874,0, ,,0
+875,875,875-Cra. Manacor,CR MANACOR ROT CM SALARD DIREC S FERRIOL,39.570329,2.685153,,http://www.emtpalma.es/p/875,0, ,,0
+876,876,876-Cra. Manacor,CR MANACOR ROT CM SALARD DIREC PALMA,39.570535,2.684930,,http://www.emtpalma.es/p/876,0, ,,0
+880,880,880-Can Alegria,CL CAN ALEGRIA,39.531584,2.731860,,http://www.emtpalma.es/p/880,0, ,,0
+881,881,881-Martinet (centre escolar),CL MARTINET,39.530492,2.735169,,http://www.emtpalma.es/p/881,0, ,,0
+882,882,882-Sargàs,CL SARGAS,39.528153,2.736841,,http://www.emtpalma.es/p/882,0, ,,0
+883,883,883-Mar d'Aral,CL MAR D'ARAL,39.525673,2.744006,,http://www.emtpalma.es/p/883,0, ,,0
+884,884,884-Mar d'Aral (Hotel Cosmopolitan),CL MAR D'ARAL,39.523462,2.746295,,http://www.emtpalma.es/p/884,0, ,,0
+885,885,885-Mar d'Aral (Hotel Lancaster),CL MAR D'ARAL,39.520519,2.747864,,http://www.emtpalma.es/p/885,0, ,,0
+886,886,886-Dragonera,CL DRAGONERA,39.498918,2.759387,,http://www.emtpalma.es/p/886,0, ,,0
+887,887,887-Dragonera  22,CL DRAGONERA 22,39.498762,2.758178,,http://www.emtpalma.es/p/887,0, ,,0
+888,888,888-Avinguda d'Europa (Hotel Bahamas),AV EUROPA,39.497143,2.755311,,http://www.emtpalma.es/p/888,0, ,,0
+889,889,889-Avinguda d'Europa (Hotel Reina Isabel),AV EUROPA,39.498547,2.754376,,http://www.emtpalma.es/p/889,0, ,,0
+890,890,890-Trencadors  27,CL DELS TRENCADORS 27,39.502258,2.753851,,http://www.emtpalma.es/p/890,0, ,,0
+891,891,891-Plaça dels Nins,CL MILITAR 51,39.505394,2.754037,,http://www.emtpalma.es/p/891,0, ,,0
+892,892,892-Cra. Militar  231,CL MILITAR,39.507864,2.754634,,http://www.emtpalma.es/p/892,0, ,,0
+893,893,893-Mar d'Aral (Hotel Lancaster),CL MAR D'ARAL 5,39.520591,2.747969,,http://www.emtpalma.es/p/893,0, ,,0
+894,894,894-Mar d'Aral (Hotel Cosmopolitan),CL MAR D'ARAL,39.523561,2.746376,,http://www.emtpalma.es/p/894,0, ,,0
+895,895,895-Mar d'Aral,CL MAR D'ARAL,39.525673,2.744181,,http://www.emtpalma.es/p/895,0, ,,0
+896,896,896-Sargàs,CL SARGAS,39.528010,2.737144,,http://www.emtpalma.es/p/896,0, ,,0
+897,897,897-Martinet (centre escolar),CL MARTINET,39.530402,2.735227,,http://www.emtpalma.es/p/897,0, ,,0
+898,898,898-Can Alegria,CL CAN ALEGRIA,39.531638,2.731790,,http://www.emtpalma.es/p/898,0, ,,0
+900,900,900-Cannes  34,CL CANNES 34,39.506383,2.753080,,http://www.emtpalma.es/p/900,0, ,,0
+901,901,901-Dragonera  1,CL DRAGONERA 1,39.501115,2.758647,,http://www.emtpalma.es/p/901,0, ,,0
+902,902,902-Dragonera  2,CL DRAGONERA 2,39.501241,2.758704,,http://www.emtpalma.es/p/902,0, ,,0
+903,903,903-Trencadors (Hotel Bahía),CL TRENCADORS,39.501491,2.753574,,http://www.emtpalma.es/p/903,0, ,,0
+904,904,904-Cra. de Sóller (presó),CR SÓLLLER,39.599139,2.654704,,http://www.emtpalma.es/p/904,0, ,,0
+905,905,905-Cra. de Sóller (presó),CR SOLLER,39.599816,2.655120,,http://www.emtpalma.es/p/905,0, ,,0
+906,906,906-Uruguai (Velòdrom),CL URUGUAI,39.587354,2.643083,,http://www.emtpalma.es/p/906,0, ,,0
+907,907,907-Pardo Bazán  26,CL PARDO BAZAN 26,39.593183,2.614543,,http://www.emtpalma.es/p/907,0, ,,0
+908,908,908-Saridakis  8,CL SARIDAKIS 8,39.552575,2.612474,,http://www.emtpalma.es/p/908,0, ,,0
+909,909,909-Saridakis  3,CL SARIDAKIS 3,39.552547,2.612347,,http://www.emtpalma.es/p/909,0, ,,0
+910,910,910-Picasso  62,CR JOAN RIPOLL I TROBAT 62,39.578662,2.626791,,http://www.emtpalma.es/p/910,0, ,,0
+911,911,911-Joan Ripoll i Trobat  32,CR JOAN RIPOLL I TROBAT 32,39.581919,2.628206,,http://www.emtpalma.es/p/911,0, ,,0
+912,912,912-Policlínica,CR JOAN RIPOLL I TROBAT 52,39.582962,2.630436,,http://www.emtpalma.es/p/912,0, ,,0
+913,913,913-Salvador Dalí  54,CR SALVADOR DALÍ 54,39.584470,2.634271,,http://www.emtpalma.es/p/913,0, ,,1
+914,914,914-Cementeri,CR URUGUAI,39.585987,2.640947,,http://www.emtpalma.es/p/914,0, ,,0
+920,920,920-Rotonda de Portopí,LU ROTONDA PORTOPI,39.550633,2.619224,,http://www.emtpalma.es/p/920,0, ,,0
+921,921,921-Passeig Marítim (Can Barberà),AV GABRIEL ROCA,39.557286,2.625904,,http://www.emtpalma.es/p/921,0, ,,0
+922,922,922-Passeig Marítim (L'Aigua Dolça),AV GABRIEL ROCA 27,39.565224,2.628726,,http://www.emtpalma.es/p/922,0, ,,0
+924,924,924-Passeig Marítim (L'Aigua Dolça),AV GABRIEL ROCA 27,39.565287,2.628411,,http://www.emtpalma.es/p/924,0, ,,0
+925,925,925-Passeig Marítim (Can Barberà),AV GABRIEL ROCA,39.557484,2.625752,,http://www.emtpalma.es/p/925,0, ,,0
+929,929,929-Moll Vell,LU MOLL VELL,39.565750,2.644008,,http://www.emtpalma.es/p/929,0, ,,0
+934,934,934-Jacint  Verdaguer,CL JACINT VERDAGUER,39.581753,2.662406,,http://www.emtpalma.es/p/934,0, ,,1
+945,945,945-Camí de Son Fangos,CM SON FANGOS,39.533802,2.736657,,http://www.emtpalma.es/p/945,0, ,,0
+946,946,946-Camí de Son Fangos,CM SON FANGOS,39.531031,2.746477,,http://www.emtpalma.es/p/946,0, ,,0
+947,947,947-Es Pil·larí,CM SON FANGOS 262,39.529256,2.755024,,http://www.emtpalma.es/p/947,0, ,,0
+948,948,948-Cra. Militar,CR MILITAR PASSAT CAMÍ PIL·LARÍ,39.523298,2.762770,,http://www.emtpalma.es/p/948,0, ,,0
+949,949,949-Cra. Militar,CR MILITAR PASSAT CAMÍ PIL·LARÍ,39.523145,2.762631,,http://www.emtpalma.es/p/949,0, ,,0
+950,950,950-Marbella  36,CL MARBELLA 36,39.523472,2.738593,,http://www.emtpalma.es/p/950,0, ,,0
+951,951,951-Marbella  61,CL MARBELLA 61,39.523777,2.738359,,http://www.emtpalma.es/p/951,0, ,,0
+952,952,952-Es Pil·larí,CM SON FANGOS 245,39.529203,2.755617,,http://www.emtpalma.es/p/952,0, ,,0
+953,953,953-Camí de Son Fangos,CM SON FANGOS,39.531094,2.746465,,http://www.emtpalma.es/p/953,0, ,,0
+954,954,954-Camí de Son Fangos,CM SON FANGOS,39.534019,2.736715,,http://www.emtpalma.es/p/954,0, ,,0
+955,955,955-Camí de Son Ametler  36,CM SON AMETLER 36,39.588294,2.731292,,http://www.emtpalma.es/p/955,0, ,,0
+958,958,958-Jacint Verdaguer,CL JACINT VERDAGUER 31,39.581237,2.661512,,http://www.emtpalma.es/p/958,0, ,,1
+959,959,959-Ullastre,CM ULLASTRE,39.627357,2.645173,,http://www.emtpalma.es/p/959,0, ,,0
+963,963,963-Guillem Forteza  20,CL GUILLEM FORTEZA 20,39.587561,2.648858,,http://www.emtpalma.es/p/963,0, ,,1
+964,964,964-Miquel Arcas  4,CL MIQUEL ARCAS 4,39.587984,2.651895,,http://www.emtpalma.es/p/964,0, ,,1
+965,965,965-Tomàs de Villanueva Cortès  11,AV TOMÀS DE VILLANUEVA CORTÈS 11,39.587258,2.662344,,http://www.emtpalma.es/p/965,0, ,,0
+966,966,966-Gabriel Maura  19,CL GABRIEL MAURA 19,39.578067,2.659024,,http://www.emtpalma.es/p/966,0, ,,0
+967,967,967-Nicolau de Pacs  3,CL NICOLAU DE PACS 3,39.574053,2.660522,,http://www.emtpalma.es/p/967,0, ,,0
+968,968,968-Monsenyor Palmer,AV GABRIEL ROCA,39.569324,2.634269,,http://www.emtpalma.es/p/968,0, ,,0
+969,969,969-Joan Maragall  4,CL JOAN MARAGALL 4,39.565682,2.657350,,http://www.emtpalma.es/p/969,0, ,,0
+970,970,970-Adrià Ferran  36,CL ADRIÀ FERRAN 36,39.575579,2.668118,,http://www.emtpalma.es/p/970,0, ,,0
+971,971,971-Josep Darder  35,CL JOSEP DARDER 35,39.576985,2.667971,,http://www.emtpalma.es/p/971,0, ,,0
+972,972,972-Josep Darder  5,CL JOSEP DARDER 5,39.578495,2.663726,,http://www.emtpalma.es/p/972,0, ,,0
+973,973,973-Jacint Verdaguer  32,CL JACINT VERGAGUER 32,39.580079,2.659980,,http://www.emtpalma.es/p/973,0, ,,0
+974,974,974-Tomàs de Villanueva Cortès  14,AV TOMÀS DE VILLANUEVA CORTÈS 14,39.587403,2.662390,,http://www.emtpalma.es/p/974,0, ,,0
+975,975,975-Guillem Forteza  27,CR GUILLEM FORTEZA 27,39.587696,2.648880,,http://www.emtpalma.es/p/975,0, ,,1
+976,976,976-Cementeri,CR URUGUAI,39.586095,2.640830,,http://www.emtpalma.es/p/976,0, ,,0
+977,977,977-Policlínica,CR JOAN RIPOLL I TROBAT 37,39.583079,2.630319,,http://www.emtpalma.es/p/977,0, ,,0
+978,978,978-Joan Ripoll i Trobat  25,CR JOAN RIPOLL I TROBAT 25,39.582045,2.628252,,http://www.emtpalma.es/p/978,0, ,,0
+979,979,979-Picasso  61,CR JOAN RIPOLL I TROBAT 3,39.578806,2.626674,,http://www.emtpalma.es/p/979,0, ,,0
+980,980,980-Picasso  41,AV PICASSO 41,39.576135,2.625570,,http://www.emtpalma.es/p/980,0, ,,0
+981,981,981-Av. d'Alemanya  3,AV ALEMANYA 3,39.578000,2.648545,,http://www.emtpalma.es/p/981,0, ,,0
+982,982,982-Picasso  21,AV PICASSO 21,39.574595,2.625788,,http://www.emtpalma.es/p/982,0, ,,0
+983,983,983-Travessa d'en Ballester (Jutjats),TR TRAVESA D'EN BALLESTER,39.570245,2.655604,,http://www.emtpalma.es/p/983,0, ,,0
+985,985,985-Pl. Joan Carles I,PZ JOAN CARLES I 1,39.571164,2.646705,,http://www.emtpalma.es/p/985,0, ,,0
+986,986,986-Pl. de la Reina,PS ES BORN,39.569676,2.646328,,http://www.emtpalma.es/p/986,0, ,,0
+989,989,989-Concha Espina  5,CL CONCHA ESPINA 5,39.594490,2.614792,,http://www.emtpalma.es/p/989,0, ,,0
+990,990,990-Ramón y Cajal  14,CL RAMON I CAJAL 14,39.575294,2.641712,,http://www.emtpalma.es/p/990,0, ,,1
+992,992,992-Can Caimari  22,CL CAN CAIMARI 22,39.547909,2.698243,,http://www.emtpalma.es/p/992,0, ,,0
+993,993,993-Sa Creu Vermella,AV EL CID,39.582814,2.715547,,http://www.emtpalma.es/p/993,0, ,,0
+994,994,994-Uruguai (Velòdrom),CL URUGUAI,39.587257,2.643770,,http://www.emtpalma.es/p/994,0, ,,0
+997,997,997-Sant Joan de Déu (Hospital),CL SANT JOAN DE DÉU 1,39.547488,2.699176,,http://www.emtpalma.es/p/997,0, ,,0
+1001,1001,1001-Camí de Jesús (Pol. Son Valentí),CM JESÚS,39.592046,2.633579,,http://www.emtpalma.es/p/1001,0, ,,0
+1002,1002,1002-Camí de Jesús (Pol. Son Valentí),CM JESÚS,39.592000,2.633416,,http://www.emtpalma.es/p/1002,0, ,,0
+1003,1003,1003-Amílcar  1 (S'Arenal),CL AMILCAR 1,39.506236,2.751778,,http://www.emtpalma.es/p/1003,0, ,,0
+1004,1004,1004-Avinguda del Cid,AV EL CID,39.585541,2.714243,,http://www.emtpalma.es/p/1004,0, ,,0
+1005,1005,1005-Manuel Azaña (Mercat de Llevant),CL MANUEL AZAÑA 38,39.565698,2.663031,,http://www.emtpalma.es/p/1005,0, ,,0
+1006,1006,1006-Av. de Mèxic (Parc de Kristian Krekovic),AV MÈXIC,39.566263,2.665170,,http://www.emtpalma.es/p/1006,0, ,,0
+1007,1007,1007-Carrer Genil,CL GENIL 21,39.595434,2.676036,,http://www.emtpalma.es/p/1007,0, ,,0
+1008,1008,1008-Can Foradí  42,CL CAN FORADÍ 42,39.595476,2.678447,,http://www.emtpalma.es/p/1008,0, ,,0
+1009,1009,1009-Cala Estància,CM CAN PASTILLA 70,39.541219,2.710666,,http://www.emtpalma.es/p/1009,0, ,,0
+1012,1012,1012-Son Lledó,CL FORMENTERA,39.639440,2.648176,,http://www.emtpalma.es/p/1012,0, ,,0
+1013,1013,1013-Ed. Anselm Turmeda,CL MALLORCA,39.637457,2.644725,,http://www.emtpalma.es/p/1013,0, ,,0
+1014,1014,1014-Carrer Mallorca,CL MALLORCA,39.638026,2.648241,,http://www.emtpalma.es/p/1014,0, ,,0
+1015,1015,1015-Son Hugo,ED SON HUG0,39.593005,2.661629,,http://www.emtpalma.es/p/1015,0, ,,0
+1017,1017,1017-Ter  14 (pol. Son Fuster),CL TER 14,39.592832,2.673754,,http://www.emtpalma.es/p/1017,0, ,,0
+1018,1018,1018-Ter  21 (pol. Son Fuster),CL TER 21,39.592553,2.673580,,http://www.emtpalma.es/p/1018,0, ,,0
+1019,1019,1019-Canonge Antoni Sancho  44,CL CANONGE ANTONI SANCHO 44,39.596681,2.677451,,http://www.emtpalma.es/p/1019,0, ,,1
+1021,1021,1021-Son Llàtzer (consultes externes),LU SON LLÀTZER,39.571872,2.703087,,http://www.emtpalma.es/p/1021,0, ,,0
+1022,1022,1022-Hospital Son Llàtzer,LU HOSPITAL SON LLÀTZER,39.573578,2.704465,,http://www.emtpalma.es/p/1022,0, ,,0
+1024,1024,1024-Can Valero,CL ALEXANDRE DE LABORDE 17,39.600675,2.627127,,http://www.emtpalma.es/p/1024,0, ,,0
+1025,1025,1025-Carrer Poima  31,CL POIMA 31,39.598754,2.629374,,http://www.emtpalma.es/p/1025,0, ,,0
+1026,1026,1026-Camí dels Reis  201,CM REIS 201,39.592266,2.632063,,http://www.emtpalma.es/p/1026,0, ,,0
+1027,1027,1027-Camí dels Reis (estadi futbol),CM REIS 191,39.589299,2.625464,,http://www.emtpalma.es/p/1027,0, ,,0
+1028,1028,1028-Camí dels Reis (estadi futbol),CM DELS REIS 128,39.589218,2.625535,,http://www.emtpalma.es/p/1028,0, ,,0
+1029,1029,1029-Camí dels Reis  123,CM DELS REIS 123,39.592285,2.632389,,http://www.emtpalma.es/p/1029,0, ,,0
+1033,1033,1033-Gremi de Ferrers  46,CL GREMI  DE FERRERS 46,39.603391,2.673238,,http://www.emtpalma.es/p/1033,0, ,,0
+1034,1034,1034-Gran Via Asima  38,CL GRAN VIA ASIMA 38,39.610838,2.665352,,http://www.emtpalma.es/p/1034,0, ,,0
+1038,1038,1038-Son Oliver  125,CM SON OLIVER 125,39.553446,2.775646,,http://www.emtpalma.es/p/1038,0, ,,0
+1039,1039,1039-Son Oliver  128,CM SON OLIVER 128,39.553329,2.776007,,http://www.emtpalma.es/p/1039,0, ,,0
+1040,1040,1040-Depuradora,LU DEPURADORA,39.546682,2.767893,,http://www.emtpalma.es/p/1040,0, ,,0
+1041,1041,1041-Depuradora,LU DEPURADORA,39.546655,2.768230,,http://www.emtpalma.es/p/1041,0, ,,0
+1043,1043,1043-Darwin,CL DARWIN,39.552335,2.702379,,http://www.emtpalma.es/p/1043,0, ,,0
+1044,1044,1044-Darwin (edifici Endesa),CL DARWIN,39.549505,2.701960,,http://www.emtpalma.es/p/1044,0, ,,0
+1045,1045,1045-Darwin (edifici Endesa),CL DARWIN,39.549577,2.702100,,http://www.emtpalma.es/p/1045,0, ,,0
+1046,1046,1046-Darwin,CL DARWIN,39.552408,2.702495,,http://www.emtpalma.es/p/1046,0, ,,0
+1048,1048,1048-Joan Carles I,PZ JOAN CARLES I,39.571174,2.647031,,http://www.emtpalma.es/p/1048,0, ,,0
+1049,1049,1049-Poliesportiu,CM CAMÍ DE GÈNOVA A SANT AGUSTÍ 2,39.555521,2.596593,,http://www.emtpalma.es/p/1049,0, ,,0
+1050,1050,1050-Poliesportiu,CM CAMÍ DE MITJA LLUNA 18,39.555478,2.597187,,http://www.emtpalma.es/p/1050,0, ,,0
+1051,1051,1051-Av. Alemanya  7,AV ALEMANYA 7,39.577855,2.648394,,http://www.emtpalma.es/p/1051,0, ,,0
+1058,1058,1058-Camí Salard  34,CL CAMÍ SALARD  34,39.585789,2.681088,,http://www.emtpalma.es/p/1058,0, ,,0
+1059,1059,1059-Camí Salard  60,CL CAMÍ SALARD 60,39.583125,2.682370,,http://www.emtpalma.es/p/1059,0, ,,0
+1060,1060,1060-Camí dels Reis (Son Berga),CM DELS REIS,39.567888,2.603180,,http://www.emtpalma.es/p/1060,0, ,,0
+1061,1061,1061-Camí dels Reis (Son Berga),CM DELS REIS,39.567952,2.603343,,http://www.emtpalma.es/p/1061,0, ,,0
+1062,1062,1062-Andreu Ferret  1,CL ANDREU FERRET 1,39.555028,2.597236,,http://www.emtpalma.es/p/1062,0, ,,0
+1063,1063,1063-Noruega  13,CL NORUEGA  13,39.553417,2.595092,,http://www.emtpalma.es/p/1063,0, ,,0
+1064,1064,1064-Noruega  1,CL NORUEGA 1,39.552573,2.593456,,http://www.emtpalma.es/p/1064,0, ,,0
+1065,1065,1065-Camí de Son Toells  17,CL CAMÍ SON TOELLS 17,39.551646,2.596522,,http://www.emtpalma.es/p/1065,0, ,,0
+1066,1066,1066-Polígon Son Rossinyol,PG SON ROSSINYOL,39.602204,2.655260,,http://www.emtpalma.es/p/1066,0, ,,0
+1067,1067,1067-Son Oliver,CM SON OLIVER,39.549416,2.769955,,http://www.emtpalma.es/p/1067,0, ,,0
+1068,1068,1068-Son Oliver  53,CM SON OLIVER 53,39.549344,2.769839,,http://www.emtpalma.es/p/1068,0, ,,0
+1070,1070,1070-Pompeu Fabra  65,CL POMPEU FABRA 65,39.588696,2.654686,,http://www.emtpalma.es/p/1070,0, ,,0
+1071,1071,1071-Pompeu Fabra  50,CL POMPEU FABRA 50,39.588858,2.654639,,http://www.emtpalma.es/p/1071,0, ,,0
+1072,1072,1072-Pompeu Fabra  7,CL POMPEU FABRA 7,39.588631,2.657120,,http://www.emtpalma.es/p/1072,0, ,,0
+1073,1073,1073-Pompeu Fabra  20,CL POMPEU FABRA 20,39.588760,2.658110,,http://www.emtpalma.es/p/1073,0, ,,0
+1074,1074,1074-Son Espases Hospitalització,ED SON ESPASES HOSPITALITZACIÓ,39.607301,2.645356,,http://www.emtpalma.es/p/1074,0, ,,0
+1075,1075,1075-Son Espases Consultes,ED SON ESPASES CONSULTES,39.607116,2.643727,,http://www.emtpalma.es/p/1075,0, ,,0
+1076,1076,1076-Son Espases Consultes,ED SON ESPASES CONSULTES,39.606954,2.643844,,http://www.emtpalma.es/p/1076,0, ,,0
+1077,1077,1077-Camí de Son Toells  33,CM SON TOELLS 33,39.551788,2.593227,,http://www.emtpalma.es/p/1077,0, ,,0
+1078,1078,1078-Plaça d'Espanya,PZ ESPANYA,39.576034,2.654016,,http://www.emtpalma.es/p/1078,0, ,,0
+1079,1079,1079-CIS de Mallorca,CL CARRER ENLLAÇ VIA DE CINTURA,39.567258,2.685993,,http://www.emtpalma.es/p/1079,0, ,,0
+1080,1080,1080-Son Cladera,CM NOU,39.600402,2.680684,,http://www.emtpalma.es/p/1080,0, ,,0
+1081,1081,1081-Mallol  33,CL MALLOL 33,39.598061,2.681172,,http://www.emtpalma.es/p/1081,0, ,,0
+1082,1082,1082-Baltasar Valentí  25,CL BALTASAR VALENTI 25,39.590983,2.682765,,http://www.emtpalma.es/p/1082,0, ,,0
+1083,1083,1083-Mallol,CL MALLOL,39.593181,2.682417,,http://www.emtpalma.es/p/1083,0, ,,0
+1084,1084,1084-Mallol  107,CL MALLOL 107,39.597566,2.681523,,http://www.emtpalma.es/p/1084,0, ,,0
+1085,1085,1085-Gremi de Sabaters,CL GREMI SABATERS,39.603531,2.665562,,http://www.emtpalma.es/p/1085,0, ,,0
+1087,1087,1087-Antoni Marquès  9,CL ANTONI MARQUÈS 9,39.579476,2.651134,,http://www.emtpalma.es/p/1087,0, ,,0
+1090,1090,1090-Cala Nova,CL JOAN MIRÓ,39.550312,2.598741,,http://www.emtpalma.es/p/1090,0, ,,0
+1093,1093,1093-Alber  64,CL ALBER 64,39.582302,2.677879,,http://www.emtpalma.es/p/1093,0, ,,0
+1094,1094,1094-Hort municipal,CM CAMÍ 140,39.621245,2.671605,,http://www.emtpalma.es/p/1094,0, ,,0
+1095,1095,1095-Camí Salard  12,CM SALARD 12,39.588029,2.679983,,http://www.emtpalma.es/p/1095,0, ,,0
+1096,1096,1096-Gran Via Asima  21,AV ASIMA 21,39.606855,2.668167,,http://www.emtpalma.es/p/1096,0, ,,0
+1097,1097,1097-Gran Via Asima  11,AV ASIMA 11,39.604725,2.670006,,http://www.emtpalma.es/p/1097,0, ,,0
+1101,1101,1101-C.Esport-Residència,CL MENORCA,39.642713,2.645922,,http://www.emtpalma.es/p/1101,0, ,,0
+1102,1102,1102-C.Esport-Residència,CL MENORCA,39.642577,2.645363,,http://www.emtpalma.es/p/1102,0, ,,0
+1103,1103,1103-Ctra. Sineu,CR SINEU,39.578409,2.708532,,http://www.emtpalma.es/p/1103,0, ,,0
+1104,1104,1104-Son Espanyol,CL MARIA AGNESI,39.635719,2.642205,,http://www.emtpalma.es/p/1104,0, ,,0
+1105,1105,1105-Son Espanyol,CL MARIA AGNESI,39.635719,2.642100,,http://www.emtpalma.es/p/1105,0, ,,0
+1106,1106,1106-Camí de Gènova  4,CM GÈNOVA 4,39.572340,2.619606,,http://www.emtpalma.es/p/1106,0, ,,0
+1107,1107,1107-Camí de Gènova  1,CM GÈNOVA 1,39.572196,2.619467,,http://www.emtpalma.es/p/1107,0, ,,0
+1108,1108,1108-Verge de Lluc (centre de salut),CL CALA FIGUERA 14,39.594931,2.683422,,http://www.emtpalma.es/p/1108,0, ,,0
+1116,1116,1116-Parc de Sa Riera,CL ANDREU TORRENS,39.581562,2.643741,,http://www.emtpalma.es/p/1116,0, ,,0
+1117,1117,1117-Balanguera  27 (REGULACIÓ HORÀRIA),CL BALANGUERA 27,39.579051,2.641635,,http://www.emtpalma.es/p/1117,0, ,,0
+1122,1122,1122-Ter  2,CL TER 2,39.589642,2.676797,,http://www.emtpalma.es/p/1122,0, ,,0
+1123,1123,1123-Guadiana  35,CL GUADIANA 35,39.592495,2.675642,,http://www.emtpalma.es/p/1123,0, ,,0
+1124,1124,1124-Genil  32,CL GENIL 32,39.595641,2.675988,,http://www.emtpalma.es/p/1124,0, ,,0
+1125,1125,1125-Ter  1,CL TER 1,39.589388,2.676146,,http://www.emtpalma.es/p/1125,0, ,,0
+1127,1127,1127-Portopí (centre comercial),CL JOAN MIRÓ,39.552072,2.621358,,http://www.emtpalma.es/p/1127,0, ,,0
+1128,1128,1128-Gran Via Asima  22,CL VIA ASIMA 22,39.606596,2.668995,,http://www.emtpalma.es/p/1128,0, ,,0
+1133,1133,1133-Son Llinàs,CR VELLA DE SINEU,39.577424,2.703739,,http://www.emtpalma.es/p/1133,0, ,,0
+1135,1135,1135-Àrea Serveis Aeroport,CM FONDO,39.543253,2.717151,,http://www.emtpalma.es/p/1135,0, ,,0
+1136,1136,1136-Àrea Serveis Aeroport,CM FONDO,39.543757,2.716870,,http://www.emtpalma.es/p/1136,0, ,,0
+1137,1137,1137-Cases Noves  40,CM CASES NOVES 40,39.625933,2.647778,,http://www.emtpalma.es/p/1137,0, ,,0
+1138,1138,1138-Josep Antoni de Cabanyes  18,CL JOSEP ANTONI DE CABANYES 18,39.602031,2.628506,,http://www.emtpalma.es/p/1138,0, ,,0
+1140,1140,1140-Edifici Jovellanos,CL MENORCA,39.640205,2.644652,,http://www.emtpalma.es/p/1140,0, ,,0
+1142,1142,1142-CIS de Mallorca,CL CARRER ENLLAÇ VIA DE CINTURA,39.567349,2.686260,,http://www.emtpalma.es/p/1142,0, ,,0
+1143,1143,1143-Institut Josep Sureda,CL AVINGUA DEL CID,39.591484,2.712308,,http://www.emtpalma.es/p/1143,0, ,,0
+1144,1144,1144-Camí de la Real,CM LA REAL,39.626310,2.638665,,http://www.emtpalma.es/p/1144,0, ,,0
+1145,1145,1145-Carrer Julián Gayarre,CL JULIAN GAYARRE,39.584819,2.663323,,http://www.emtpalma.es/p/1145,0, ,,0
+1146,1146,1146-AEROPORT-ARRIBADES,ED AEROPORT-ARRIBADES,39.547247,2.729169,,http://www.emtpalma.es/p/1146,0, ,,0

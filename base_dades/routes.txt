@@ -1,0 +1,30 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+L001,EMT-Palma,1,Aeroport-Ciutat-Port,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=1,44743F,FFFFFF
+L002,EMT-Palma,2,Circumval·lació Centre Històric,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=2,B78DBA,FFFFFF
+L003,EMT-Palma,3,Es Pont d'Inca - Illetes,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=3,F45BA4,000000
+L005,EMT-Palma,5,Es Rafal Nou - Son Dureta,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=5,72C0D8,FFFFFF
+L006,EMT-Palma,6,Nou Llevant - Son Espases,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=6,4F6D5E,FFFFFF
+L007,EMT-Palma,7,Son Rapinya - Son Gotleu,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=7,499C75,FFFFFF
+L008,EMT-Palma,8,Son Roca,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=8,4E43B1,FFFFFF
+L009,EMT-Palma,9,Son Espanyol,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=9,AB478F,FFFFFF
+L010,EMT-Palma,10,Son Cladera - Sa Indioteria,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=10,623E5A,FFFFFF
+L011,EMT-Palma,11,Sa Indioteria,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=11,F3DB78,000000
+L012,EMT-Palma,12,Son Sardina - Nou Llevant,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=12,F1B543,000000
+L014,EMT-Palma,14,Son Ferriol,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=14,6173C7,FFFFFF
+L015,EMT-Palma,15,Platja de Palma - Plaça de la Reina,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=15,2474CC,FFFFFF
+L016,EMT-Palma,16,Establiments - Son Fuster,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=16,5496AF,FFFFFF
+L018,EMT-Palma,18,Son Riera,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=18,716240,FFFFFF
+L019,EMT-Palma,19,Universitat,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=19,5EA532,FFFFFF
+L020,EMT-Palma,20,Sant Agustí - Son Espases,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=20,DE544E,000000
+L021,EMT-Palma,21,S'Arenal - Aeroport,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=21,6C0007,FFFFFF
+L023,EMT-Palma,23,Palma - S'Arenal - Cala Blava,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=23,B39633,FFFFFF
+L024,EMT-Palma,24,Son Llàtzer - Son Hugo,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=24,605677,FFFFFF
+L025,EMT-Palma,25,Platja de Palma per Autopista,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=25,666666,FFFFFF
+L028,EMT-Palma,28,Son Llàtzer Circular,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=28,E9A0C8,000000
+L029,EMT-Palma,29,Circular Son Espases,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=29,C4A695,000000
+L030,EMT-Palma,30,Sant Joan de Déu,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=30,A04541,FFFFFF
+L031,EMT-Palma,31,Palma - S'Aranjassa - Sant Jordi,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=31,D3DD7D,000000
+L033,EMT-Palma,33,Son Espases,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=33,687981,FFFFFF
+L034,EMT-Palma,34,Son Espases - Es Rafal,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=34,969691,FFFFFF
+L041,EMT-Palma,41,Bus de Nit,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=41,F58E49,000000
+L046,EMT-Palma,46,Gènova - Sant Agustí,,3,http://www.emtpalma.es/EMTPalma/Front/lineas.ct.svr?accion=entrada&cod_linea=46,EEAA60,000000

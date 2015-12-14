@@ -1,0 +1,5 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+LAB,1,1,1,1,1,0,0,20151201,20161231
+SAB,0,0,0,0,0,1,0,20151201,20161231
+FES,0,0,0,0,0,0,1,20151201,20161231
+CAP,0,0,0,0,1,1,1,20151201,20161231
