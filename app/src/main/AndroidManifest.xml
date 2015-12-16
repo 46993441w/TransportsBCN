@@ -6,17 +6,18 @@
         android:glEsVersion="0x00020000"
         android:required="true" />
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the 'MyLocation' functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- not needed as of api 23 -->
-    <!-- according to https://developers.google.com/maps/documentation/android-api/config it will
+    <!--
+         according to https://developers.google.com/maps/documentation/android-api/config it will
          be removed in a future releaes completely
     -->
     <uses-permission
@@ -57,11 +58,19 @@
         -->
         <meta-data
             android:name="com.mapbox.ACCESS_TOKEN"
-            android:value="pk.eyJ1IjoiYmxlZWdlIiwiYSI6ImZjMDczZjc5N2U0NzFkNWVkYWUzNjkzZTY5NjU4ZDFlIn0.vsxMenwHU5mLe65GULWGQg"/>
-
+            android:value="pk.eyJ1IjoiYmxlZWdlIiwiYSI6ImZjMDczZjc5N2U0NzFkNWVkYWUzNjkzZTY5NjU4ZDFlIn0.vsxMenwHU5mLe65GULWGQg" />
         <meta-data
             android:name="com.mapbox.MAP_ID"
-            android:value="mapbox.streets"/>
+            android:value="mapbox.streets" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MapsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="juez.david.transportbcn.MapsActivity" />
+        </activity>
     </application>
 
 </manifest>
