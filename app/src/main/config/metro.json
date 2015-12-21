@@ -1,0 +1,32 @@
+{
+  "fields": [
+    {
+      "name": "line",
+      "type": "String"
+    },
+    {
+      "name": "name",
+      "type": "String"
+    },
+    {
+      "name": "accessibility",
+      "type": "String"
+    },
+    {
+      "name": "zone",
+      "type": "String"
+    },
+    {
+      "name": "connections",
+      "type": "String"
+    },
+    {
+      "name": "lat",
+      "type": "Double"
+    },
+    {
+      "name": "lon",
+      "type": "Double"
+    }
+  ]
+}

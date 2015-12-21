@@ -1,9 +1,5 @@
 package juez.david.transportbcn.transport;
 
-import java.util.HashMap;
-import java.util.Map;
-
-
 public class Tmb {
 
     private String id;
@@ -15,7 +11,6 @@ public class Tmb {
     private String lon;
     private String furniture;
     private String buses;
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
     /**
      * 
@@ -177,14 +172,6 @@ public class Tmb {
      */
     public void setBuses(String buses) {
         this.buses = buses;
-    }
-
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
-    }
-
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
     }
 
 }

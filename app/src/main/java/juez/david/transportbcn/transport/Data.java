@@ -1,14 +1,13 @@
 package juez.david.transportbcn.transport;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class Data {
 
     private List<Tmb> tmbs = new ArrayList<Tmb>();
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    private List<Bici> bici = new ArrayList<Bici>();
+    private List<Metro> metro = new ArrayList<Metro>();
 
     /**
      * 
@@ -28,12 +27,39 @@ public class Data {
         this.tmbs = tmbs;
     }
 
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
+    /**
+     *
+     * @return
+     *     The bici
+     */
+    public List<Bici> getBici() {
+        return bici;
     }
 
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
+    /**
+     *
+     * @param bici
+     *     The bici
+     */
+    public void setBici(List<Bici> bici) {
+        this.bici = bici;
     }
 
+    /**
+     *
+     * @return
+     *     The metro
+     */
+    public List<Metro> getMetro() {
+        return metro;
+    }
+
+    /**
+     *
+     * @param metro
+     *     The metro
+     */
+    public void setMetro(List<Metro> metro) {
+        this.metro = metro;
+    }
 }

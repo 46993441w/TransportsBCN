@@ -1,0 +1,13 @@
+{
+  "syntaxVersion": 3,
+  "projectPackageId": "juez.david.transportbcn",
+  "authority": "juez.david.transportbcn.provider",
+  "providerJavaPackage": "juez.david.transportbcn.provider",
+  "providerClassName": "TransportProvider",
+  "sqliteOpenHelperClassName": "TransportSQLiteOpenHelper",
+  "sqliteOpenHelperCallbacksClassName": "TransportSQLiteOpenHelperCallbacks",
+  "databaseFileName": "transport.db",
+  "databaseVersion": 1,
+  "enableForeignKeys": true,
+  "useAnnotations": true
+}

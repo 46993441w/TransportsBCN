@@ -1,0 +1,20 @@
+{
+  "fields": [
+    {
+      "name": "name",
+      "type": "String"
+    },
+    {
+      "name": "lat",
+      "type": "Double"
+    },
+    {
+      "name": "lon",
+      "type": "Double"
+    },
+    {
+      "name": "nearby_stations",
+      "type": "String"
+    }
+  ]
+}

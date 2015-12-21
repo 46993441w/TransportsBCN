@@ -1,0 +1,36 @@
+{
+  "fields": [
+    {
+      "name": "street_name",
+      "type": "String"
+    },
+    {
+      "name": "city",
+      "type": "String"
+    },
+    {
+      "name": "utm_x",
+      "type": "Double"
+    },
+    {
+      "name": "utm_y",
+      "type": "Double"
+    },
+    {
+      "name": "lat",
+      "type": "Double"
+    },
+    {
+      "name": "lon",
+      "type": "Double"
+    },
+    {
+      "name": "furniture",
+      "type": "String"
+    },
+    {
+      "name": "buses",
+      "type": "String"
+    }
+  ]
+}

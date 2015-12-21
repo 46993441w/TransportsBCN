@@ -64,6 +64,11 @@
             android:name="com.mapbox.MAP_ID"
             android:value="mapbox.streets" />
 
+        <!-- content provider -->
+        <provider
+            android:name="juez.david.transportbcn.provider.TransportProvider"
+            android:authorities="juez.david.transportbcn.provider"
+            android:exported="false" />
     </application>
 
 </manifest>
