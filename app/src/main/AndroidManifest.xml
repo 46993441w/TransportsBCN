@@ -32,7 +32,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MapsActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -63,14 +64,6 @@
             android:name="com.mapbox.MAP_ID"
             android:value="mapbox.streets" />
 
-        <activity
-            android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"
-            android:parentActivityName=".MapsActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="juez.david.transportbcn.MapsActivity" />
-        </activity>
     </application>
 
 </manifest>

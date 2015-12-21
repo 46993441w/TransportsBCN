@@ -1,26 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context=".MapsActivity">
 
     <item android:id="@+id/action_native_map"
         android:title="Use Native Map"
         android:orderInCategory="100"
         app:showAsAction="never"/>
 
-    <item android:id="@+id/action_google_web_map"
-        android:title="Use Google Web Map"
+    <item android:id="@+id/action_bici"
+        android:title="@string/bici"
         android:orderInCategory="100"
-        app:showAsAction="never"/>
+        android:icon="@drawable/ic_directions_bike_white_18dp"
+        app:showAsAction="ifRoom"/>
 
-    <item android:id="@+id/action_mapbox_map"
-        android:title="Use MapBox Map"
+    <item android:id="@+id/action_bus"
+        android:title="@string/bus"
+        android:icon="@drawable/ic_directions_bus_white_18dp"
         android:orderInCategory="100"
-        app:showAsAction="never"/>
+        app:showAsAction="ifRoom"/>
 
-    <item android:id="@+id/action_clear_logs"
-        android:title="Clear logs"
+    <item android:id="@+id/action_metro"
+        android:title="@string/metro"
+        android:icon="@drawable/ic_directions_subway_white_18dp"
         android:orderInCategory="100"
-        app:showAsAction="never"/>
+        app:showAsAction="ifRoom"/>
 </menu>

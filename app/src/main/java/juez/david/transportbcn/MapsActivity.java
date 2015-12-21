@@ -4,6 +4,7 @@ import android.graphics.Point;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,7 +15,6 @@ import android.widget.Toast;
 
 import com.airbnb.android.airmapview.AirMapInterface;
 import com.airbnb.android.airmapview.AirMapMarker;
-import com.airbnb.android.airmapview.AirMapPolyline;
 import com.airbnb.android.airmapview.AirMapView;
 import com.airbnb.android.airmapview.AirMapViewTypes;
 import com.airbnb.android.airmapview.DefaultAirMapViewBuilder;
@@ -30,8 +30,6 @@ import com.airbnb.android.airmapview.listeners.OnMapMarkerClickListener;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 
-import java.util.Arrays;
-
 public class MapsActivity extends AppCompatActivity
         implements OnCameraChangeListener, OnMapInitializedListener,
         OnMapClickListener, OnCameraMoveListener, OnMapMarkerClickListener,
@@ -46,6 +44,9 @@ public class MapsActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+        //getSupportActionBar().hide();//Ocultar ActivityBar anterior
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         mapViewBuilder = new DefaultAirMapViewBuilder(this);
         map = (AirMapView) findViewById(R.id.map);
@@ -106,12 +107,12 @@ public class MapsActivity extends AppCompatActivity
                                 "Please make sure you have Google Play Services installed.",
                         Toast.LENGTH_SHORT).show();
             }
-        } else if (id == R.id.action_mapbox_map) {
+        } else if (id == R.id.action_bici) {
             airMapInterface = mapViewBuilder.builder(AirMapViewTypes.WEB).build();
-        } else if (id == R.id.action_google_web_map) {
+        } else if (id == R.id.action_bus) {
             // force Google Web maps since otherwise AirMapViewTypes.WEB returns MapBox by default.
             airMapInterface = new WebAirMapViewBuilder().build();
-        } else if (id == R.id.action_clear_logs) {
+        } else if (id == R.id.action_metro) {
             textLogs.setText("");
         }
 
