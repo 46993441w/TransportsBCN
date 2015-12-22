@@ -5,10 +5,14 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,6 +34,15 @@ import com.airbnb.android.airmapview.listeners.OnMapMarkerClickListener;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Objects;
+
+import juez.david.transportbcn.transport.Bici;
+import juez.david.transportbcn.transport.Metro;
+import juez.david.transportbcn.transport.Tmb;
+
 public class MapsActivity extends AppCompatActivity
         implements OnCameraChangeListener, OnMapInitializedListener,
         OnMapClickListener, OnCameraMoveListener, OnMapMarkerClickListener,
@@ -39,14 +52,20 @@ public class MapsActivity extends AppCompatActivity
     private DefaultAirMapViewBuilder mapViewBuilder;
     private TextView textLogs;
     private ScrollView logsScrollView;
+    private List<Object> items;
+    private String tipus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-        //getSupportActionBar().hide();//Ocultar ActivityBar anterior
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        tipus = "bicing";
+
+        items = new ArrayList<>();
 
         mapViewBuilder = new DefaultAirMapViewBuilder(this);
         map = (AirMapView) findViewById(R.id.map);
@@ -77,6 +96,7 @@ public class MapsActivity extends AppCompatActivity
             }
         });
 
+        refresh();
         map.setOnMapClickListener(this);
         map.setOnCameraChangeListener(this);
         map.setOnCameraMoveListener(this);
@@ -98,24 +118,30 @@ public class MapsActivity extends AppCompatActivity
         int id = item.getItemId();
 
         AirMapInterface airMapInterface = null;
-
+        //adapter.clear();
         if (id == R.id.action_native_map) {
-            try {
-                airMapInterface = mapViewBuilder.builder(AirMapViewTypes.NATIVE).build();
-            } catch (UnsupportedOperationException e) {
-                Toast.makeText(this, "Sorry, native Google Maps are not supported by this device. " +
-                                "Please make sure you have Google Play Services installed.",
-                        Toast.LENGTH_SHORT).show();
-            }
+            items.clear();
         } else if (id == R.id.action_bici) {
-            airMapInterface = mapViewBuilder.builder(AirMapViewTypes.WEB).build();
+            tipus = "bicing";
+            refresh();
         } else if (id == R.id.action_bus) {
+            tipus = "bus";
+            refresh();
             // force Google Web maps since otherwise AirMapViewTypes.WEB returns MapBox by default.
-            airMapInterface = new WebAirMapViewBuilder().build();
+            //airMapInterface = new WebAirMapViewBuilder().build();
         } else if (id == R.id.action_metro) {
-            textLogs.setText("");
+            tipus = "metro";
+            refresh();
+            //textLogs.setText("");
         }
+        try {
+            airMapInterface = mapViewBuilder.builder(AirMapViewTypes.NATIVE).build();
+        } catch (UnsupportedOperationException e) {
+            airMapInterface = mapViewBuilder.builder(AirMapViewTypes.WEB).build();
+        }
+        /*while(acabat){
 
+        }*/
         if (airMapInterface != null) {
             map.initialize(getSupportFragmentManager(), airMapInterface);
         }
@@ -131,25 +157,22 @@ public class MapsActivity extends AppCompatActivity
 
     @Override
     public void onMapInitialized() {
-        appendLog("Map onMapInitialized triggered");
+        appendLog("Map onMapInitialized initialized");
+        int contador= items.size();
+        for(int i = 0; i < contador; i++){
+            if(tipus.equals("bus") && items.get(i) instanceof Tmb ) {
+                Tmb bus = (Tmb) items.get(i);
+                addMarker(bus.getStreetName(), new LatLng(Double.parseDouble(bus.getLat()), Double.parseDouble(bus.getLon())), i);
+            } else if(tipus.equals("bicing") && items.get(i) instanceof Bici){
+                Bici bici = (Bici) items.get(i);
+                addMarker(bici.getName(), new LatLng(Double.parseDouble(bici.getLat()), Double.parseDouble(bici.getLon())), i);
+            } else if(tipus.equals("metro") && items.get(i) instanceof Metro ){
+                Metro metro = (Metro) items.get(i);
+                addMarker(metro.getName(), new LatLng(Double.parseDouble(metro.getLat()), Double.parseDouble(metro.getLon())), i);
+            }
+        }
         final LatLng airbnbLatLng = new LatLng(41.3890, 2.1479);
-        addMarker("Airbnb HQ", airbnbLatLng, 1);
-        addMarker("Performance Bikes", new LatLng(41.3890, 2.1479), 2);
-        addMarker("REI", new LatLng(41.387753, 2.112502), 3);
-        addMarker("Mapbox", new LatLng(41.385644, 2.119867), 4);
-        map.animateCenterZoom(airbnbLatLng, 12);
-
-        /* Add Polylines
-        LatLng[] latLngs = {
-                new LatLng(37.77977, -122.38937),
-                new LatLng(37.77811, -122.39160),
-                new LatLng(37.77787, -122.38864)};
-
-        map.addPolyline(new AirMapPolyline(Arrays.asList(latLngs), 5));
-
-        // Add Circle
-        map.drawCircle(new LatLng(37.78443, -122.40805), 1000);*/
-
+        map.animateCenterZoom(airbnbLatLng, 15);
         // enable my location
         map.setMyLocationEnabled(true);
     }
@@ -204,10 +227,33 @@ public class MapsActivity extends AppCompatActivity
     @Override
     public void onInfoWindowClick(Marker marker) {
         appendLog("Map onInfoWindowClick triggered with marker " + marker.getId());
+        if(tipus.equals("bus")) {
+            Tmb bus = (Tmb) items.get(Integer.parseInt(marker.getId().substring(1)));
+            Toast.makeText(this, "Busos: " + bus.getBuses(),
+                    Toast.LENGTH_SHORT).show();
+        } else if(tipus.equals("bicing")) {
+            Bici bici = (Bici) items.get(Integer.parseInt(marker.getId().substring(1)));
+            Toast.makeText(this, "Estacions Properes: " + bici.getNearbyStations(),
+                    Toast.LENGTH_SHORT).show();
+        } else if(tipus.equals("metro")){
+            Metro metro = (Metro) items.get(Integer.parseInt(marker.getId().substring(1)));
+            Toast.makeText(this, "Linia: " + metro.getLine() + " ,Conneccions: " + metro.getConnections(),
+                    Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override
     public void onLatLngScreenLocationReady(Point point) {
         appendLog("LatLng location on screen (x,y): (" + point.x + "," + point.y + ")");
+    }
+
+    /**
+     * funció que recarrega el listView en funció del tipus de pel·licula que s'hagi seleccionat a
+     * la preferència
+     */
+    public void refresh(){
+        // es crea la clase retrofit per accedir a les dades de la api segons els nostres valors
+        TransportAPI apiClient = new TransportAPI();
+        apiClient.transports(items, tipus);
     }
 }

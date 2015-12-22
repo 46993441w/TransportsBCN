@@ -6,7 +6,7 @@ public class Bici {
     private String name;
     private String lat;
     private String lon;
-    private String nearbyStations;
+    private String nearby_stations;
 
     /**
      *
@@ -86,7 +86,7 @@ public class Bici {
      *     The nearbyStations
      */
     public String getNearbyStations() {
-        return nearbyStations;
+        return nearby_stations;
     }
 
     /**
@@ -95,7 +95,7 @@ public class Bici {
      *     The nearby_stations
      */
     public void setNearbyStations(String nearbyStations) {
-        this.nearbyStations = nearbyStations;
+        this.nearby_stations = nearbyStations;
     }
 
 }
