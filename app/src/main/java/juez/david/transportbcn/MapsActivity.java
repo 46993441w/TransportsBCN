@@ -5,14 +5,10 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ListView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -35,9 +31,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 import juez.david.transportbcn.transport.Bici;
 import juez.david.transportbcn.transport.Metro;
@@ -178,12 +172,28 @@ public class MapsActivity extends AppCompatActivity
     }
 
     private void addMarker(String title, LatLng latLng, int id) {
-        map.addMarker(new AirMapMarker.Builder()
-                .id(id)
-                .position(latLng)
-                .title(title)
-                .iconId(R.mipmap.icon_location_pin)
-                .build());
+        if(tipus.equals("bicing")) {
+            map.addMarker(new AirMapMarker.Builder()
+                    .id(id)
+                    .position(latLng)
+                    .title(title)
+                    .iconId(R.drawable.bike9)
+                    .build());
+        } else if(tipus.equals("bus")) {
+            map.addMarker(new AirMapMarker.Builder()
+                    .id(id)
+                    .position(latLng)
+                    .title(title)
+                    .iconId(R.drawable.bus4)
+                    .build());
+        } else if(tipus.equals("metro")){
+            map.addMarker(new AirMapMarker.Builder()
+                    .id(id)
+                    .position(latLng)
+                    .title(title)
+                    .iconId(R.drawable.location76)
+                    .build());
+        }
     }
 
     @Override

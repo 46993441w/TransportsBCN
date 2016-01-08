@@ -3,10 +3,10 @@ package juez.david.transportbcn.transport;
 public class Tmb {
 
     private String id;
-    private String streetName;
+    private String street_name;
     private String city;
-    private String utmX;
-    private String utmY;
+    private String utm_x;
+    private String utm_y;
     private String lat;
     private String lon;
     private String furniture;
@@ -36,7 +36,7 @@ public class Tmb {
      *     The streetName
      */
     public String getStreetName() {
-        return streetName;
+        return street_name;
     }
 
     /**
@@ -45,7 +45,7 @@ public class Tmb {
      *     The street_name
      */
     public void setStreetName(String streetName) {
-        this.streetName = streetName;
+        this.street_name = streetName;
     }
 
     /**
@@ -72,7 +72,7 @@ public class Tmb {
      *     The utmX
      */
     public String getUtmX() {
-        return utmX;
+        return utm_x;
     }
 
     /**
@@ -81,7 +81,7 @@ public class Tmb {
      *     The utm_x
      */
     public void setUtmX(String utmX) {
-        this.utmX = utmX;
+        this.utm_x = utmX;
     }
 
     /**
@@ -90,7 +90,7 @@ public class Tmb {
      *     The utmY
      */
     public String getUtmY() {
-        return utmY;
+        return utm_y;
     }
 
     /**
@@ -99,7 +99,7 @@ public class Tmb {
      *     The utm_y
      */
     public void setUtmY(String utmY) {
-        this.utmY = utmY;
+        this.utm_y = utmY;
     }
 
     /**
