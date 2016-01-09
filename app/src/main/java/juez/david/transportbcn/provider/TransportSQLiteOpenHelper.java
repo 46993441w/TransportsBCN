@@ -27,15 +27,18 @@ public class TransportSQLiteOpenHelper extends SQLiteOpenHelper {
     public static final String SQL_CREATE_TABLE_BICING = "CREATE TABLE IF NOT EXISTS "
             + BicingColumns.TABLE_NAME + " ( "
             + BicingColumns._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+            + BicingColumns.IDBICING + " INTEGER, "
             + BicingColumns.NAME + " TEXT, "
             + BicingColumns.LAT + " REAL, "
             + BicingColumns.LON + " REAL, "
-            + BicingColumns.NEARBY_STATIONS + " TEXT "
+            + BicingColumns.NEARBY_STATIONS + " TEXT, "
+            + BicingColumns.SYNCTIME + " INTEGER "
             + " );";
 
     public static final String SQL_CREATE_TABLE_BUS = "CREATE TABLE IF NOT EXISTS "
             + BusColumns.TABLE_NAME + " ( "
             + BusColumns._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+            + BusColumns.IDBUS + " INTEGER, "
             + BusColumns.STREET_NAME + " TEXT, "
             + BusColumns.CITY + " TEXT, "
             + BusColumns.UTM_X + " REAL, "
@@ -43,19 +46,22 @@ public class TransportSQLiteOpenHelper extends SQLiteOpenHelper {
             + BusColumns.LAT + " REAL, "
             + BusColumns.LON + " REAL, "
             + BusColumns.FURNITURE + " TEXT, "
-            + BusColumns.BUSES + " TEXT "
+            + BusColumns.BUSES + " TEXT, "
+            + BusColumns.SYNCTIME + " INTEGER "
             + " );";
 
     public static final String SQL_CREATE_TABLE_METRO = "CREATE TABLE IF NOT EXISTS "
             + MetroColumns.TABLE_NAME + " ( "
             + MetroColumns._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+            + MetroColumns.IDMETRO + " INTEGER, "
             + MetroColumns.LINE + " TEXT, "
             + MetroColumns.NAME + " TEXT, "
             + MetroColumns.ACCESSIBILITY + " TEXT, "
             + MetroColumns.ZONE + " TEXT, "
             + MetroColumns.CONNECTIONS + " TEXT, "
             + MetroColumns.LAT + " REAL, "
-            + MetroColumns.LON + " REAL "
+            + MetroColumns.LON + " REAL, "
+            + MetroColumns.SYNCTIME + " INTEGER "
             + " );";
 
     // @formatter:on

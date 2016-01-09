@@ -39,6 +39,16 @@ public class MetroContentValues extends AbstractContentValues {
         return context.getContentResolver().update(uri(), values(), where == null ? null : where.sel(), where == null ? null : where.args());
     }
 
+    public MetroContentValues putIdmetro(@Nullable Integer value) {
+        mContentValues.put(MetroColumns.IDMETRO, value);
+        return this;
+    }
+
+    public MetroContentValues putIdmetroNull() {
+        mContentValues.putNull(MetroColumns.IDMETRO);
+        return this;
+    }
+
     public MetroContentValues putLine(@Nullable String value) {
         mContentValues.put(MetroColumns.LINE, value);
         return this;
@@ -106,6 +116,21 @@ public class MetroContentValues extends AbstractContentValues {
 
     public MetroContentValues putLonNull() {
         mContentValues.putNull(MetroColumns.LON);
+        return this;
+    }
+
+    public MetroContentValues putSynctime(@Nullable Date value) {
+        mContentValues.put(MetroColumns.SYNCTIME, value == null ? null : value.getTime());
+        return this;
+    }
+
+    public MetroContentValues putSynctimeNull() {
+        mContentValues.putNull(MetroColumns.SYNCTIME);
+        return this;
+    }
+
+    public MetroContentValues putSynctime(@Nullable Long value) {
+        mContentValues.put(MetroColumns.SYNCTIME, value);
         return this;
     }
 }

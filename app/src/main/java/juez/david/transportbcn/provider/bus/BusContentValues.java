@@ -39,6 +39,16 @@ public class BusContentValues extends AbstractContentValues {
         return context.getContentResolver().update(uri(), values(), where == null ? null : where.sel(), where == null ? null : where.args());
     }
 
+    public BusContentValues putIdbus(@Nullable Integer value) {
+        mContentValues.put(BusColumns.IDBUS, value);
+        return this;
+    }
+
+    public BusContentValues putIdbusNull() {
+        mContentValues.putNull(BusColumns.IDBUS);
+        return this;
+    }
+
     public BusContentValues putStreetName(@Nullable String value) {
         mContentValues.put(BusColumns.STREET_NAME, value);
         return this;
@@ -116,6 +126,21 @@ public class BusContentValues extends AbstractContentValues {
 
     public BusContentValues putBusesNull() {
         mContentValues.putNull(BusColumns.BUSES);
+        return this;
+    }
+
+    public BusContentValues putSynctime(@Nullable Date value) {
+        mContentValues.put(BusColumns.SYNCTIME, value == null ? null : value.getTime());
+        return this;
+    }
+
+    public BusContentValues putSynctimeNull() {
+        mContentValues.putNull(BusColumns.SYNCTIME);
+        return this;
+    }
+
+    public BusContentValues putSynctime(@Nullable Long value) {
+        mContentValues.put(BusColumns.SYNCTIME, value);
         return this;
     }
 }

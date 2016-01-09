@@ -78,6 +78,46 @@ public class BicingSelection extends AbstractSelection<BicingSelection> {
         return orderById(false);
     }
 
+    public BicingSelection idbicing(Integer... value) {
+        addEquals(BicingColumns.IDBICING, value);
+        return this;
+    }
+
+    public BicingSelection idbicingNot(Integer... value) {
+        addNotEquals(BicingColumns.IDBICING, value);
+        return this;
+    }
+
+    public BicingSelection idbicingGt(int value) {
+        addGreaterThan(BicingColumns.IDBICING, value);
+        return this;
+    }
+
+    public BicingSelection idbicingGtEq(int value) {
+        addGreaterThanOrEquals(BicingColumns.IDBICING, value);
+        return this;
+    }
+
+    public BicingSelection idbicingLt(int value) {
+        addLessThan(BicingColumns.IDBICING, value);
+        return this;
+    }
+
+    public BicingSelection idbicingLtEq(int value) {
+        addLessThanOrEquals(BicingColumns.IDBICING, value);
+        return this;
+    }
+
+    public BicingSelection orderByIdbicing(boolean desc) {
+        orderBy(BicingColumns.IDBICING, desc);
+        return this;
+    }
+
+    public BicingSelection orderByIdbicing() {
+        orderBy(BicingColumns.IDBICING, false);
+        return this;
+    }
+
     public BicingSelection name(String... value) {
         addEquals(BicingColumns.NAME, value);
         return this;
@@ -235,6 +275,51 @@ public class BicingSelection extends AbstractSelection<BicingSelection> {
 
     public BicingSelection orderByNearbyStations() {
         orderBy(BicingColumns.NEARBY_STATIONS, false);
+        return this;
+    }
+
+    public BicingSelection synctime(Date... value) {
+        addEquals(BicingColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BicingSelection synctimeNot(Date... value) {
+        addNotEquals(BicingColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BicingSelection synctime(Long... value) {
+        addEquals(BicingColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BicingSelection synctimeAfter(Date value) {
+        addGreaterThan(BicingColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BicingSelection synctimeAfterEq(Date value) {
+        addGreaterThanOrEquals(BicingColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BicingSelection synctimeBefore(Date value) {
+        addLessThan(BicingColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BicingSelection synctimeBeforeEq(Date value) {
+        addLessThanOrEquals(BicingColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BicingSelection orderBySynctime(boolean desc) {
+        orderBy(BicingColumns.SYNCTIME, desc);
+        return this;
+    }
+
+    public BicingSelection orderBySynctime() {
+        orderBy(BicingColumns.SYNCTIME, false);
         return this;
     }
 }

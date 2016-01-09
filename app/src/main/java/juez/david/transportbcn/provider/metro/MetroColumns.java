@@ -20,6 +20,8 @@ public class MetroColumns implements BaseColumns {
      */
     public static final String _ID = BaseColumns._ID;
 
+    public static final String IDMETRO = "idMetro";
+
     public static final String LINE = "line";
 
     public static final String NAME = "name";
@@ -34,32 +36,38 @@ public class MetroColumns implements BaseColumns {
 
     public static final String LON = "lon";
 
+    public static final String SYNCTIME = "syncTime";
 
-    public static final String DEFAULT_ORDER = TABLE_NAME + "build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" +_ID;
+
+    public static final String DEFAULT_ORDER = TABLE_NAME + "." +_ID;
 
     // @formatter:off
     public static final String[] ALL_COLUMNS = new String[] {
             _ID,
+            IDMETRO,
             LINE,
             NAME,
             ACCESSIBILITY,
             ZONE,
             CONNECTIONS,
             LAT,
-            LON
+            LON,
+            SYNCTIME
     };
     // @formatter:on
 
     public static boolean hasColumns(String[] projection) {
         if (projection == null) return true;
         for (String c : projection) {
-            if (c.equals(LINE) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + LINE)) return true;
-            if (c.equals(NAME) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + NAME)) return true;
-            if (c.equals(ACCESSIBILITY) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + ACCESSIBILITY)) return true;
-            if (c.equals(ZONE) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + ZONE)) return true;
-            if (c.equals(CONNECTIONS) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + CONNECTIONS)) return true;
-            if (c.equals(LAT) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + LAT)) return true;
-            if (c.equals(LON) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + LON)) return true;
+            if (c.equals(IDMETRO) || c.contains("." + IDMETRO)) return true;
+            if (c.equals(LINE) || c.contains("." + LINE)) return true;
+            if (c.equals(NAME) || c.contains("." + NAME)) return true;
+            if (c.equals(ACCESSIBILITY) || c.contains("." + ACCESSIBILITY)) return true;
+            if (c.equals(ZONE) || c.contains("." + ZONE)) return true;
+            if (c.equals(CONNECTIONS) || c.contains("." + CONNECTIONS)) return true;
+            if (c.equals(LAT) || c.contains("." + LAT)) return true;
+            if (c.equals(LON) || c.contains("." + LON)) return true;
+            if (c.equals(SYNCTIME) || c.contains("." + SYNCTIME)) return true;
         }
         return false;
     }

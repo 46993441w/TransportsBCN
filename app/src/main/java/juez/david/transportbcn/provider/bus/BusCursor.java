@@ -27,6 +27,16 @@ public class BusCursor extends AbstractCursor implements BusModel {
     }
 
     /**
+     * Get the {@code idbus} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    public Integer getIdbus() {
+        Integer res = getIntegerOrNull(BusColumns.IDBUS);
+        return res;
+    }
+
+    /**
      * Get the {@code street_name} value.
      * Can be {@code null}.
      */
@@ -103,6 +113,16 @@ public class BusCursor extends AbstractCursor implements BusModel {
     @Nullable
     public String getBuses() {
         String res = getStringOrNull(BusColumns.BUSES);
+        return res;
+    }
+
+    /**
+     * Get the {@code synctime} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    public Date getSynctime() {
+        Date res = getDateOrNull(BusColumns.SYNCTIME);
         return res;
     }
 }

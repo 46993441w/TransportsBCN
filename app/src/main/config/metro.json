@@ -1,6 +1,9 @@
 {
   "fields": [
     {
+      "name": "idMetro",
+      "type": "Integer"
+    },{
       "name": "line",
       "type": "String"
     },
@@ -27,6 +30,9 @@
     {
       "name": "lon",
       "type": "Double"
+    },{
+      "name": "syncTime",
+      "type": "Date"
     }
   ]
 }

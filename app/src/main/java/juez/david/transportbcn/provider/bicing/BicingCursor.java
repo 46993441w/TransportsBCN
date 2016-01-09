@@ -27,6 +27,16 @@ public class BicingCursor extends AbstractCursor implements BicingModel {
     }
 
     /**
+     * Get the {@code idbicing} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    public Integer getIdbicing() {
+        Integer res = getIntegerOrNull(BicingColumns.IDBICING);
+        return res;
+    }
+
+    /**
      * Get the {@code name} value.
      * Can be {@code null}.
      */
@@ -63,6 +73,16 @@ public class BicingCursor extends AbstractCursor implements BicingModel {
     @Nullable
     public String getNearbyStations() {
         String res = getStringOrNull(BicingColumns.NEARBY_STATIONS);
+        return res;
+    }
+
+    /**
+     * Get the {@code synctime} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    public Date getSynctime() {
+        Date res = getDateOrNull(BicingColumns.SYNCTIME);
         return res;
     }
 }

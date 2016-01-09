@@ -1,6 +1,9 @@
 {
   "fields": [
     {
+      "name": "idBus",
+      "type": "Integer"
+    },{
       "name": "street_name",
       "type": "String"
     },
@@ -31,6 +34,9 @@
     {
       "name": "buses",
       "type": "String"
+    },{
+      "name": "syncTime",
+      "type": "Date"
     }
   ]
 }

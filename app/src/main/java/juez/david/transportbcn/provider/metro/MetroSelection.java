@@ -78,6 +78,46 @@ public class MetroSelection extends AbstractSelection<MetroSelection> {
         return orderById(false);
     }
 
+    public MetroSelection idmetro(Integer... value) {
+        addEquals(MetroColumns.IDMETRO, value);
+        return this;
+    }
+
+    public MetroSelection idmetroNot(Integer... value) {
+        addNotEquals(MetroColumns.IDMETRO, value);
+        return this;
+    }
+
+    public MetroSelection idmetroGt(int value) {
+        addGreaterThan(MetroColumns.IDMETRO, value);
+        return this;
+    }
+
+    public MetroSelection idmetroGtEq(int value) {
+        addGreaterThanOrEquals(MetroColumns.IDMETRO, value);
+        return this;
+    }
+
+    public MetroSelection idmetroLt(int value) {
+        addLessThan(MetroColumns.IDMETRO, value);
+        return this;
+    }
+
+    public MetroSelection idmetroLtEq(int value) {
+        addLessThanOrEquals(MetroColumns.IDMETRO, value);
+        return this;
+    }
+
+    public MetroSelection orderByIdmetro(boolean desc) {
+        orderBy(MetroColumns.IDMETRO, desc);
+        return this;
+    }
+
+    public MetroSelection orderByIdmetro() {
+        orderBy(MetroColumns.IDMETRO, false);
+        return this;
+    }
+
     public MetroSelection line(String... value) {
         addEquals(MetroColumns.LINE, value);
         return this;
@@ -355,6 +395,51 @@ public class MetroSelection extends AbstractSelection<MetroSelection> {
 
     public MetroSelection orderByLon() {
         orderBy(MetroColumns.LON, false);
+        return this;
+    }
+
+    public MetroSelection synctime(Date... value) {
+        addEquals(MetroColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public MetroSelection synctimeNot(Date... value) {
+        addNotEquals(MetroColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public MetroSelection synctime(Long... value) {
+        addEquals(MetroColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public MetroSelection synctimeAfter(Date value) {
+        addGreaterThan(MetroColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public MetroSelection synctimeAfterEq(Date value) {
+        addGreaterThanOrEquals(MetroColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public MetroSelection synctimeBefore(Date value) {
+        addLessThan(MetroColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public MetroSelection synctimeBeforeEq(Date value) {
+        addLessThanOrEquals(MetroColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public MetroSelection orderBySynctime(boolean desc) {
+        orderBy(MetroColumns.SYNCTIME, desc);
+        return this;
+    }
+
+    public MetroSelection orderBySynctime() {
+        orderBy(MetroColumns.SYNCTIME, false);
         return this;
     }
 }

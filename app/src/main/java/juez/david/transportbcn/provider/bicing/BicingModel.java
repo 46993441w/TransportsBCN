@@ -13,6 +13,13 @@ import android.support.annotation.Nullable;
 public interface BicingModel extends BaseModel {
 
     /**
+     * Get the {@code idbicing} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    Integer getIdbicing();
+
+    /**
      * Get the {@code name} value.
      * Can be {@code null}.
      */
@@ -39,4 +46,11 @@ public interface BicingModel extends BaseModel {
      */
     @Nullable
     String getNearbyStations();
+
+    /**
+     * Get the {@code synctime} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    Date getSynctime();
 }

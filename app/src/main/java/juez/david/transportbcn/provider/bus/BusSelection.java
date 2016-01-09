@@ -78,6 +78,46 @@ public class BusSelection extends AbstractSelection<BusSelection> {
         return orderById(false);
     }
 
+    public BusSelection idbus(Integer... value) {
+        addEquals(BusColumns.IDBUS, value);
+        return this;
+    }
+
+    public BusSelection idbusNot(Integer... value) {
+        addNotEquals(BusColumns.IDBUS, value);
+        return this;
+    }
+
+    public BusSelection idbusGt(int value) {
+        addGreaterThan(BusColumns.IDBUS, value);
+        return this;
+    }
+
+    public BusSelection idbusGtEq(int value) {
+        addGreaterThanOrEquals(BusColumns.IDBUS, value);
+        return this;
+    }
+
+    public BusSelection idbusLt(int value) {
+        addLessThan(BusColumns.IDBUS, value);
+        return this;
+    }
+
+    public BusSelection idbusLtEq(int value) {
+        addLessThanOrEquals(BusColumns.IDBUS, value);
+        return this;
+    }
+
+    public BusSelection orderByIdbus(boolean desc) {
+        orderBy(BusColumns.IDBUS, desc);
+        return this;
+    }
+
+    public BusSelection orderByIdbus() {
+        orderBy(BusColumns.IDBUS, false);
+        return this;
+    }
+
     public BusSelection streetName(String... value) {
         addEquals(BusColumns.STREET_NAME, value);
         return this;
@@ -395,6 +435,51 @@ public class BusSelection extends AbstractSelection<BusSelection> {
 
     public BusSelection orderByBuses() {
         orderBy(BusColumns.BUSES, false);
+        return this;
+    }
+
+    public BusSelection synctime(Date... value) {
+        addEquals(BusColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BusSelection synctimeNot(Date... value) {
+        addNotEquals(BusColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BusSelection synctime(Long... value) {
+        addEquals(BusColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BusSelection synctimeAfter(Date value) {
+        addGreaterThan(BusColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BusSelection synctimeAfterEq(Date value) {
+        addGreaterThanOrEquals(BusColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BusSelection synctimeBefore(Date value) {
+        addLessThan(BusColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BusSelection synctimeBeforeEq(Date value) {
+        addLessThanOrEquals(BusColumns.SYNCTIME, value);
+        return this;
+    }
+
+    public BusSelection orderBySynctime(boolean desc) {
+        orderBy(BusColumns.SYNCTIME, desc);
+        return this;
+    }
+
+    public BusSelection orderBySynctime() {
+        orderBy(BusColumns.SYNCTIME, false);
         return this;
     }
 }

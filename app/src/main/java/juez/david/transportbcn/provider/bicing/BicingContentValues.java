@@ -39,6 +39,16 @@ public class BicingContentValues extends AbstractContentValues {
         return context.getContentResolver().update(uri(), values(), where == null ? null : where.sel(), where == null ? null : where.args());
     }
 
+    public BicingContentValues putIdbicing(@Nullable Integer value) {
+        mContentValues.put(BicingColumns.IDBICING, value);
+        return this;
+    }
+
+    public BicingContentValues putIdbicingNull() {
+        mContentValues.putNull(BicingColumns.IDBICING);
+        return this;
+    }
+
     public BicingContentValues putName(@Nullable String value) {
         mContentValues.put(BicingColumns.NAME, value);
         return this;
@@ -76,6 +86,21 @@ public class BicingContentValues extends AbstractContentValues {
 
     public BicingContentValues putNearbyStationsNull() {
         mContentValues.putNull(BicingColumns.NEARBY_STATIONS);
+        return this;
+    }
+
+    public BicingContentValues putSynctime(@Nullable Date value) {
+        mContentValues.put(BicingColumns.SYNCTIME, value == null ? null : value.getTime());
+        return this;
+    }
+
+    public BicingContentValues putSynctimeNull() {
+        mContentValues.putNull(BicingColumns.SYNCTIME);
+        return this;
+    }
+
+    public BicingContentValues putSynctime(@Nullable Long value) {
+        mContentValues.put(BicingColumns.SYNCTIME, value);
         return this;
     }
 }

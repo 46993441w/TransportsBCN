@@ -13,6 +13,13 @@ import android.support.annotation.Nullable;
 public interface BusModel extends BaseModel {
 
     /**
+     * Get the {@code idbus} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    Integer getIdbus();
+
+    /**
      * Get the {@code street_name} value.
      * Can be {@code null}.
      */
@@ -67,4 +74,11 @@ public interface BusModel extends BaseModel {
      */
     @Nullable
     String getBuses();
+
+    /**
+     * Get the {@code synctime} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    Date getSynctime();
 }

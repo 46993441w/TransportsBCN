@@ -20,6 +20,8 @@ public class BicingColumns implements BaseColumns {
      */
     public static final String _ID = BaseColumns._ID;
 
+    public static final String IDBICING = "idBicing";
+
     public static final String NAME = "name";
 
     public static final String LAT = "lat";
@@ -28,26 +30,32 @@ public class BicingColumns implements BaseColumns {
 
     public static final String NEARBY_STATIONS = "nearby_stations";
 
+    public static final String SYNCTIME = "syncTime";
 
-    public static final String DEFAULT_ORDER = TABLE_NAME + "build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" +_ID;
+
+    public static final String DEFAULT_ORDER = TABLE_NAME + "." +_ID;
 
     // @formatter:off
     public static final String[] ALL_COLUMNS = new String[] {
             _ID,
+            IDBICING,
             NAME,
             LAT,
             LON,
-            NEARBY_STATIONS
+            NEARBY_STATIONS,
+            SYNCTIME
     };
     // @formatter:on
 
     public static boolean hasColumns(String[] projection) {
         if (projection == null) return true;
         for (String c : projection) {
-            if (c.equals(NAME) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + NAME)) return true;
-            if (c.equals(LAT) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + LAT)) return true;
-            if (c.equals(LON) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + LON)) return true;
-            if (c.equals(NEARBY_STATIONS) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + NEARBY_STATIONS)) return true;
+            if (c.equals(IDBICING) || c.contains("." + IDBICING)) return true;
+            if (c.equals(NAME) || c.contains("." + NAME)) return true;
+            if (c.equals(LAT) || c.contains("." + LAT)) return true;
+            if (c.equals(LON) || c.contains("." + LON)) return true;
+            if (c.equals(NEARBY_STATIONS) || c.contains("." + NEARBY_STATIONS)) return true;
+            if (c.equals(SYNCTIME) || c.contains("." + SYNCTIME)) return true;
         }
         return false;
     }

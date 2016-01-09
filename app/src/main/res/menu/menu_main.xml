@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MapsActivity">
 
-    <item android:id="@+id/action_native_map"
-        android:title="Use Native Map"
+    <item android:id="@+id/action_refresh"
+        android:title="@string/refresh"
         android:orderInCategory="100"
         app:showAsAction="never"/>
 

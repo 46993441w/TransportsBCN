@@ -13,6 +13,13 @@ import android.support.annotation.Nullable;
 public interface MetroModel extends BaseModel {
 
     /**
+     * Get the {@code idmetro} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    Integer getIdmetro();
+
+    /**
      * Get the {@code line} value.
      * Can be {@code null}.
      */
@@ -60,4 +67,11 @@ public interface MetroModel extends BaseModel {
      */
     @Nullable
     Double getLon();
+
+    /**
+     * Get the {@code synctime} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    Date getSynctime();
 }

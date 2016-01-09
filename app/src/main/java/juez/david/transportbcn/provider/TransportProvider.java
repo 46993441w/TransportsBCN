@@ -156,9 +156,9 @@ public class TransportProvider extends BaseContentProvider {
         }
         if (id != null) {
             if (selection != null) {
-                res.selection = res.table + "build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + res.idColumn + "=" + id + " and (" + selection + ")";
+                res.selection = res.table + "." + res.idColumn + "=" + id + " and (" + selection + ")";
             } else {
-                res.selection = res.table + "build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + res.idColumn + "=" + id;
+                res.selection = res.table + "." + res.idColumn + "=" + id;
             }
         } else {
             res.selection = selection;

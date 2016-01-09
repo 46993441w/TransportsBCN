@@ -1,6 +1,9 @@
 {
   "fields": [
     {
+      "name": "idBicing",
+      "type": "Integer"
+    },{
       "name": "name",
       "type": "String"
     },
@@ -15,6 +18,9 @@
     {
       "name": "nearby_stations",
       "type": "String"
+    },{
+      "name": "syncTime",
+      "type": "Date"
     }
   ]
 }

@@ -27,6 +27,16 @@ public class MetroCursor extends AbstractCursor implements MetroModel {
     }
 
     /**
+     * Get the {@code idmetro} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    public Integer getIdmetro() {
+        Integer res = getIntegerOrNull(MetroColumns.IDMETRO);
+        return res;
+    }
+
+    /**
      * Get the {@code line} value.
      * Can be {@code null}.
      */
@@ -93,6 +103,16 @@ public class MetroCursor extends AbstractCursor implements MetroModel {
     @Nullable
     public Double getLon() {
         Double res = getDoubleOrNull(MetroColumns.LON);
+        return res;
+    }
+
+    /**
+     * Get the {@code synctime} value.
+     * Can be {@code null}.
+     */
+    @Nullable
+    public Date getSynctime() {
+        Date res = getDateOrNull(MetroColumns.SYNCTIME);
         return res;
     }
 }

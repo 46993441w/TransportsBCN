@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">TransportBCN</string>
     <string name="title_activity_maps">Map</string>
-    <string name="title_activity_settings">Settings</string>
 
     <!-- Menu -->
     <string name="bus">Bus</string>
     <string name="bici">Bici</string>
     <string name="metro">Metro</string>
+    <string name="refresh">Actualitzar base de dades</string>
 
 </resources>

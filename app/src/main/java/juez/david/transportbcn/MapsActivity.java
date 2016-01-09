@@ -1,8 +1,10 @@
 package juez.david.transportbcn;
 
+import android.database.Cursor;
 import android.graphics.Point;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.v4.content.Loader;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -90,7 +92,7 @@ public class MapsActivity extends AppCompatActivity
             }
         });
 
-        refresh();
+        //update();
         map.setOnMapClickListener(this);
         map.setOnCameraChangeListener(this);
         map.setOnCameraMoveListener(this);
@@ -112,30 +114,25 @@ public class MapsActivity extends AppCompatActivity
         int id = item.getItemId();
 
         AirMapInterface airMapInterface = null;
-        //adapter.clear();
-        if (id == R.id.action_native_map) {
-            items.clear();
-        } else if (id == R.id.action_bici) {
-            tipus = "bicing";
-            refresh();
-        } else if (id == R.id.action_bus) {
-            tipus = "bus";
-            refresh();
-            // force Google Web maps since otherwise AirMapViewTypes.WEB returns MapBox by default.
-            //airMapInterface = new WebAirMapViewBuilder().build();
-        } else if (id == R.id.action_metro) {
-            tipus = "metro";
-            refresh();
-            //textLogs.setText("");
+
+        if (id == R.id.action_refresh) {
+            update();
+        } else{
+            if (id == R.id.action_bici) {
+                tipus = "bicing";
+            } else if (id == R.id.action_bus) {
+                tipus = "bus";
+            } else if (id == R.id.action_metro) {
+                tipus = "metro";
+            }
+            canvi();
         }
         try {
             airMapInterface = mapViewBuilder.builder(AirMapViewTypes.NATIVE).build();
         } catch (UnsupportedOperationException e) {
             airMapInterface = mapViewBuilder.builder(AirMapViewTypes.WEB).build();
         }
-        /*while(acabat){
 
-        }*/
         if (airMapInterface != null) {
             map.initialize(getSupportFragmentManager(), airMapInterface);
         }
@@ -257,13 +254,15 @@ public class MapsActivity extends AppCompatActivity
         appendLog("LatLng location on screen (x,y): (" + point.x + "," + point.y + ")");
     }
 
-    /**
-     * funció que recarrega el listView en funció del tipus de pel·licula que s'hagi seleccionat a
-     * la preferència
-     */
-    public void refresh(){
+    public void canvi(){
         // es crea la clase retrofit per accedir a les dades de la api segons els nostres valors
-        TransportAPI apiClient = new TransportAPI();
+        TransportAPI apiClient = new TransportAPI(getApplicationContext());
         apiClient.transports(items, tipus);
+    }
+
+    public void update(){
+        // es crea la clase retrofit per accedir a les dades de la api segons els nostres valors
+        TransportAPI apiClient = new TransportAPI(getApplicationContext());
+        apiClient.update();
     }
 }

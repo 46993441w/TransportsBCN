@@ -20,6 +20,8 @@ public class BusColumns implements BaseColumns {
      */
     public static final String _ID = BaseColumns._ID;
 
+    public static final String IDBUS = "idBus";
+
     public static final String STREET_NAME = "street_name";
 
     public static final String CITY = "city";
@@ -36,12 +38,15 @@ public class BusColumns implements BaseColumns {
 
     public static final String BUSES = "buses";
 
+    public static final String SYNCTIME = "syncTime";
 
-    public static final String DEFAULT_ORDER = TABLE_NAME + "build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" +_ID;
+
+    public static final String DEFAULT_ORDER = TABLE_NAME + "." +_ID;
 
     // @formatter:off
     public static final String[] ALL_COLUMNS = new String[] {
             _ID,
+            IDBUS,
             STREET_NAME,
             CITY,
             UTM_X,
@@ -49,21 +54,24 @@ public class BusColumns implements BaseColumns {
             LAT,
             LON,
             FURNITURE,
-            BUSES
+            BUSES,
+            SYNCTIME
     };
     // @formatter:on
 
     public static boolean hasColumns(String[] projection) {
         if (projection == null) return true;
         for (String c : projection) {
-            if (c.equals(STREET_NAME) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + STREET_NAME)) return true;
-            if (c.equals(CITY) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + CITY)) return true;
-            if (c.equals(UTM_X) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + UTM_X)) return true;
-            if (c.equals(UTM_Y) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + UTM_Y)) return true;
-            if (c.equals(LAT) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + LAT)) return true;
-            if (c.equals(LON) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + LON)) return true;
-            if (c.equals(FURNITURE) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + FURNITURE)) return true;
-            if (c.equals(BUSES) || c.contains("build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/res" + BUSES)) return true;
+            if (c.equals(IDBUS) || c.contains("." + IDBUS)) return true;
+            if (c.equals(STREET_NAME) || c.contains("." + STREET_NAME)) return true;
+            if (c.equals(CITY) || c.contains("." + CITY)) return true;
+            if (c.equals(UTM_X) || c.contains("." + UTM_X)) return true;
+            if (c.equals(UTM_Y) || c.contains("." + UTM_Y)) return true;
+            if (c.equals(LAT) || c.contains("." + LAT)) return true;
+            if (c.equals(LON) || c.contains("." + LON)) return true;
+            if (c.equals(FURNITURE) || c.contains("." + FURNITURE)) return true;
+            if (c.equals(BUSES) || c.contains("." + BUSES)) return true;
+            if (c.equals(SYNCTIME) || c.contains("." + SYNCTIME)) return true;
         }
         return false;
     }
