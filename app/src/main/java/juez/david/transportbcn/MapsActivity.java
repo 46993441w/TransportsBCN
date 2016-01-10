@@ -2,12 +2,13 @@ package juez.david.transportbcn;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Point;
-import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
@@ -65,9 +66,7 @@ public class MapsActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         tipus = "bicing";
-
         items = new ArrayList<>();
-
         mapViewBuilder = new DefaultAirMapViewBuilder(this);
         map = (AirMapView) findViewById(R.id.map);
         textLogs = (TextView) findViewById(R.id.textLogs);
@@ -113,7 +112,19 @@ public class MapsActivity extends AppCompatActivity
         map.setOnInfoWindowClickListener(this);
         map.initialize(getSupportFragmentManager());
 
+        // sincronitzar diariament
         UpdateTransportService.runDaily(getApplicationContext());
+
+        // fer que s'actualitzi la primera vegada que es comença
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+
+        if (!preferences.contains("first_sync")) {
+            update();
+            UpdateTransportService.runDaily(getApplicationContext());
+            SharedPreferences.Editor editor = preferences.edit();
+            editor.putBoolean("first_sync", true);
+            editor.apply();
+        }
     }
 
     @Override
