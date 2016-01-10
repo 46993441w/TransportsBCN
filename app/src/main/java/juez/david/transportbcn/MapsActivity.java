@@ -104,6 +104,7 @@ public class MapsActivity extends AppCompatActivity
                 centrar();
             }
         });
+
         map.setOnMapClickListener(this);
         map.setOnCameraChangeListener(this);
         map.setOnCameraMoveListener(this);
@@ -111,6 +112,8 @@ public class MapsActivity extends AppCompatActivity
         map.setOnMapInitializedListener(this);
         map.setOnInfoWindowClickListener(this);
         map.initialize(getSupportFragmentManager());
+
+        UpdateTransportService.runDaily(getApplicationContext());
     }
 
     @Override
