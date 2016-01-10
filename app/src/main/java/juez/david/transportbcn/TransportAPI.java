@@ -3,13 +3,13 @@ package juez.david.transportbcn;
 
 import android.content.ContentValues;
 import android.content.Context;
-import android.database.Cursor;
 import android.os.AsyncTask;
+import android.os.Handler;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import juez.david.transportbcn.provider.bicing.BicingColumns;
@@ -30,7 +30,6 @@ import juez.david.transportbcn.transport.Metro;
 import juez.david.transportbcn.transport.Tmb;
 import juez.david.transportbcn.transport.Transport;
 import retrofit.Call;
-import retrofit.Callback;
 import retrofit.Response;
 import retrofit.http.Path;
 import retrofit.GsonConverterFactory;
@@ -55,6 +54,7 @@ public class TransportAPI  {
     private final TranspotsBarcelona service; // interface
     private final String TRANSPORT_BASE_URL = "http://barcelonaapi.marcpous.com/"; // base per a la api
     private final Context context;
+    private final Handler handler;
 
     public TransportAPI(Context context){
         // al crear la clase es connecta amb la api
@@ -64,14 +64,49 @@ public class TransportAPI  {
                 .build();
         service = retrofit.create(TranspotsBarcelona.class);
         this.context = context;
+        handler = new Handler(context.getMainLooper());
     }
 
     /**
      *  Mètode que obté el resultat de la connexió amb la api
      */
     public void update() {
-        UpdateTransportTask updateTransport = new UpdateTransportTask();
-        updateTransport.execute();
+        toast("Comença la sincronització");
+
+        String bus = "bus";
+        String bici = "bicing";
+        String metro = "metro";
+
+        long syncTime = System.currentTimeMillis();
+
+        // fa la connexió amb la api amb la clau i el tipus de cerca que es vol
+        Call<Transport> transportCall = service.getTransport(
+                bus
+        );
+        processCall(transportCall, bus, syncTime);
+
+        transportCall = service.getTransport(
+                bici
+        );
+        processCall(transportCall, bici, syncTime);
+
+        transportCall = service.getTransport(
+                metro
+        );
+        processCall(transportCall, metro, syncTime);
+
+        deleteOldTransport(syncTime);
+
+        toast("Acaba la sincronització");
+    }
+
+    private void toast(final String text){
+        handler.post(new Runnable() {
+            @Override
+            public void run(){
+                Toast.makeText(context,text,Toast.LENGTH_LONG).show();
+            }
+        });
     }
 
     private void deleteOldTransport(long syncTime) {
@@ -135,7 +170,7 @@ public class TransportAPI  {
         return metro;
     }
 
-    private Object cursorToBicing(BicingCursor bicings) {
+    private Bici cursorToBicing(BicingCursor bicings) {
         Bici bici = new Bici();
         bici.setId(String.valueOf(bicings.getIdbicing()));
         bici.setName(bicings.getName());
@@ -160,7 +195,7 @@ public class TransportAPI  {
     }
 
     /**
-     *  Mètode que obté el resultat de la connexió amb la api
+     * Mètode que obté el resultat de la connexió amb la api
      * @param transportCall connexió amb la api
      * @param tipus el tipus de llista que es vol mostrar
      * @param syncTime el temps actual per a poder diferenciar del antics
@@ -237,41 +272,6 @@ public class TransportAPI  {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        }
-    }
-
-    /**
-     * classe per sincronitzar en segon pla
-     */
-    class UpdateTransportTask extends AsyncTask {
-
-        @Override
-        protected Object doInBackground(Object[] params) {
-            String bus = "bus";
-            String bici = "bicing";
-            String metro = "metro";
-
-            long syncTime = System.currentTimeMillis();
-
-            // fa la connexió amb la api amb la clau i el tipus de cerca que es vol
-            Call<Transport> transportCall = service.getTransport(
-                    bus
-            );
-            processCall(transportCall, bus, syncTime);
-
-            transportCall = service.getTransport(
-                    bici
-            );
-            processCall(transportCall, bici, syncTime);
-
-            transportCall = service.getTransport(
-                    metro
-            );
-            processCall(transportCall, metro, syncTime);
-
-            deleteOldTransport(syncTime);
-
-            return null;
         }
     }
 }

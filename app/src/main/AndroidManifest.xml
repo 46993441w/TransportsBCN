@@ -13,6 +13,7 @@
          location permissions for the 'MyLocation' functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- not needed as of api 23 -->
@@ -69,6 +70,15 @@
             android:name="juez.david.transportbcn.provider.TransportProvider"
             android:authorities="juez.david.transportbcn.provider"
             android:exported="false" />
+
+        <service
+            android:name="juez.david.transportbcn.UpdateTransportService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

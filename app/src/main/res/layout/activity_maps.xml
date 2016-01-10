@@ -11,6 +11,7 @@
     android:orientation="vertical"
     tools:context=".MapsActivity">
     <include android:id="@+id/toolbar" layout="@layout/tool_bar"></include>
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -24,28 +25,38 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom">
+            android:layout_gravity="bottom"
+            android:gravity="right">
 
             <Button
                 android:id="@+id/btnMapTypeNormal"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Normal" />
+                android:text="Normal"
+                android:textColor="#000000" />
 
             <Button
                 android:id="@+id/btnMapTypeSattelite"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sattelite" />
+                android:text="Sattelite"
+                android:textColor="#000000" />
 
             <Button
                 android:id="@+id/btnMapTypeTerrain"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Terrain" />
+                android:text="Terrain"
+                android:textColor="#000000" />
+
+            <android.support.design.widget.FloatingActionButton android:id="@+id/fab"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:src="@drawable/ic_action"
+                android:layout_gravity="right"
+                android:layout_marginRight="0dp" />
 
         </LinearLayout>
 
@@ -64,8 +75,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="0dp"
             android:padding="0dp"
-            android:textSize="10sp"/>
+            android:textSize="@dimen/abc_text_size_menu_material"/>
 
     </ScrollView>
+
 
 </LinearLayout>
